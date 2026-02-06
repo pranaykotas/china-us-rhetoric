@@ -45,7 +45,7 @@ function App() {
 
   // Load data
   useEffect(() => {
-    fetch('/statements.json')
+    fetch(`${import.meta.env.BASE_URL}statements.json`)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load data');
         return res.json();
