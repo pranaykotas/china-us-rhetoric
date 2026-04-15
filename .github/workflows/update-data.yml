@@ -1,0 +1,42 @@
+name: Weekly Data Update
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Monday 6am UTC
+  workflow_dispatch:       # allow manual trigger from GitHub Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape new articles (incremental)
+        run: python scraper.py --incremental
+
+      - name: Extract statements from new articles
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python extract.py
+
+      - name: Sync statements to app/public
+        run: cp data/statements.json app/public/statements.json
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/statements.json app/public/statements.json
+          git diff --staged --quiet || git commit -m "chore: weekly data update $(date +%Y-%m-%d)"
+          git push

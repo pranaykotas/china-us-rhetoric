@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2026-04-14-05",
+    "date": "2026-04-14",
+    "author": "Pranay Kotasthane",
+    "title": "Taiwan Is the Redline — The Data Confirms It",
+    "body": "If you want to find where China's diplomatic restraint ends, look at Taiwan. Across 641 Taiwan-related statements in this dataset, 92% are hostile — by far the highest of any topic. One in three is outright confrontational, meaning direct accusations, threats, or hostile framing. Compare this to diplomacy (39% hostile) or even trade (53% hostile). On trade, China negotiates; on technology, China protests; on Taiwan, China warns.\n\nThis isn't surprising to anyone who follows Chinese foreign policy. But the magnitude is striking. Taiwan isn't just a sensitive topic — it is categorically different from every other issue in how Chinese officials communicate about it. The implication: any data-driven read of China-US relations that doesn't distinguish Taiwan from general bilateral sentiment will systematically overstate how cooperative or tense the overall relationship is.",
+    "tags": ["taiwan", "methodology"]
+  },
+  {
+    "id": "2026-04-14-04",
+    "date": "2026-04-14",
+    "author": "Pranay Kotasthane",
+    "title": "The Attack Dogs and the Diplomats: China's Good Cop / Bad Cop Structure",
+    "body": "The data reveals a clear, structured division of labour in how China communicates toward the US. Call it institutional good cop / bad cop.\n\nThe attack dog role belongs to People's Daily editorials — particularly those published under the pseudonym 'Zhong Sheng' (钟声, meaning 'Bell Sound'). Zhong Sheng runs at 86% hostile and 41% confrontational — the most aggressive voice in this entire dataset. Regular People's Daily editorials are close behind at 82% hostile. These are the instruments China uses to signal fury without committing its named officials to positions that are hard to walk back.\n\nBy contrast, Xi Jinping himself runs at 44% hostile and 50% cooperative. His statements are more friendly than adversarial. Wang Yi, despite his reputation as a tough diplomat, sits at 49% hostile — essentially balanced. Li Qiang and Han Zheng are even softer, at 33% and 15% hostile respectively. These are the voices China leads with in bilateral summits, phone calls, and economic forums.\n\nThe architecture is deliberate. Editorial pseudonyms absorb the confrontational signalling. Leaders retain flexibility. When Beijing wants to de-escalate, it simply turns down the volume on Zhong Sheng — and it did exactly this under Trump 2.0, where Zhong Sheng's hostility dropped from 92% (under Biden) to 50%.",
+    "tags": ["speakers", "diplomacy"]
+  },
+  {
+    "id": "2026-04-14-03",
+    "date": "2026-04-14",
+    "author": "Pranay Kotasthane",
+    "title": "The Tariff Shock of April 2025 — Visible in the Rhetoric",
+    "body": "Few external events leave as clean a signature in this data as Trump's April 2025 tariff escalation. In the three months before (January–March 2025), China's hostility rate held steady at 47–48% — cautious but not alarmed. Then April arrived: hostility jumped to 77%, the single highest monthly reading since mid-2021.\n\nWhat followed was a controlled de-escalation. By June–July 2025, hostility had dropped back to 39–51%. This isn't a sign of Chinese capitulation — it reflects a deliberate signalling strategy. Beijing fires a loud volley to establish its position, then pulls back to create space for negotiation.\n\nBut the story doesn't end there. From December 2025 into 2026, hostility climbed again — sitting at 60–65% through early 2026. The tariff dispute may have been partially managed, but the underlying tension has not resolved. The rhetoric has settled at a new, elevated baseline.",
+    "tags": ["trade", "trump2"]
+  },
+  {
+    "id": "2026-04-14-02",
+    "date": "2026-04-14",
+    "author": "Pranay Kotasthane",
+    "title": "Counterintuitive Finding: China Was Softer Toward Trump 2.0 Than Biden",
+    "body": "The common assumption is that Trump's tariff aggression would produce a more hostile Chinese response than Biden's era of managed competition. The data says otherwise — at least in aggregate.\n\nAcross the Biden years (January 2021 – January 2025), 56.7% of Chinese official statements about the US were hostile, with 10% outright confrontational. Under Trump 2.0 (January 2025 to April 2026), those figures drop to 51.8% hostile and 8.3% confrontational.\n\nWhy? Several factors likely interact. First, China's hostility peaked early in the Biden era — 2021 saw 65% hostile statements, reflecting the continuation of Trump 1.0 tensions into a new administration that Beijing was still testing. Second, Trump's transactionalism is something Beijing understands and can work with. The Xi-Trump phone call in early 2026 generated some of the most cooperative language in the entire dataset. Third, when Trump escalated with tariffs in April 2025, Beijing's rhetorical spike was sharp but short — a controlled burst, not sustained hostility.\n\nThe caveat: early 2026 shows re-escalating rhetoric (60–65% hostile). Trump 2.0 is not yet over, and the aggregate may shift as the trade conflict deepens.",
+    "tags": ["trump2", "biden", "trade"]
+  },
+  {
+    "id": "2026-04-14-01",
+    "date": "2026-04-14",
+    "author": "Pranay Kotasthane",
+    "title": "Five Years of China-US Rhetoric: The Trend Is Not What You'd Expect",
+    "body": "The conventional wisdom is that China has become increasingly assertive over the past five years. The rhetoric data tells a more complicated story.\n\nHostility in Chinese statements about the US peaked in 2021 at 65%, then steadily declined: 61% in 2022, 52% in 2023, 50% in 2024, 50% in 2025. Average tone intensity (on a 1–5 scale) followed the same trajectory, falling from 3.21 in 2021 to 2.97 in 2025. By this measure, China's rhetoric toward the US was at its most measured in 2025 — not its most aggressive.\n\nThe early Biden years (mid-2021 especially) were the high-water mark for hostility, driven partly by residual tension from the Trump 1.0 trade war and partly by flashpoints over Xinjiang, Hong Kong, and the Anchorage summit. The gradual moderation through 2023–2024 coincided with a period of managed re-engagement — the Bali summit, Yellen's Beijing visit, the Biden-Xi San Francisco meeting.\n\nBut 2026 has snapped back. Through the first quarter of 2026, hostility sits at 63% — back near 2021 levels. Whether this is a new plateau or a temporary spike driven by tariff escalation remains to be seen. For now, the long arc of Chinese rhetoric toward the US looks less like linear assertiveness and more like a pendulum — with the current moment at the hostile end of the swing.",
+    "tags": ["trends", "diplomacy"]
+  }
+]

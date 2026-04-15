@@ -1,0 +1,22 @@
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Node
+app/node_modules/
+app/dist/
+
+# Large data files
+data/articles.json
+
+# Misc
+path/
+cleanup_dryrun.txt
+validation_before.txt
+validation_after.txt
