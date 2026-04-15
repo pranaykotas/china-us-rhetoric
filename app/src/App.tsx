@@ -325,10 +325,10 @@ ${statement.article_date} | Source: ${statement.article_url}`;
   return (
     <div className="min-h-screen bg-gray-100">
       <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4">
-          <div className="flex items-start justify-between">
+        <div className="max-w-7xl mx-auto py-4 sm:py-6 px-4">
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">
+              <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
                 Tracking People's Daily - Statement Analysis
               </h1>
               <p className="text-gray-600 mt-1">
@@ -373,7 +373,7 @@ ${statement.article_date} | Source: ${statement.article_url}`;
                 </div>
               )}
             </div>
-            <div className="flex items-center gap-3 mt-1">
+            <div className="flex items-center gap-3 sm:mt-1 shrink-0">
               <label className="flex items-center gap-2 cursor-pointer">
                 <div className="relative">
                   <input

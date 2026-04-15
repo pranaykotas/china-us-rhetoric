@@ -119,6 +119,44 @@ This pass is run once after full extraction (`python cleanup.py`) and produces `
 
 ---
 
+## Dashboard Metrics
+
+The dashboard computes four summary metrics from the extracted statements:
+
+| Metric | Definition |
+|--------|------------|
+| **Convergence Signal** | 3-month rolling weighted average of the Sentiment Index, mapped to a 0–100% scale. Measures the current likelihood of US-China diplomatic convergence based on sustained rhetoric direction (not single-month spikes). Includes a trend arrow (↑↓→) vs. the prior 3-month window. |
+| **Hostility Rate** | Percentage of statements classified as confrontational or assertive, weighted by statement volume across months. |
+| **Cooperation Rate** | Percentage of statements classified as cooperative or conciliatory, weighted by statement volume across months. |
+| **Avg Intensity** | Weighted average tone intensity (1–5 scale) across all statements in the period. |
+
+### Sentiment Index (underlying calculation)
+
+Each statement is assigned a tone score on a [-2, +2] scale:
+
+| Tone | Score |
+|------|-------|
+| Confrontational | −2 |
+| Assertive | −1 |
+| Cautious / Neutral | 0 |
+| Cooperative | +1 |
+| Conciliatory | +2 |
+
+The monthly Sentiment Index is a **speaker-importance-weighted** average of these scores — statements from Xi Jinping (importance 5) carry more weight than spokesperson statements (importance 2).
+
+### Convergence Signal formula
+
+```
+3m_sentiment = Σ(sentimentIndex_month × statements_month) / Σ(statements_month)
+               over the last 3 months of the selected period
+
+convergence_pct = round((3m_sentiment + 2) / 4 × 100)
+```
+
+A value of 50% indicates neutral rhetoric; above 50% signals a sustained cooperative lean; below 50% indicates sustained hostility.
+
+---
+
 ## Known Limitations
 
 1. **Source dependency**: The newsletter covers what Manoj deems newsworthy. Statements he does not include are absent from the dataset.
