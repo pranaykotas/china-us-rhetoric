@@ -56,9 +56,11 @@ See **[METHODOLOGY.md](METHODOLOGY.md)** for full documentation of the pipeline,
 │       ├── statements.json # Copy of data for deployment
 │       └── commentary.json # Analyst commentary entries
 │
-└── .github/workflows/
-    ├── deploy.yml          # GitHub Pages deploy on push to main
-    └── update-data.yml     # Weekly cron: scrape → extract → deploy
+├── .github/workflows/
+│   └── deploy.yml          # GitHub Pages deploy on push to main
+│
+└── scripts/
+    └── weekly-update.sh    # Local launchd-driven weekly update
 ```
 
 ---
@@ -122,4 +124,26 @@ Commit and push — the site deploys automatically.
 
 ## Automated Weekly Updates
 
-A GitHub Actions workflow (`.github/workflows/update-data.yml`) runs every Monday at 6am UTC. It scrapes new articles, extracts statements, and redeploys the site. Requires `ANTHROPIC_API_KEY` set as a repository secret (Settings → Secrets → Actions).
+Substack blocks GitHub Actions IPs, so the weekly update runs **locally on Pranay's Mac** via `launchd`, not in CI.
+
+**Pipeline** (`scripts/weekly-update.sh`):
+1. Sources `ANTHROPIC_API_KEY` from `.env` (gitignored)
+2. `python3 scraper.py --incremental` — fetches new articles via Substack RSS
+3. `python3 extract.py` — extracts statements from new articles only
+4. Copies `data/statements.json` → `app/public/statements.json`
+5. Commits + pushes; GitHub Pages auto-deploys via `deploy.yml`
+
+**Schedule**: Every Monday 06:00 local, defined in `~/Library/LaunchAgents/com.pranay.tpd-weekly.plist`. Mac must be awake (set wake schedule with `sudo pmset repeat wakeorpoweron M 05:55:00` if needed).
+
+**Logs**: `scripts/logs/YYYY-MM-DD.log` (gitignored).
+
+**Manual run**:
+```bash
+./scripts/weekly-update.sh
+```
+
+**Setup on a new machine**:
+```bash
+echo 'ANTHROPIC_API_KEY=sk-ant-...' > .env
+launchctl load ~/Library/LaunchAgents/com.pranay.tpd-weekly.plist
+```
