@@ -7,17 +7,23 @@ Extracts article metadata and full text from archive pages.
 import argparse
 import json
 import time
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://trackingpeoplesdaily.substack.com"
-ARCHIVE_API_URL = f"{BASE_URL}/api/v1/archive"
+FEED_URL = f"{BASE_URL}/feed"
 OUTPUT_FILE = Path("data/articles.json")
 STATEMENTS_FILE = Path("data/statements.json")
 REQUEST_DELAY = 1  # seconds between requests
-PAGE_SIZE = 12  # Substack returns 12 posts per API call
+
+RSS_NS = {
+    "content": "http://purl.org/rss/1.0/modules/content/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+}
 
 
 def get_session() -> requests.Session:
@@ -33,27 +39,36 @@ def get_session() -> requests.Session:
     return session
 
 
-def fetch_archive_page(session: requests.Session, offset: int = 0) -> tuple[list[dict], bool]:
-    """
-    Fetch a page of archive results from Substack's JSON API.
-    Returns (posts, has_more).
-    """
-    url = f"{ARCHIVE_API_URL}?sort=new&limit={PAGE_SIZE}&offset={offset}"
-    print(f"Fetching archive: {url}")
+def fetch_feed_items(session: requests.Session) -> list[dict]:
+    """Fetch RSS feed and return list of post dicts with full content."""
+    print(f"Fetching feed: {FEED_URL}")
+    try:
+        response = session.get(FEED_URL, timeout=30)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Error fetching feed: {e}")
+        return []
 
     try:
-        response = session.get(url, timeout=30)
-        response.raise_for_status()
-        posts = response.json()
-    except requests.RequestException as e:
-        print(f"Error fetching archive: {e}")
-        return [], False
-    except json.JSONDecodeError as e:
-        print(f"Error parsing JSON: {e}")
-        return [], False
+        root = ET.fromstring(response.content)
+    except ET.ParseError as e:
+        print(f"Error parsing feed XML: {e}")
+        return []
 
-    has_more = len(posts) >= PAGE_SIZE
-    return posts, has_more
+    items = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub_date = (item.findtext("pubDate") or "").strip()
+        content_html = item.findtext("content:encoded", default="", namespaces=RSS_NS) or ""
+        items.append({
+            "title": title,
+            "canonical_url": link,
+            "post_date": pub_date,
+            "content_html": content_html,
+        })
+    print(f"  Found {len(items)} items in feed")
+    return items
 
 
 def load_processed_urls(statements_file: Path) -> set[str]:
@@ -72,40 +87,8 @@ def fetch_all_archive_metadata(
     session: requests.Session,
     known_urls: set[str] | None = None,
 ) -> list[dict]:
-    """Fetch article metadata from the archive API.
-
-    If known_urls is provided, stops pagination early once a full page of
-    results are all already processed (Substack returns newest-first).
-    """
-    all_posts = []
-    offset = 0
-
-    while True:
-        posts, has_more = fetch_archive_page(session, offset)
-
-        if not posts:
-            break
-
-        all_posts.extend(posts)
-        print(f"  Found {len(posts)} posts (total: {len(all_posts)})")
-
-        # Early exit: all posts on this page already processed
-        if known_urls:
-            page_urls = {
-                p.get("canonical_url") or f"{BASE_URL}/p/{p.get('slug', '')}"
-                for p in posts
-            }
-            if page_urls and page_urls.issubset(known_urls):
-                print("  All posts on this page already processed. Stopping.")
-                break
-
-        if not has_more:
-            break
-
-        offset += len(posts)
-        time.sleep(REQUEST_DELAY)
-
-    return all_posts
+    """Fetch article metadata + content from RSS feed."""
+    return fetch_feed_items(session)
 
 
 def extract_article_text(html: str) -> str:
@@ -169,8 +152,14 @@ def parse_date(date_str: str) -> str:
     if not date_str:
         return ""
 
-    # Substack uses ISO format like "2025-02-05T12:00:00.000Z"
-    if "T" in date_str:
+    # RFC 822 (RSS pubDate): "Mon, 21 Apr 2025 12:00:00 GMT"
+    try:
+        return parsedate_to_datetime(date_str).strftime("%Y-%m-%d")
+    except (TypeError, ValueError):
+        pass
+
+    # ISO format: "2025-02-05T12:00:00.000Z"
+    if "T" in date_str and date_str[:4].isdigit():
         return date_str.split("T")[0]
 
     return date_str
@@ -209,28 +198,21 @@ def scrape_all_articles(incremental: bool = False) -> list[dict]:
     new_count = 0
 
     for i, post in enumerate(posts_metadata, 1):
-        # Extract metadata
         title = post.get("title", "")
-        slug = post.get("slug", "")
         canonical_url = post.get("canonical_url", "")
-        post_date = post.get("post_date", "") or post.get("published_at", "")
-
-        # Construct URL if not provided
-        if not canonical_url and slug:
-            canonical_url = f"{BASE_URL}/p/{slug}"
+        post_date = post.get("post_date", "")
+        content_html = post.get("content_html", "")
 
         if not canonical_url:
             print("  Skipping: no URL found")
             continue
 
-        # Skip articles already in output file (incremental mode)
         if incremental and canonical_url in existing_urls:
             continue
 
-        print(f"\nProcessing article {i}/{len(posts_metadata)}")
+        print(f"\nProcessing article {i}/{len(posts_metadata)}: {title[:60]}")
 
-        # Fetch full article text
-        text = fetch_article_content(session, canonical_url)
+        text = extract_article_text(content_html) if content_html else ""
 
         if not text:
             print("  Warning: no text extracted")
@@ -244,7 +226,6 @@ def scrape_all_articles(incremental: bool = False) -> list[dict]:
 
         articles.append(article)
         new_count += 1
-        time.sleep(REQUEST_DELAY)
 
     if incremental:
         print(f"\nNew articles fetched: {new_count}")
