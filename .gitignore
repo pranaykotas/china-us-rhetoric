@@ -15,6 +15,9 @@ app/dist/
 # Large data files
 data/articles.json
 
+# Local scheduler logs
+scripts/logs/
+
 # Misc
 path/
 cleanup_dryrun.txt
