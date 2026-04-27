@@ -359,7 +359,7 @@ ${statement.article_date} | Source: ${statement.article_url}`;
                     Claude Haiku reads each newsletter article and extracts every statement a Chinese official
                     makes about the US — recording speaker, tone (confrontational → conciliatory), topic, and
                     the quote itself. A second cleanup pass removes domestic false positives. Dataset covers
-                    January 2021 to present (~6,700 statements, updated weekly).
+                    January 2021 to present (~{(Math.round(enrichedStatements.length / 100) * 100).toLocaleString()} statements, updated weekly).
                     {' '}
                     <a
                       href="https://github.com/pranaykotas/china-us-rhetoric/blob/main/METHODOLOGY.md"

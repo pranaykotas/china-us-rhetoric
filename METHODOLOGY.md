@@ -7,9 +7,9 @@ This project systematically extracts and classifies statements made by Chinese g
 The goal is to track how China's leadership characterizes the US across topics and over time — creating a structured, queryable record of official Chinese rhetoric.
 
 **Dataset summary (as of April 2026)**:
-- 1,145 newsletter articles scraped (January 2021 – April 2026)
-- 925 articles contained at least one relevant statement (81%)
-- 6,721 statements extracted after cleanup
+- 1,153 newsletter articles scraped (January 2021 – April 2026)
+- 969 articles contained at least one relevant statement (84%)
+- 6,905 statements extracted after cleanup
 - 546 domestic false positives removed in cleanup pass
 - Residual domestic leakage rate: 8% (down from 15% pre-cleanup)
 
