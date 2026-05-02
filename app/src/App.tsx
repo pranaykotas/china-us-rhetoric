@@ -18,6 +18,7 @@ import { TopicTimeline } from './components/TopicTimeline';
 import { SpeakerActivity } from './components/SpeakerActivity';
 import { SpeakerToneChart } from './components/SpeakerToneChart';
 import { Commentary } from './components/Commentary';
+import { DataNotes } from './components/DataNotes';
 import { EraPresets, EraPreset } from './components/EraPresets';
 import { SpeakerProfile } from './components/SpeakerProfile';
 import { enrichStatements, aggregateMonthly } from './utils/dataProcessing';
@@ -465,7 +466,8 @@ ${statement.article_date} | Source: ${statement.article_url}`;
           onToneClick={handleToneClick}
         />
 
-        {/* 5. Analysis & Commentary */}
+        {/* 5. Data caveats + Analysis & Commentary */}
+        <DataNotes />
         <Commentary entries={commentary} onTagClick={handleCommentaryTagClick} />
 
         {/* Active filters indicator */}
