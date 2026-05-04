@@ -402,7 +402,7 @@ ${statement.article_date} | Source: ${statement.article_url}`;
           <div className="max-w-7xl mx-auto px-4 py-4 flex gap-4 items-start">
             <div className="flex-1 text-sm text-blue-900 leading-relaxed">
               <span className="font-semibold">What is this?</span>{' '}
-              People's Daily is China's official government newspaper.
+              People's Daily is the official newspaper of the Central Committee of the Communist Party of China.
               This dashboard tracks how Chinese officials have characterized the United States since January 2021,
               extracted from the{' '}
               <a

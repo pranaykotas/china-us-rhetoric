@@ -10,7 +10,7 @@ An interactive dashboard tracking how Chinese government officials characterize 
 
 ## What This Is
 
-People's Daily is China's official government newspaper. The newsletter summarizes its contents daily, translating and contextualizing statements by Chinese leaders, ministers, and official institutions. This project extracts every statement about the US from that archive, classifies it by tone and topic, and visualizes the patterns.
+People's Daily is the official newspaper of the Central Committee of the Communist Party of China. The newsletter summarizes its contents daily, translating and contextualizing statements by Chinese leaders, ministers, and official institutions. This project extracts every statement about the US from that archive, classifies it by tone and topic, and visualizes the patterns.
 
 The dashboard lets you explore:
 - How China's rhetoric toward the US has shifted across topics (Taiwan, trade, technology, diplomacy)

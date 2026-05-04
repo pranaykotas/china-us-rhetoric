@@ -42,7 +42,7 @@ export function DataNotes() {
             filtered out.
           </p>
           <p>
-            Repetition is also underrepresented. In response to major developments, the{' '}
+            Repetition may be overrepresented. In response to major developments, the{' '}
             <em>People's Daily</em> often covers statements from multiple Party or state departments,
             each repeating the same central line as a bureaucratic imperative. Some of this repetition
             may skew findings, though there are likely not enough such instances to have a statistically
