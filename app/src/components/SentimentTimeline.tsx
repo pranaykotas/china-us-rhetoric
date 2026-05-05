@@ -107,7 +107,7 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
   const tickFontSize = isMobile ? 9 : 11;
   const xAxisInterval = granularity === 'monthly' ? (isMobile ? 3 : 1) : 0;
   const xAxisHeight = isMobile ? 55 : 50;
-  const chartMargin = { top: 10, right: isMobile ? 15 : 30, left: 0, bottom: isMobile ? 10 : 5 };
+  const chartMargin = { top: 10, right: isMobile ? 15 : 30, left: 4, bottom: isMobile ? 10 : 5 };
 
   return (
     <div id="sentiment-timeline" className="bg-white p-3 sm:p-4 rounded-lg shadow">
@@ -159,6 +159,7 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
             <YAxis
               yAxisId="percent"
               domain={[0, 100]}
+              ticks={[0, 25, 50, 75]}
               tick={{ fontSize: tickFontSize }}
               width={28}
             />
