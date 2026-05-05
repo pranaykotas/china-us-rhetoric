@@ -10,6 +10,7 @@ import {
 } from 'recharts';
 import { EnrichedStatement, CanonicalTone } from '../types';
 import { TONE_COLORS, TONE_STACK_ORDER } from '../utils/colors';
+import { useIsMobile } from '../hooks/useWindowSize';
 
 interface SpeakerToneChartProps {
   statements: EnrichedStatement[];
@@ -24,8 +25,9 @@ interface SpeakerToneData {
 }
 
 export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: SpeakerToneChartProps) {
+  const isMobile = useIsMobile();
+
   const chartData: SpeakerToneData[] = useMemo(() => {
-    // Count tones per speaker
     const speakerTones: Record<string, Record<CanonicalTone, number>> = {};
     const speakerTotals: Record<string, number> = {};
 
@@ -41,7 +43,6 @@ export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: Sp
       speakerTotals[s.speaker]++;
     }
 
-    // Top 10 speakers
     const top10 = Object.entries(speakerTotals)
       .sort(([, a], [, b]) => b - a)
       .slice(0, 10)
@@ -54,7 +55,7 @@ export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: Sp
         entry[tone] = Math.round((speakerTones[speaker][tone] / total) * 1000) / 10;
       }
       return entry;
-    }).reverse(); // Reverse so #1 is at top of horizontal bar chart
+    }).reverse();
   }, [statements]);
 
   const CustomTooltip = ({ active, payload, label }: TooltipProps<number, string>) => {
@@ -63,14 +64,14 @@ export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: Sp
     if (!data) return null;
 
     return (
-      <div className="bg-white p-3 shadow-lg rounded-lg border text-sm">
-        <p className="font-medium text-gray-900 mb-2">{label} ({data.total} statements)</p>
-        <div className="space-y-1">
+      <div className="bg-white p-2 sm:p-3 shadow-lg rounded-lg border text-xs sm:text-sm">
+        <p className="font-medium text-gray-900 mb-1 sm:mb-2">{label} ({data.total} statements)</p>
+        <div className="space-y-0.5 sm:space-y-1">
           {TONE_STACK_ORDER.slice().reverse().map((tone) => {
             const val = data[tone] as number;
             return val > 0 ? (
-              <div key={tone} className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded" style={{ backgroundColor: TONE_COLORS[tone] }} />
+              <div key={tone} className="flex items-center gap-1 sm:gap-2">
+                <div className="w-2 h-2 sm:w-3 sm:h-3 rounded shrink-0" style={{ backgroundColor: TONE_COLORS[tone] }} />
                 <span className="capitalize text-gray-700">{tone}</span>
                 <span className="ml-auto font-medium">{val}%</span>
               </div>
@@ -81,18 +82,37 @@ export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: Sp
     );
   };
 
+  const yAxisWidth = isMobile ? 68 : 95;
+  const leftMargin = isMobile ? 4 : 10;
+  const maxNameLen = isMobile ? 12 : 18;
+
+  const formatSpeakerName = (name: string) =>
+    name.length > maxNameLen ? name.substring(0, maxNameLen - 1) + '…' : name;
+
   return (
-    <div className="bg-white p-4 rounded-lg shadow">
-      <h3 className="text-lg font-medium text-gray-900 mb-4">Tone Distribution by Speaker</h3>
-      <div className="h-80">
+    <div className="bg-white p-3 sm:p-4 rounded-lg shadow">
+      <h3 className="text-base sm:text-lg font-medium text-gray-900 mb-3 sm:mb-4">
+        Tone Distribution by Speaker
+      </h3>
+      <div className="h-80 sm:h-72 lg:h-80">
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={chartData} layout="vertical" margin={{ top: 5, right: 30, left: 100, bottom: 5 }}>
-            <XAxis type="number" domain={[0, 100]} tick={{ fontSize: 11 }} unit="%" />
+          <BarChart
+            data={chartData}
+            layout="vertical"
+            margin={{ top: 5, right: 16, left: leftMargin, bottom: 5 }}
+          >
+            <XAxis
+              type="number"
+              domain={[0, 100]}
+              tick={{ fontSize: isMobile ? 9 : 11 }}
+              tickFormatter={(v) => `${v}%`}
+            />
             <YAxis
               type="category"
               dataKey="speaker"
-              tick={{ fontSize: 11 }}
-              width={95}
+              tick={{ fontSize: isMobile ? 9 : 11 }}
+              width={yAxisWidth}
+              tickFormatter={formatSpeakerName}
               onClick={(data) => onSpeakerClick?.((data as { value: string }).value)}
             />
             <Tooltip content={<CustomTooltip />} />
@@ -109,15 +129,14 @@ export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: Sp
           </BarChart>
         </ResponsiveContainer>
       </div>
-      {/* Legend */}
-      <div className="flex flex-wrap gap-4 mt-3 justify-center">
+      <div className="flex flex-wrap gap-2 sm:gap-4 mt-2 sm:mt-3 justify-center">
         {TONE_STACK_ORDER.slice().reverse().map((tone) => (
           <button
             key={tone}
             onClick={() => onToneClick?.(tone)}
             className="flex items-center gap-1 hover:opacity-70 transition-opacity"
           >
-            <div className="w-3 h-3 rounded" style={{ backgroundColor: TONE_COLORS[tone] }} />
+            <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded" style={{ backgroundColor: TONE_COLORS[tone] }} />
             <span className="text-xs text-gray-600 capitalize">{tone}</span>
           </button>
         ))}

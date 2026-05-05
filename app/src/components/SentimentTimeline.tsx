@@ -4,7 +4,6 @@ import {
   Line,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   ResponsiveContainer,
   ComposedChart,
@@ -15,6 +14,7 @@ import {
 import { MonthlyBucket, CanonicalTone } from '../types';
 import { TONE_COLORS, TONE_STACK_ORDER } from '../utils/colors';
 import { aggregateQuarterly } from '../utils/dataProcessing';
+import { useIsMobile } from '../hooks/useWindowSize';
 
 const EVENTS = [
   { month: '2021-03', label: 'Anchorage Summit' },
@@ -30,11 +30,9 @@ const EVENTS = [
 ];
 
 function findEventLabel(eventMonth: string, displayData: MonthlyBucket[]): string | null {
-  // Monthly view: exact match
   const exact = displayData.find((b) => b.month === eventMonth);
   if (exact) return exact.label;
 
-  // Quarterly view: find the quarter containing this month
   const [year, m] = eventMonth.split('-');
   const q = Math.ceil(parseInt(m, 10) / 3);
   const quarterKey = `${year}-Q${q}`;
@@ -50,8 +48,12 @@ interface SentimentTimelineProps {
 }
 
 export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimelineProps) {
-  const [granularity, setGranularity] = useState<'monthly' | 'quarterly'>('monthly');
-  const [showEvents, setShowEvents] = useState(true);
+  const isMobile = useIsMobile();
+
+  const [granularity, setGranularity] = useState<'monthly' | 'quarterly'>(
+    () => window.innerWidth < 640 ? 'quarterly' : 'monthly'
+  );
+  const [showEvents, setShowEvents] = useState(() => window.innerWidth >= 640);
 
   const displayData = granularity === 'quarterly'
     ? aggregateQuarterly(monthlyData)
@@ -76,19 +78,19 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
     if (!bucket) return null;
 
     return (
-      <div className="bg-white p-3 shadow-lg rounded-lg border text-sm">
-        <p className="font-medium text-gray-900 mb-2">{label} ({bucket.total} statements)</p>
-        <div className="space-y-1">
+      <div className="bg-white p-2 sm:p-3 shadow-lg rounded-lg border text-xs sm:text-sm max-w-[200px] sm:max-w-none">
+        <p className="font-medium text-gray-900 mb-1 sm:mb-2">{label} ({bucket.total} statements)</p>
+        <div className="space-y-0.5 sm:space-y-1">
           {TONE_STACK_ORDER.slice().reverse().map((tone) => (
-            <div key={tone} className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded" style={{ backgroundColor: TONE_COLORS[tone] }} />
+            <div key={tone} className="flex items-center gap-1 sm:gap-2">
+              <div className="w-2 h-2 sm:w-3 sm:h-3 rounded shrink-0" style={{ backgroundColor: TONE_COLORS[tone] }} />
               <span className="capitalize text-gray-700">{tone}</span>
               <span className="ml-auto font-medium">{bucket.tonePercents[tone]}%</span>
             </div>
           ))}
         </div>
-        <div className="mt-2 pt-2 border-t border-gray-200">
-          <span className="text-gray-500">Sentiment Index: </span>
+        <div className="mt-1 sm:mt-2 pt-1 sm:pt-2 border-t border-gray-200">
+          <span className="text-gray-500">Sentiment: </span>
           <span className="font-medium">{bucket.sentimentIndex}</span>
         </div>
       </div>
@@ -102,15 +104,20 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
     }
   };
 
+  const tickFontSize = isMobile ? 9 : 11;
+  const xAxisInterval = granularity === 'monthly' ? (isMobile ? 3 : 1) : 0;
+  const xAxisHeight = isMobile ? 55 : 50;
+  const chartMargin = { top: 10, right: isMobile ? 15 : 30, left: 0, bottom: isMobile ? 10 : 5 };
+
   return (
-    <div id="sentiment-timeline" className="bg-white p-4 rounded-lg shadow">
-      <div className="flex justify-between items-center mb-4">
-        <h3 className="text-lg font-medium text-gray-900">Rhetoric Sentiment Index</h3>
-        <div className="flex gap-1">
+    <div id="sentiment-timeline" className="bg-white p-3 sm:p-4 rounded-lg shadow">
+      <div className="flex flex-wrap justify-between items-start gap-2 mb-3 sm:mb-4">
+        <h3 className="text-base sm:text-lg font-medium text-gray-900">Rhetoric Sentiment Index</h3>
+        <div className="flex flex-wrap gap-1">
           <div className="flex gap-1 bg-gray-100 rounded-lg p-1">
             <button
               onClick={() => setGranularity('monthly')}
-              className={`px-3 py-1 text-sm rounded-md transition-colors ${
+              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm rounded-md transition-colors ${
                 granularity === 'monthly' ? 'bg-white shadow text-gray-900' : 'text-gray-500 hover:text-gray-700'
               }`}
             >
@@ -118,7 +125,7 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
             </button>
             <button
               onClick={() => setGranularity('quarterly')}
-              className={`px-3 py-1 text-sm rounded-md transition-colors ${
+              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm rounded-md transition-colors ${
                 granularity === 'quarterly' ? 'bg-white shadow text-gray-900' : 'text-gray-500 hover:text-gray-700'
               }`}
             >
@@ -128,7 +135,7 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
           <div className="flex gap-1 bg-gray-100 rounded-lg p-1 ml-1">
             <button
               onClick={() => setShowEvents((v) => !v)}
-              className={`px-3 py-1 text-sm rounded-md transition-colors ${
+              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm rounded-md transition-colors ${
                 showEvents ? 'bg-white shadow text-gray-900' : 'text-gray-500 hover:text-gray-700'
               }`}
             >
@@ -138,34 +145,32 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
         </div>
       </div>
 
-      <div className="h-96">
+      <div className="h-56 sm:h-72 lg:h-96">
         <ResponsiveContainer width="100%" height="100%">
-          <ComposedChart data={chartData} onClick={handleClick} margin={{ top: 10, right: 30, left: 0, bottom: 5 }}>
-            <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
+          <ComposedChart data={chartData} onClick={handleClick} margin={chartMargin}>
             <XAxis
               dataKey="label"
-              tick={{ fontSize: 11 }}
-              interval={granularity === 'monthly' ? 1 : 0}
-              angle={-30}
+              tick={{ fontSize: tickFontSize }}
+              interval={xAxisInterval}
+              angle={-45}
               textAnchor="end"
-              height={50}
+              height={xAxisHeight}
             />
             <YAxis
               yAxisId="percent"
               domain={[0, 100]}
-              tick={{ fontSize: 11 }}
-              label={{ value: 'Tone %', angle: -90, position: 'insideLeft', style: { fontSize: 11 } }}
+              tick={{ fontSize: tickFontSize }}
+              width={28}
             />
             <YAxis
               yAxisId="sentiment"
               orientation="right"
               domain={[-2, 2]}
-              tick={{ fontSize: 11 }}
-              label={{ value: 'Sentiment', angle: 90, position: 'insideRight', style: { fontSize: 11 } }}
+              tick={{ fontSize: tickFontSize }}
+              width={24}
             />
             <Tooltip content={<CustomTooltip />} />
 
-            {/* Stacked areas — cooperative on bottom, confrontational on top */}
             {TONE_STACK_ORDER.map((tone) => (
               <Area
                 key={tone}
@@ -180,18 +185,16 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
               />
             ))}
 
-            {/* Sentiment line overlay */}
             <Line
               yAxisId="sentiment"
               type="monotone"
               dataKey="sentimentIndex"
-              stroke="#1e293b"
-              strokeWidth={2.5}
-              dot={{ r: 3, fill: '#1e293b' }}
+              stroke="#000"
+              strokeWidth={3}
+              dot={{ r: isMobile ? 2 : 3, fill: '#000' }}
               name="Sentiment Index"
             />
 
-            {/* Event annotations */}
             {showEvents && EVENTS.map((event) => {
               const xLabel = findEventLabel(event.month, displayData);
               if (!xLabel) return null;
@@ -206,7 +209,7 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
                     value: event.label,
                     angle: -90,
                     position: 'insideTopRight',
-                    fontSize: 9,
+                    fontSize: isMobile ? 7 : 9,
                     fill: '#6b7280',
                   }}
                 />
@@ -215,9 +218,11 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
 
             <Legend
               verticalAlign="bottom"
-              height={36}
+              height={isMobile ? 48 : 36}
               formatter={(value: string) => (
-                <span className="text-xs capitalize">{value === 'sentimentIndex' ? 'Sentiment Index' : value}</span>
+                <span style={{ fontSize: isMobile ? 10 : 12 }} className="capitalize">
+                  {value === 'sentimentIndex' ? 'Sentiment Index' : value}
+                </span>
               )}
             />
           </ComposedChart>

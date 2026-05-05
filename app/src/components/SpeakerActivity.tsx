@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import { MonthlyBucket } from '../types';
+import { useIsMobile } from '../hooks/useWindowSize';
 
 interface SpeakerActivityProps {
   monthlyData: MonthlyBucket[];
@@ -8,7 +9,14 @@ interface SpeakerActivityProps {
 }
 
 export function SpeakerActivity({ monthlyData, onSpeakerClick, onMonthClick }: SpeakerActivityProps) {
-  // Get top 8 speakers across all months
+  const isMobile = useIsMobile();
+
+  // On mobile show only last 12 months; desktop shows all
+  const displayData = useMemo(
+    () => isMobile ? monthlyData.slice(-12) : monthlyData,
+    [monthlyData, isMobile]
+  );
+
   const topSpeakers = useMemo(() => {
     const totals: Record<string, number> = {};
     for (const bucket of monthlyData) {
@@ -22,17 +30,16 @@ export function SpeakerActivity({ monthlyData, onSpeakerClick, onMonthClick }: S
       .map(([speaker]) => speaker);
   }, [monthlyData]);
 
-  // Find max count for color scaling
   const maxCount = useMemo(() => {
     let max = 0;
-    for (const bucket of monthlyData) {
+    for (const bucket of displayData) {
       for (const speaker of topSpeakers) {
         const c = bucket.speakerCounts[speaker] || 0;
         if (c > max) max = c;
       }
     }
     return max || 1;
-  }, [monthlyData, topSpeakers]);
+  }, [displayData, topSpeakers]);
 
   const getCellColor = (count: number) => {
     if (count === 0) return 'bg-gray-50';
@@ -43,18 +50,27 @@ export function SpeakerActivity({ monthlyData, onSpeakerClick, onMonthClick }: S
     return 'bg-blue-100 text-blue-800';
   };
 
+  const maxNameLen = isMobile ? 14 : 20;
+  const cellClass = isMobile ? 'px-0.5 py-0.5 min-w-[28px]' : 'px-1 py-1 min-w-[40px]';
+  const nameCellClass = isMobile ? 'pr-1 py-0.5 text-[10px]' : 'pr-2 py-1 text-xs';
+
   return (
-    <div className="bg-white p-4 rounded-lg shadow flex-1">
-      <h3 className="text-lg font-medium text-gray-900 mb-4">Speaker Activity</h3>
+    <div className="bg-white p-3 sm:p-4 rounded-lg shadow flex-1">
+      <h3 className="text-base sm:text-lg font-medium text-gray-900 mb-3 sm:mb-4">Speaker Activity</h3>
+      {isMobile && (
+        <p className="text-xs text-gray-400 mb-2">Last 12 months · scroll →</p>
+      )}
       <div className="overflow-x-auto">
-        <table className="text-xs">
+        <table className={isMobile ? 'text-[10px]' : 'text-xs'}>
           <thead>
             <tr>
-              <th className="text-left pr-2 py-1 font-medium text-gray-500 sticky left-0 bg-white">Speaker</th>
-              {monthlyData.map((bucket) => (
+              <th className={`text-left font-medium text-gray-500 sticky left-0 bg-white ${nameCellClass}`}>
+                Speaker
+              </th>
+              {displayData.map((bucket) => (
                 <th
                   key={bucket.month}
-                  className="px-1 py-1 font-normal text-gray-400 cursor-pointer hover:text-gray-700 min-w-[40px] text-center"
+                  className={`font-normal text-gray-400 cursor-pointer hover:text-gray-700 text-center ${cellClass}`}
                   onClick={() => onMonthClick?.(bucket.month)}
                 >
                   {bucket.label.split(' ')[0].substring(0, 3)}
@@ -66,17 +82,17 @@ export function SpeakerActivity({ monthlyData, onSpeakerClick, onMonthClick }: S
             {topSpeakers.map((speaker) => (
               <tr key={speaker}>
                 <td
-                  className="pr-2 py-1 font-medium text-gray-700 whitespace-nowrap sticky left-0 bg-white cursor-pointer hover:text-blue-600"
+                  className={`font-medium text-gray-700 whitespace-nowrap sticky left-0 bg-white cursor-pointer hover:text-blue-600 ${nameCellClass}`}
                   onClick={() => onSpeakerClick?.(speaker)}
                 >
-                  {speaker.length > 20 ? speaker.substring(0, 18) + '...' : speaker}
+                  {speaker.length > maxNameLen ? speaker.substring(0, maxNameLen - 1) + '…' : speaker}
                 </td>
-                {monthlyData.map((bucket) => {
+                {displayData.map((bucket) => {
                   const count = bucket.speakerCounts[speaker] || 0;
                   return (
                     <td
                       key={bucket.month}
-                      className={`px-1 py-1 text-center rounded cursor-pointer hover:ring-1 hover:ring-blue-400 ${getCellColor(count)}`}
+                      className={`text-center rounded cursor-pointer hover:ring-1 hover:ring-blue-400 ${cellClass} ${getCellColor(count)}`}
                       title={`${speaker}: ${count} statements in ${bucket.label}`}
                       onClick={() => {
                         onSpeakerClick?.(speaker);
@@ -92,15 +108,14 @@ export function SpeakerActivity({ monthlyData, onSpeakerClick, onMonthClick }: S
           </tbody>
         </table>
       </div>
-      {/* Legend */}
-      <div className="flex items-center gap-3 mt-3 text-xs text-gray-500">
+      <div className="flex items-center gap-2 sm:gap-3 mt-2 sm:mt-3 text-xs text-gray-500">
         <span>Less</span>
         <div className="flex gap-0.5">
-          <div className="w-4 h-4 rounded bg-gray-50 border border-gray-200" />
-          <div className="w-4 h-4 rounded bg-blue-100" />
-          <div className="w-4 h-4 rounded bg-blue-300" />
-          <div className="w-4 h-4 rounded bg-blue-400" />
-          <div className="w-4 h-4 rounded bg-blue-600" />
+          <div className="w-3 h-3 sm:w-4 sm:h-4 rounded bg-gray-50 border border-gray-200" />
+          <div className="w-3 h-3 sm:w-4 sm:h-4 rounded bg-blue-100" />
+          <div className="w-3 h-3 sm:w-4 sm:h-4 rounded bg-blue-300" />
+          <div className="w-3 h-3 sm:w-4 sm:h-4 rounded bg-blue-400" />
+          <div className="w-3 h-3 sm:w-4 sm:h-4 rounded bg-blue-600" />
         </div>
         <span>More</span>
       </div>

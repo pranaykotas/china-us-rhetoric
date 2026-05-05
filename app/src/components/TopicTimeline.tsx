@@ -2,7 +2,6 @@ import {
   Area,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   ResponsiveContainer,
   AreaChart,
@@ -10,6 +9,7 @@ import {
 } from 'recharts';
 import { MonthlyBucket, TopicCategory } from '../types';
 import { TOPIC_COLORS, TOPIC_LIST } from '../utils/colors';
+import { useIsMobile } from '../hooks/useWindowSize';
 
 interface TopicTimelineProps {
   monthlyData: MonthlyBucket[];
@@ -18,6 +18,8 @@ interface TopicTimelineProps {
 }
 
 export function TopicTimeline({ monthlyData, onTopicClick, onMonthClick }: TopicTimelineProps) {
+  const isMobile = useIsMobile();
+
   const chartData = monthlyData.map((bucket) => {
     const entry: Record<string, unknown> = {
       label: bucket.label,
@@ -40,12 +42,12 @@ export function TopicTimeline({ monthlyData, onTopicClick, onMonthClick }: Topic
       .sort((a, b) => b.count - a.count);
 
     return (
-      <div className="bg-white p-3 shadow-lg rounded-lg border text-sm">
-        <p className="font-medium text-gray-900 mb-2">{label}</p>
-        <div className="space-y-1">
+      <div className="bg-white p-2 sm:p-3 shadow-lg rounded-lg border text-xs sm:text-sm max-w-[180px] sm:max-w-none">
+        <p className="font-medium text-gray-900 mb-1 sm:mb-2">{label}</p>
+        <div className="space-y-0.5 sm:space-y-1">
           {items.map(({ cat, count }) => (
-            <div key={cat} className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded" style={{ backgroundColor: TOPIC_COLORS[cat] }} />
+            <div key={cat} className="flex items-center gap-1 sm:gap-2">
+              <div className="w-2 h-2 sm:w-3 sm:h-3 rounded shrink-0" style={{ backgroundColor: TOPIC_COLORS[cat] }} />
               <span className="text-gray-700">{cat}</span>
               <span className="ml-auto font-medium">{count}</span>
             </div>
@@ -62,15 +64,28 @@ export function TopicTimeline({ monthlyData, onTopicClick, onMonthClick }: Topic
     }
   };
 
+  const tickFontSize = isMobile ? 9 : 10;
+  const xAxisInterval = isMobile ? 3 : 'preserveStartEnd';
+
   return (
-    <div className="bg-white p-4 rounded-lg shadow flex-1">
-      <h3 className="text-lg font-medium text-gray-900 mb-4">Topic Evolution</h3>
-      <div className="h-72">
+    <div className="bg-white p-3 sm:p-4 rounded-lg shadow flex-1">
+      <h3 className="text-base sm:text-lg font-medium text-gray-900 mb-3 sm:mb-4">Topic Evolution</h3>
+      <div className="h-48 sm:h-60 lg:h-72">
         <ResponsiveContainer width="100%" height="100%">
-          <AreaChart data={chartData} onClick={handleClick} margin={{ top: 10, right: 10, left: 0, bottom: 5 }}>
-            <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
-            <XAxis dataKey="label" tick={{ fontSize: 10 }} angle={-30} textAnchor="end" height={50} />
-            <YAxis tick={{ fontSize: 11 }} label={{ value: 'Count', angle: -90, position: 'insideLeft', style: { fontSize: 11 } }} />
+          <AreaChart
+            data={chartData}
+            onClick={handleClick}
+            margin={{ top: 10, right: 10, left: 0, bottom: isMobile ? 45 : 5 }}
+          >
+            <XAxis
+              dataKey="label"
+              tick={{ fontSize: tickFontSize }}
+              interval={xAxisInterval}
+              angle={-30}
+              textAnchor="end"
+              height={isMobile ? 50 : 40}
+            />
+            <YAxis tick={{ fontSize: tickFontSize }} width={24} />
             <Tooltip content={<CustomTooltip />} />
             {TOPIC_LIST.map((cat) => (
               <Area
@@ -89,15 +104,14 @@ export function TopicTimeline({ monthlyData, onTopicClick, onMonthClick }: Topic
           </AreaChart>
         </ResponsiveContainer>
       </div>
-      {/* Legend */}
-      <div className="flex flex-wrap gap-3 mt-3 justify-center">
+      <div className="flex flex-wrap gap-2 sm:gap-3 mt-2 sm:mt-3 justify-center">
         {TOPIC_LIST.map((cat) => (
           <button
             key={cat}
             onClick={() => onTopicClick?.(cat)}
             className="flex items-center gap-1 hover:opacity-70 transition-opacity"
           >
-            <div className="w-3 h-3 rounded" style={{ backgroundColor: TOPIC_COLORS[cat] }} />
+            <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded" style={{ backgroundColor: TOPIC_COLORS[cat] }} />
             <span className="text-xs text-gray-600">{cat}</span>
           </button>
         ))}

@@ -32,7 +32,7 @@ ${statement.article_date} | Source: ${statement.article_url}`;
     <button
       onClick={handleCopy}
       title="Copy quote with citation"
-      className="opacity-0 group-hover:opacity-100 ml-1 text-gray-400 hover:text-gray-700 transition-all"
+      className="opacity-0 group-hover:opacity-100 ml-1 shrink-0 text-gray-400 hover:text-gray-700 transition-all"
     >
       {copied ? (
         <svg className="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -64,9 +64,9 @@ export function StatementsTable({
   const endIndex = startIndex + itemsPerPage;
   const visibleStatements = statements.slice(startIndex, endIndex);
 
-  const SortHeader = ({ field, label }: { field: SortField; label: string }) => (
+  const SortHeader = ({ field, label, className = '' }: { field: SortField; label: string; className?: string }) => (
     <th
-      className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+      className={`px-3 sm:px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 ${className}`}
       onClick={() => onSort(field)}
     >
       <div className="flex items-center gap-1">
@@ -86,14 +86,15 @@ export function StatementsTable({
             <tr>
               <SortHeader field="date" label="Date" />
               <SortHeader field="speaker" label="Speaker" />
-              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-3 sm:px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Quote / Paraphrase
               </th>
-              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              {/* Hide Category + Intensity on mobile */}
+              <th className="hidden md:table-cell px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Category
               </th>
               <SortHeader field="tone" label="Tone" />
-              <SortHeader field="tone_intensity" label="Intensity" />
+              <SortHeader field="tone_intensity" label="Int." className="hidden md:table-cell" />
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
@@ -103,10 +104,10 @@ export function StatementsTable({
                 className="hover:bg-gray-50 cursor-pointer group"
                 onClick={() => onStatementClick(statement)}
               >
-                <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">
+                <td className="px-3 sm:px-4 py-3 whitespace-nowrap text-xs sm:text-sm text-gray-900">
                   {statement.article_date}
                 </td>
-                <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">
+                <td className="px-3 sm:px-4 py-3 whitespace-nowrap text-xs sm:text-sm font-medium text-gray-900">
                   <div className="flex items-center gap-1">
                     <span>{statement.speaker}</span>
                     {onSpeakerProfileClick && (
@@ -123,33 +124,31 @@ export function StatementsTable({
                     )}
                   </div>
                 </td>
-                <td className="px-4 py-3 text-sm text-gray-700 max-w-md">
+                <td className="px-3 sm:px-4 py-3 text-xs sm:text-sm text-gray-700">
                   <div className="flex items-start gap-1">
-                    <span className="truncate">{statement.quote_or_paraphrase}</span>
+                    <span className="line-clamp-2 sm:line-clamp-1">{statement.quote_or_paraphrase}</span>
                     <CopyRowButton statement={statement} />
                   </div>
                 </td>
-                <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">
+                <td className="hidden md:table-cell px-4 py-3 whitespace-nowrap text-sm text-gray-900">
                   {statement.topicCategory}
                 </td>
-                <td className="px-4 py-3 whitespace-nowrap">
+                <td className="px-3 sm:px-4 py-3 whitespace-nowrap">
                   <span
-                    className={`px-2 py-1 text-xs rounded-full ${
+                    className={`px-1.5 sm:px-2 py-0.5 sm:py-1 text-xs rounded-full ${
                       TONE_BG_CLASSES[statement.canonicalTone] || 'bg-gray-100 text-gray-800'
                     }`}
                   >
                     {statement.canonicalTone}
                   </span>
                 </td>
-                <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">
+                <td className="hidden md:table-cell px-4 py-3 whitespace-nowrap text-sm text-gray-900">
                   <div className="flex items-center">
                     {[1, 2, 3, 4, 5].map((level) => (
                       <div
                         key={level}
                         className={`w-2 h-4 mx-0.5 rounded ${
-                          level <= statement.tone_intensity
-                            ? 'bg-blue-500'
-                            : 'bg-gray-200'
+                          level <= statement.tone_intensity ? 'bg-blue-500' : 'bg-gray-200'
                         }`}
                       />
                     ))}
@@ -161,53 +160,73 @@ export function StatementsTable({
         </table>
       </div>
 
-      {/* Pagination */}
       {totalPages > 1 && (
-        <div className="bg-white px-4 py-3 border-t border-gray-200 flex items-center justify-between">
-          <div className="text-sm text-gray-700">
-            Showing {startIndex + 1} to {Math.min(endIndex, statements.length)} of{' '}
-            {statements.length} statements
-          </div>
-          <div className="flex gap-2">
+        <div className="bg-white px-3 sm:px-4 py-3 border-t border-gray-200">
+          {/* Mobile pagination */}
+          <div className="flex items-center justify-between sm:hidden">
             <button
               onClick={() => onPageChange(currentPage - 1)}
               disabled={currentPage === 1}
-              className="px-3 py-1 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
+              className="px-3 py-1.5 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
             >
-              Previous
+              ← Prev
             </button>
-            {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-              let pageNum: number;
-              if (totalPages <= 5) {
-                pageNum = i + 1;
-              } else if (currentPage <= 3) {
-                pageNum = i + 1;
-              } else if (currentPage >= totalPages - 2) {
-                pageNum = totalPages - 4 + i;
-              } else {
-                pageNum = currentPage - 2 + i;
-              }
-              return (
-                <button
-                  key={pageNum}
-                  onClick={() => onPageChange(pageNum)}
-                  className={`px-3 py-1 text-sm border rounded ${
-                    currentPage === pageNum
-                      ? 'bg-blue-500 text-white'
-                      : 'hover:bg-gray-100'
-                  }`}
-                >
-                  {pageNum}
-                </button>
-              );
-            })}
+            <span className="text-xs text-gray-600">
+              {currentPage} / {totalPages}
+            </span>
             <button
               onClick={() => onPageChange(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className="px-3 py-1 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
+              className="px-3 py-1.5 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
             >
-              Next
+              Next →
             </button>
+          </div>
+          {/* Desktop pagination */}
+          <div className="hidden sm:flex items-center justify-between">
+            <div className="text-sm text-gray-700">
+              Showing {startIndex + 1}–{Math.min(endIndex, statements.length)} of{' '}
+              {statements.length} statements
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={() => onPageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+                className="px-3 py-1 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
+              >
+                Previous
+              </button>
+              {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
+                let pageNum: number;
+                if (totalPages <= 5) {
+                  pageNum = i + 1;
+                } else if (currentPage <= 3) {
+                  pageNum = i + 1;
+                } else if (currentPage >= totalPages - 2) {
+                  pageNum = totalPages - 4 + i;
+                } else {
+                  pageNum = currentPage - 2 + i;
+                }
+                return (
+                  <button
+                    key={pageNum}
+                    onClick={() => onPageChange(pageNum)}
+                    className={`px-3 py-1 text-sm border rounded ${
+                      currentPage === pageNum ? 'bg-blue-500 text-white' : 'hover:bg-gray-100'
+                    }`}
+                  >
+                    {pageNum}
+                  </button>
+                );
+              })}
+              <button
+                onClick={() => onPageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className="px-3 py-1 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
+              >
+                Next
+              </button>
+            </div>
           </div>
         </div>
       )}

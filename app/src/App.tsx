@@ -136,11 +136,14 @@ function App() {
     [enrichedStatements]
   );
 
-  // Get unique values for filters
-  const allSpeakers = useMemo(
-    () => [...new Set(enrichedStatements.map((s) => s.speaker))].sort(),
-    [enrichedStatements]
-  );
+  // Get unique speakers sorted by statement count descending (top speakers first for FilterPanel)
+  const allSpeakers = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const s of enrichedStatements) {
+      counts[s.speaker] = (counts[s.speaker] || 0) + 1;
+    }
+    return Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  }, [enrichedStatements]);
   const allCanonicalTones = useMemo(
     () => [...new Set(enrichedStatements.map((s) => s.canonicalTone))].sort(),
     [enrichedStatements]
@@ -615,7 +618,7 @@ ${statement.article_date} | Source: ${statement.article_url}`;
                   <p className="mt-1 text-gray-900">{selectedStatement.context}</p>
                 </div>
 
-                <div className="mt-4 grid grid-cols-2 gap-4">
+                <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <h3 className="text-sm font-medium text-gray-500">Topic Category</h3>
                     <p className="mt-1 text-gray-900">{selectedStatement.topicCategory}</p>
@@ -626,7 +629,7 @@ ${statement.article_date} | Source: ${statement.article_url}`;
                   </div>
                 </div>
 
-                <div className="mt-4 grid grid-cols-2 gap-4">
+                <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <h3 className="text-sm font-medium text-gray-500">Framing</h3>
                     <p className="mt-1 text-gray-900">{selectedStatement.framing}</p>
@@ -637,7 +640,7 @@ ${statement.article_date} | Source: ${statement.article_url}`;
                   </div>
                 </div>
 
-                <div className="mt-4 grid grid-cols-2 gap-4">
+                <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <h3 className="text-sm font-medium text-gray-500">Tone</h3>
                     <p className="mt-1 text-gray-900 capitalize">
