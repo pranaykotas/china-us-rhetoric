@@ -90412,5 +90412,546 @@
         "tone_intensity": 3
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-on-healthy-china-agenda-breakdown",
+    "article_date": "2026-03-07",
+    "article_title": "Xi on Healthy China Agenda - Breakdown of China's Economic Policy Press Conference",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Joint group meeting at the fourth session of the 14th CPPCC National Committee",
+        "quote_or_paraphrase": "Building a Healthy China by 2035 is a strategic decision made by the CPC Central Committee. China is a socialist country and a developing nation with a massive population. Building a Healthy China requires adhering to China's actual conditions, unwaveringly following the path of health development with Chinese characteristics.",
+        "topic": "domestic policy",
+        "framing": "neutral",
+        "tone": "neutral",
+        "tone_intensity": 1
+      },
+      {
+        "speaker": "Pan Gongsheng",
+        "speaker_type": "individual",
+        "speaker_title": "Governor, People's Bank of China (PBOC)",
+        "speaker_importance": 4,
+        "context": "Press conference on monetary policy",
+        "quote_or_paraphrase": "China has neither the need nor the intention to gain a competitive advantage in trade through currency devaluation. The PBOC's position has always been clear: to uphold the decisive role of the market in exchange rate formation, maintain exchange rate flexibility, strengthen expectation guidance, and maintain the basic stability of the RMB exchange rate at a reasonable and balanced level.",
+        "topic": "trade/currency",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Pan Gongsheng",
+        "speaker_type": "individual",
+        "speaker_title": "Governor, People's Bank of China (PBOC)",
+        "speaker_importance": 4,
+        "context": "Press conference on monetary policy",
+        "quote_or_paraphrase": "Currently, the external environment is becoming increasingly complex and severe, with frequent geopolitical and trade conflicts. The inflation trends and monetary policy adjustments of major developed economies remain highly uncertain, and the risk of volatility in international financial markets is intensifying. These risks may spill over into China's financial markets through channels such as external demand, cross-border capital flows, and investor expectations.",
+        "topic": "diplomacy/external relations",
+        "framing": "cautious",
+        "tone": "cautious",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/state-council-outlines-2024s-tasks",
+    "article_date": "2024-03-13",
+    "article_title": "State Council Outlines 2024's Tasks - Zhao Leji on Two Sessions Media Coverage - MoFA Party Committee on Foreign Policy Agenda - CMC Notice on Xi's Speech",
+    "statements": [
+      {
+        "speaker": "Ministry of Foreign Affairs (Party Committee)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "People's Daily article on Central Foreign Affairs Work Conference",
+        "quote_or_paraphrase": "The general direction of human development and progress will not change, the overarching logic of tortuous progress in world history will not change, and the general trend of the international community being one with a shared future will not change. The international balance of power is developing in the direction of a multipolar world; international relations are developing in the direction of greater democracy; global governance is developing in the direction of extensive consultation, joint contribution and shared benefits.",
+        "topic": "diplomacy, world order",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs (Party Committee)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "People's Daily article on Central Foreign Affairs Work Conference",
+        "quote_or_paraphrase": "We must carry forward the spirit of struggle, resolutely oppose all power politics and bullying, and effectively defend national interests and national dignity. We must resolutely and effectively prevent and resolve major external risks that affect China's modernization process, firmly grasp the initiative in development and security.",
+        "topic": "diplomacy, national interests",
+        "framing": "defensive, accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs (Party Committee)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "People's Daily article on Central Foreign Affairs Work Conference",
+        "quote_or_paraphrase": "In recent years, there has been an increase in unilateralism, protectionism, and anti-globalization sentiments, and hegemony and bullying have caused serious harm. Building a community with a shared future for mankind provides a new approach for international relations, offers new wisdom for global governance, and opposes all forms of power politics and cold war mentality.",
+        "topic": "diplomacy, international relations, trade",
+        "framing": "accusatory, constructive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs (Party Committee)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "People's Daily article on Central Foreign Affairs Work Conference",
+        "quote_or_paraphrase": "The Central Foreign Affairs Work Conference has clearly put forward two major propositions: the building of equal and orderly world multipolarity and the inclusive and beneficial economic globalisation. It advocates that the multipolarization process should be generally stable and constructive, insists on the equal treatment of countries big and small, opposes hegemonism and power politics, and rejects camp confrontation and ideological division.",
+        "topic": "diplomacy, world order, economic relations",
+        "framing": "accusatory, constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/cewc-readout-and-analysis-china-and",
+    "article_date": "2023-12-13",
+    "article_title": "CEWC Readout & Analysis - China & Vietnam to Build 'Community with a Shared Future that Carries Strategic Significance'",
+    "statements": [
+      {
+        "speaker": "Central Economic Work Conference (Party Central Committee)",
+        "speaker_type": "institution",
+        "speaker_title": "Party organ / State Council",
+        "speaker_importance": 5,
+        "context": "Central Economic Work Conference readout published in People's Daily",
+        "quote_or_paraphrase": "China has rebounded and improved, withstanding external pressure and overcoming internal difficulties; the external environment's complexity, severity and uncertainty are rising; favorable conditions outweigh unfavorable factors in China's development",
+        "topic": "economy, external environment",
+        "framing": "defensive",
+        "tone": "cautious",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Central Economic Work Conference (Party Central Committee)",
+        "speaker_type": "institution",
+        "speaker_title": "Party organ / State Council",
+        "speaker_importance": 5,
+        "context": "Central Economic Work Conference readout published in People's Daily",
+        "quote_or_paraphrase": "Promote high-level self-reliance and self-improvement in science and technology; develop new productive forces through disruptive and cutting-edge technologies; strengthen dominant position of enterprises in scientific and technological innovation",
+        "topic": "technology, self-reliance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Central Economic Work Conference (Party Central Committee)",
+        "speaker_type": "institution",
+        "speaker_title": "Party organ / State Council",
+        "speaker_importance": 5,
+        "context": "Central Economic Work Conference readout published in People's Daily",
+        "quote_or_paraphrase": "Expand high-level opening up to the outside world; align with international high-standard economic and trade rules; continuously build first-class business environment characterized by marketization, rule of law, and internationalization; create the 'Invest in China' brand; ensure implementation of eight actions to support high-quality Belt and Road cooperation",
+        "topic": "trade, economic engagement, Belt and Road",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Nguyen Phu Trong, General Secretary of Communist Party of Vietnam Central Committee (Xinhua report)",
+        "quote_or_paraphrase": "Changes in the world, times and history are unfolding in an unprecedented manner. As the world's top two ruling Communist parties, both the CPC and CPV have been adhering to and developing Marxism, unswervingly following the path of socialism. The two parties should grasp the special strategic significance of China-Vietnam relations from the perspective of strengthening socialist forces in the world",
+        "topic": "ideology, geopolitics, bloc alignment",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Nguyen Phu Trong, General Secretary of Communist Party of Vietnam Central Committee (Xinhua report)",
+        "quote_or_paraphrase": "China does not engage in exclusive cliques, bloc politics or camp confrontation; China is ready to strengthen multilateral cooperation with Vietnam; work with Vietnam to uphold genuine multilateralism and jointly increase the voice and influence of developing countries in international affairs",
+        "topic": "multilateralism, international order, bloc politics",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Nguyen Phu Trong, General Secretary of Communist Party of Vietnam Central Committee (Xinhua report)",
+        "quote_or_paraphrase": "The modernization of more than 1.4 billion Chinese people is a great opportunity brought by China to the world. China is willing to share opportunities and seek common development with Vietnamese comrades. The two sides should jointly implement the Regional Comprehensive Economic Partnership, safeguard the global trading system, and build a secure, stable, unimpeded, efficient, open, inclusive and mutually beneficial global industrial chain and supply chain",
+        "topic": "trade, economic cooperation, supply chains",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Nguyen Phu Trong",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary, Communist Party of Vietnam Central Committee",
+        "speaker_importance": 4,
+        "context": "Meeting with Xi Jinping (Xinhua report)",
+        "quote_or_paraphrase": "The Vietnamese side firmly upholds the one-China principle, recognizes Taiwan as an inalienable part of Chinese territory, supports China's cause of reunification and firmly opposes separatist activities of Taiwan independence in any form. Vietnam opposes any force to interfere in China's internal affairs and believes China will maintain stability, development and prosperity",
+        "topic": "Taiwan, sovereignty, China's core interests",
+        "framing": "supportive",
+        "tone": "cooperative",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Nguyen Phu Trong",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary, Communist Party of Vietnam Central Committee",
+        "speaker_importance": 4,
+        "context": "Meeting with Xi Jinping (Xinhua report)",
+        "quote_or_paraphrase": "Vietnam firmly supports the three global initiatives proposed by Xi (Belt and Road, Global Development Initiative, Global Security Initiative, Global Civilization Initiative), which are aimed at safeguarding the common interests of all mankind and are in line with international law. These initiatives have received extensive support from the international community",
+        "topic": "China's global initiatives, development, international order",
+        "framing": "supportive",
+        "tone": "cooperative",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Qi",
+        "speaker_type": "individual",
+        "speaker_title": "Member of Politburo Standing Committee",
+        "speaker_importance": 5,
+        "context": "Meeting with Truong Thi Mai, member of Political Bureau of Communist Party of Vietnam (Xinhua report)",
+        "quote_or_paraphrase": "Xi's visit will become an epoch-making milestone in China-Vietnam relations and will have significant impact on advancing the socialist cause and promoting regional peace and development. Both sides should strengthen cooperation within the framework of China's three global initiatives (development, security and civilization) and coordinate within multilateral organizations to uphold international fairness and justice and maintain regional peace and stability",
+        "topic": "bilateral relations, China's global initiatives, regional stability",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/ding-xuexiang-on-unity-and-struggle",
+    "article_date": "2022-11-02",
+    "article_title": "Ding Xuexiang on Unity & Struggle - China-Vietnam Joint Statement - Xi Condoles India Bridge Accident - Li Addresses SCO Meeting - Self-Revolution Commentary - Shehbaz Sharif Interview",
+    "statements": [
+      {
+        "speaker": "Ding Xuexiang",
+        "speaker_type": "individual",
+        "speaker_title": "Politburo Standing Committee Member",
+        "speaker_importance": 5,
+        "context": "Commentary article in People's Daily",
+        "quote_or_paraphrase": "From the international perspective, the world is undergoing profound changes unseen in a century. The epidemic has far-reaching impacts, the global economic recovery is sluggish, various traditional and non-traditional security issues are intertwined, threats such as unilateralism, protectionism, and hegemonism have intensified, and hostile forces are trying their best to obstruct the historical process of the great rejuvenation of the Chinese nation.",
+        "topic": "diplomacy, international relations, geopolitics",
+        "framing": "accusatory, defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ding Xuexiang",
+        "speaker_type": "individual",
+        "speaker_title": "Politburo Standing Committee Member",
+        "speaker_importance": 5,
+        "context": "Commentary article in People's Daily",
+        "quote_or_paraphrase": "Chinese-style modernisation is essentially different from the modernisation of Western countries, which has been capital-centred modernisation, polarised modernisation, a modernisation of materialist expansion and external expansion and modernisation based on plunder.",
+        "topic": "development model, competition with the West",
+        "framing": "accusatory, comparative",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Li Keqiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "SCO Heads of Government meeting remarks",
+        "quote_or_paraphrase": "The SCO members are all participants, builders and beneficiaries of economic globalization. We need to jointly uphold the WTO-centered multilateral trading regime and support the development of an open world economy.",
+        "topic": "trade, multilateralism",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Keqiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "SCO Heads of Government meeting remarks",
+        "quote_or_paraphrase": "We will stay committed to the fundamental national policy of reform and opening-up and the win-win strategy of opening-up. China's door will open still wider. We will continue on the path of peaceful development.",
+        "topic": "diplomacy, opening-up policy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Keqiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with Vietnamese Communist Party Chief Nguyen Phu Trong",
+        "quote_or_paraphrase": "On China-ASEAN relations, China stands ready to work with ASEAN countries to consolidate traditional friendship, promote cooperation in areas across the board to yield more achievements, and jointly maintain the peace and stability of the South China Sea, so as to create an enabling environment for their respective development and bring more benefits to the people of the region.",
+        "topic": "South China Sea, ASEAN relations, regional stability",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-on-tech-self-reliance-and-zero",
+    "article_date": "2022-06-30",
+    "article_title": "Xi on Tech Self-Reliance & Zero-Covid - Two Establishments Provide Guarantee for Self-Revolution - Xuānyán Article on Party's Mission - Yang Jiechi in Pakistan - CPC Membership at 96.71 million",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Inspection visit to Wuhan, reported in People's Daily",
+        "quote_or_paraphrase": "We must completely, accurately and comprehensively implement the new development concept, deeply implement the innovation-driven development strategy, grasp the lifeline of technology firmly in our own hands, make greater progress in scientific and technological self-reliance and self-strengthening, continuously enhance China's development independence, autonomy and security, and develop new technologies and industries to form new advantages in international competition.",
+        "topic": "technology, economy",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Inspection visit to Wuhan, reported in People's Daily",
+        "quote_or_paraphrase": "High-end manufacturing is critical for high-quality economic development. To promote China's manufacturing industry transformation and upgrade and build a manufacturing power, we must strengthen technological research and development, increase the rate of localization, and hold the lifeline of science and technology in our own hands so that the country can truly become powerful.",
+        "topic": "technology, manufacturing",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Speech at Party seminar on the 19th Party Congress, referenced in People's Daily article",
+        "quote_or_paraphrase": "The fundamental reason for the rise and fall of dynasties, the victories and defeats of peasant uprisings, and the disintegration of the Soviet Union and collapse of the Communist Party of the Soviet Union is that they could not solve their own problems.",
+        "topic": "party governance, ideology",
+        "framing": "cautionary",
+        "tone": "neutral",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "People's Daily",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 5,
+        "context": "Editorial/declaration article marking 101st anniversary of CCP",
+        "quote_or_paraphrase": "History has proved and will continue to prove that the Communist Party of China is a party armed with Marxism, a guardian of the interests of the overwhelming majority of the people, a leader of the development direction of human society, and a party that strives for the brightest, most just, and most magnificent cause.",
+        "topic": "party ideology, governance",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xie Chuntao",
+        "speaker_type": "individual",
+        "speaker_title": "Vice President of National Academy of Governance",
+        "speaker_importance": 3,
+        "context": "Opinion piece in People's Daily",
+        "quote_or_paraphrase": "Since the 18th Party Congress, General Secretary Xi Jinping demonstrated great historical initiative, great political courage, and strong sense of responsibility in coordinating domestic and international situations. In the face of economic and trade frictions provoked by the United States, General Secretary Xi Jinping personally led the response, effectively safeguarding China's sovereignty, dignity, and core interests, demonstrating the leadership skill and struggle art of a leader of a big party and big country.",
+        "topic": "trade, US-China relations, diplomacy",
+        "framing": "accusatory, defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xie Chuntao",
+        "speaker_type": "individual",
+        "speaker_title": "Vice President of National Academy of Governance",
+        "speaker_importance": 3,
+        "context": "Opinion piece in People's Daily",
+        "quote_or_paraphrase": "In the face of external forces interfering in Hong Kong affairs and rampant 'anti-China' activities in Hong Kong, the CPC Central Committee with Comrade Xi Jinping at its core maintained determination and adopted a series of measures to address both symptoms and root causes, pushing Hong Kong from chaos to governance.",
+        "topic": "Hong Kong, Taiwan, sovereignty",
+        "framing": "accusatory, defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Yang Jiechi",
+        "speaker_type": "individual",
+        "speaker_title": "Senior diplomat / Member of Politburo",
+        "speaker_importance": 4,
+        "context": "Meeting with Pakistani Prime Minister Shahbaz Sharif during diplomatic tour, reported by Xinhua",
+        "quote_or_paraphrase": "Pakistan is China's 'ironclad' friend and reliable brother. No matter how the international situation changes, the mutual trust and friendship between the two countries are rock solid. China will strengthen policy communication and development strategy alignment with Pakistan, enhance mutual strategic trust, deepen pragmatic cooperation, and build the high-quality China-Pakistan Economic Corridor.",
+        "topic": "diplomacy, bilateral relations",
+        "framing": "cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Yang Jiechi",
+        "speaker_type": "individual",
+        "speaker_title": "Senior diplomat / Member of Politburo",
+        "speaker_importance": 4,
+        "context": "Meeting with Pakistani Prime Minister, reported by Xinhua",
+        "quote_or_paraphrase": "China is willing to push for close coordination with Pakistan on multilateral affairs and safeguard the common interests of developing countries. China appreciates Pakistan's support for its Global Development Initiative and Global Security Initiative and is ready to work with Pakistan to implement these initiatives to make Asia and the world safer, more peaceful and prosperous.",
+        "topic": "diplomacy, multilateral cooperation, developing countries coordination",
+        "framing": "cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister / State Councilor",
+        "speaker_importance": 4,
+        "context": "Video meeting/chat with Venezuelan Foreign Minister Carlos Faria, reported by Xinhua",
+        "quote_or_paraphrase": "China will firmly oppose interference in Venezuela's internal affairs by external forces under any pretext, steadfastly support Venezuela in maintaining national sovereignty and social stability. China appreciates Venezuela for standing with China and speaking up for justice on Taiwan, Hong Kong, Xinjiang and human rights issues.",
+        "topic": "diplomacy, sovereignty, sanctions/interference",
+        "framing": "accusatory, defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister / State Councilor",
+        "speaker_importance": 4,
+        "context": "Chat with Venezuelan Foreign Minister Carlos Faria, reported by Xinhua",
+        "quote_or_paraphrase": "Noting that multipolarization of the world, economic globalization and democratization of international relations are an irresistible trend of the times, China stands ready to work with Venezuela to always stand on the right side of history, uphold international equity and justice, safeguard the common interest of developing countries, and jointly build a community with a shared future for mankind.",
+        "topic": "diplomacy, international order, developing countries",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/space-ambitions-xis-marxism-china",
+    "article_date": "2021-04-30",
+    "article_title": "Space Ambitions - Xi's Marxism - China-Sri Lanka Defense Ties - New Laws - Maternal and Child Health Improvement",
+    "statements": [
+      {
+        "speaker": "Wei Fenghe",
+        "speaker_type": "individual",
+        "speaker_title": "Defense Minister",
+        "speaker_importance": 4,
+        "context": "Visit to Sri Lanka, meeting with Sri Lankan leadership",
+        "quote_or_paraphrase": "China is grateful for Sri Lanka's position on Taiwan, Hong Kong and Tibet-related issues, and will firmly support Sri Lanka's position on human rights, national reconciliation and other issues.",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wei Fenghe",
+        "speaker_type": "individual",
+        "speaker_title": "Defense Minister",
+        "speaker_importance": 4,
+        "context": "Visit to Sri Lanka, meeting with Sri Lankan leadership",
+        "quote_or_paraphrase": "It is unpopular for some big countries to form gangs and seek regional hegemony, which seriously damages the interests of countries in the region.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/assessing-effectiveness-of-beautiful",
+    "article_date": "2026-05-08",
+    "article_title": "Assessing Effectiveness of 'Beautiful China' Agenda - China Seeks US' 'Unequivocal Opposition to Taiwan Independence' - China-Bangladesh Joint Statement - Q1 ODI at RMB 309.45 bln",
+    "statements": [
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier of the State Council",
+        "speaker_importance": 5,
+        "context": "Meeting with visiting delegation of U.S. senators led by Steve Daines in Beijing",
+        "quote_or_paraphrase": "China is willing to work with the United States to implement the important consensus reached by the two heads of state, enhance dialogue and communication, create a favorable atmosphere for exchanges at all levels and cooperation in various fields, and strive for more practical achievements between the two countries. Experience has repeatedly shown that adhering to mutual respect, peaceful coexistence and win-win cooperation is the right way for the two major countries to get along with each other. It is hoped that the U.S. side will work with China in the same direction, pursue dialogue and mutually beneficial cooperation rather than confrontation and zero-sum competition, and maintain stable and predictable China-U.S. economic and trade relations.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier of the State Council",
+        "speaker_importance": 5,
+        "context": "Meeting with visiting delegation of U.S. senators in Beijing",
+        "quote_or_paraphrase": "The Taiwan question concerns China's core interests, and is the first and foremost red line that must not be crossed in China-U.S. relations. It is hoped that the U.S. Congress will proceed from the overall interests of friendly cooperation between the two countries, view and handle China-related issues with caution, and play an active role in the stable, sound and sustainable development of China-U.S. relations.",
+        "topic": "Taiwan",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhao Leji",
+        "speaker_type": "individual",
+        "speaker_title": "Chairman of the Standing Committee of the National People's Congress",
+        "speaker_importance": 5,
+        "context": "Meeting with visiting delegation of U.S. senators",
+        "quote_or_paraphrase": "The stable, healthy and sustainable development of China-U.S. relations is in line with the common interests of the two peoples and the general expectations of the international community. Since last year, China-U.S. ties have achieved overall stability under the strategic guidance of the two heads of state. China is ready to work with the U.S. to implement the important consensus reached by the two heads of state, strengthen dialogue and communication, properly manage differences and expand practical cooperation.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhao Leji",
+        "speaker_type": "individual",
+        "speaker_title": "Chairman of the Standing Committee of the National People's Congress",
+        "speaker_importance": 5,
+        "context": "Meeting with visiting delegation of U.S. senators",
+        "quote_or_paraphrase": "The Taiwan question is at the core of China's core interests and the most important issue in bilateral ties. The U.S. should abide by the one-China principle and handle the Taiwan question carefully.",
+        "topic": "Taiwan",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with visiting delegation of U.S. senators",
+        "quote_or_paraphrase": "This visit is the first bipartisan delegation of US Congressional senators to visit China since President Trump took office, and carries important symbolic significance. China-US relations bear upon the wellbeing of the peoples of both countries and affect the stability of the world order. The two countries should take mutual respect as the cornerstone, peaceful coexistence as the principle, and win-win cooperation as the goal, to explore a correct way for two major countries to get along.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with visiting delegation of U.S. senators",
+        "quote_or_paraphrase": "Over the past year and more, President Xi Jinping and President Trump have spoken and met multiple times, calibrating the direction of bilateral relations at critical moments. The Chinese side is willing to work with the American side to properly implement the important consensus reached by the two heads of state, to let China-US relations truly stabilize and improve, benefiting both countries and the world.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with visiting delegation of U.S. senators",
+        "quote_or_paraphrase": "To truly find the correct way for China and the United States as two major countries to get along, the key is to continuously and unceasingly resolve each other's perception problems. The social systems and development paths of China and the United States are different, but both originate from their respective historical and cultural accumulations. We should jointly seek 'harmony without uniformity', being partners rather than rivals. China will not follow the old path of a strong country inevitably seeking hegemony, and will persist in peaceful development and firmly follow the path of socialism with Chinese characteristics. The American side should view China objectively, establish a rational perception of China, earnestly respect China's core interests, and properly manage differences.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Lin Jian",
+        "speaker_type": "individual",
+        "speaker_title": "Ministry of Foreign Affairs Spokesperson",
+        "speaker_importance": 2,
+        "context": "Press briefing",
+        "quote_or_paraphrase": "The Taiwan question is at the very core of China's core interests, and the bedrock of the political foundation of China-U.S. relations. Abiding by the one-China principle and the three China-U.S. joint communiqués, and honoring the commitments made by U.S. administrations on the Taiwan question is the U.S.'s due international obligation and the prerequisite for a steady, sound and sustainable China-U.S. relationship. China has unwavering resolve in safeguarding national unity and territorial integrity. 'Taiwan independence' and cross-Strait peace are as irreconcilable as fire and water. To keep the Taiwan Strait peaceful and stable, there must be unequivocal opposition to 'Taiwan independence'.",
+        "topic": "Taiwan",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
   }
 ]
