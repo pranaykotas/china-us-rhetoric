@@ -9,6 +9,15 @@ LOG="$LOG_DIR/$(date +%Y-%m-%d).log"
 exec >> "$LOG" 2>&1
 echo "===== Run at $(date) ====="
 
+# Run daily until 2026-05-19 (Trump-Xi window), then weekly Mon only
+DAILY_UNTIL="20260519"
+TODAY=$(date +%Y%m%d)
+DOW=$(date +%u)  # 1=Mon ... 7=Sun
+if [ "$TODAY" -gt "$DAILY_UNTIL" ] && [ "$DOW" -ne 1 ]; then
+  echo "Past daily window and not Monday — skipping"
+  exit 0
+fi
+
 cd "$REPO"
 
 if [ -f .env ]; then
