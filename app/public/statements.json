@@ -90953,5 +90953,170 @@
         "tone_intensity": 4
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/interpreting-the-third-plenum-resolutions",
+    "article_date": "2024-08-07",
+    "article_title": "Interpreting the Third Plenum Resolution's Impact on Environment Policy & for Cultural and Propaganda Work",
+    "statements": [
+      {
+        "speaker": "Li Shulei",
+        "speaker_type": "individual",
+        "speaker_title": "People's Daily commentator/analyst",
+        "speaker_importance": 2,
+        "context": "Op-ed in People's Daily interpreting third plenum resolution on cultural system reform",
+        "quote_or_paraphrase": "China's rapid development has caused strong unease among certain countries. They have used their information advantages and public opinion hegemony to tarnish China's image, intensifying their campaign of distortion and smear attacks.",
+        "topic": "cultural soft power, international competition",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Li Shulei",
+        "speaker_type": "individual",
+        "speaker_title": "People's Daily commentator/analyst",
+        "speaker_importance": 2,
+        "context": "Op-ed in People's Daily interpreting third plenum resolution on cultural system reform",
+        "quote_or_paraphrase": "Tendencies to promote cultural competition and provoke conflicts between civilizations and ideological confrontations are on the rise. Whether it is to promote civilizational exchange and mutual learning or to respond to international cultural competition, it is necessary to deepen reforms to enhance national cultural soft power and the influence of Chinese culture.",
+        "topic": "cultural soft power, ideological competition",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/zhong-sheng-sets-the-agenda-ahead",
+    "article_date": "2026-05-12",
+    "article_title": "Zhong Sheng Sets the Agenda Ahead of Trump's Visit - Signalling the Importance of Low-end Manufacturing - Cross-Strait Chinese Culture Summit in Beijing",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary of the CPC / President",
+        "speaker_importance": 5,
+        "context": "Inspection tour in Shanxi, July 2025; quoted in People's Daily article on manufacturing",
+        "quote_or_paraphrase": "The real economy cannot be abandoned, and traditional industries within the real economy cannot be abandoned. Transformation and upgrading must be achieved through technological innovation. Traditional manufacturing is an important component of the real economy—grasp market demand, strengthen technological innovation, and enable traditional industries to radiate new vitality.",
+        "topic": "domestic industrial policy / economy",
+        "framing": "neutral",
+        "tone": "neutral",
+        "tone_intensity": 1
+      },
+      {
+        "speaker": "Wang Huning",
+        "speaker_type": "individual",
+        "speaker_title": "Senior Party Leader / Politburo Standing Committee Member",
+        "speaker_importance": 5,
+        "context": "Remarks at Third Cross-Strait Chinese Culture Summit in Beijing",
+        "quote_or_paraphrase": "Uphold the One-China Principle and the '1992 Consensus', resolutely oppose 'Taiwan independence' separatism and 'de-Sinicization', and firmly safeguard the common homeland of the Chinese nation.",
+        "topic": "Taiwan",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentary (State media)",
+        "speaker_importance": 4,
+        "context": "Commentary in People's Daily on upcoming Trump visit",
+        "quote_or_paraphrase": "Taiwan is the core of China's core interests, the foundation of the political foundation of China-US relations, the first red line that cannot be crossed in China-US relations, and the greatest risk point in China-US relations. The US side should abide by the One-China Principle and the three China-US joint communiqués, abide by the commitments made by successive US administrations on the Taiwan issue, and safeguard the overall situation of China-US relations and world peace and stability through concrete actions.",
+        "topic": "Taiwan / US-China relations",
+        "framing": "accusatory / assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentary (State media)",
+        "speaker_importance": 4,
+        "context": "Commentary in People's Daily on upcoming Trump visit",
+        "quote_or_paraphrase": "China's policy toward the US has consistently maintained a high degree of continuity and stability, always adhering to mutual respect, peaceful coexistence, and win-win cooperation. The international community needs more than ever to build a strategic, constructive, and stable China-US relationship.",
+        "topic": "US-China relations / diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentary (State media)",
+        "speaker_importance": 4,
+        "context": "Commentary in People's Daily on upcoming Trump visit",
+        "quote_or_paraphrase": "Trade need not be a matter of friction. Rather, it can become the 'ballast stone' and 'propeller' of China-US relations. Both sides should calculate more big-picture accounts and take a longer-term view, allowing economic and trade relations to continue serving as the 'ballast stone' and 'propeller' of China-US relations, continuously opening up new space for cooperation.",
+        "topic": "trade / US-China relations",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentary (State media)",
+        "speaker_importance": 4,
+        "context": "Commentary in People's Daily on upcoming Trump visit",
+        "quote_or_paraphrase": "Addressing the common challenges facing humanity requires the concerted efforts and mutual engagement of these two major powers, China and the US. At present, global challenges are emerging one after another: the risks of climate change are intensifying, hidden dangers in AI security are becoming prominent, and regional conflicts continue to drag on. Major-power competition should not be the defining feature of the era; only through unity and cooperation can we overcome shared challenges.",
+        "topic": "US-China relations / multilateral diplomacy / climate, AI, regional conflicts",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official statement regarding Trump visit to China",
+        "quote_or_paraphrase": "This is the first face-to-face meeting between the two heads of state this year, and also the first meeting in Beijing again after an interval of nine years, carrying special and important significance.",
+        "topic": "US-China relations / diplomacy",
+        "framing": "neutral",
+        "tone": "neutral",
+        "tone_intensity": 1
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/state-council-discusses-economic",
+    "article_date": "2026-05-11",
+    "article_title": "State Council Discusses Economic Priorities - Ding Duo: Japan Aggressively Expanding Projection of Military Power - US-China Trade Talks ahead of Trump Visit",
+    "statements": [
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official announcement regarding Vice Premier He Lifeng's delegation visit",
+        "quote_or_paraphrase": "Vice Premier He Lifeng will lead a delegation to the Republic of Korea to hold economic and trade consultations with the United States from May 12 to 13. The two sides will be guided by the important consensus reached between the two heads of state at their meeting in Busan and during previous calls, and will hold consultations on economic and trade issues of mutual concern.",
+        "topic": "trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Ding Duo",
+        "speaker_type": "individual",
+        "speaker_title": "Director of the Research Center for International and Regional Issues, National Institute for South China Sea Studies",
+        "speaker_importance": 2,
+        "context": "Research article published in People's Daily",
+        "quote_or_paraphrase": "Japan's neo-militarism is openly breaking through post-war international order constraints on military development, deepening military entanglement with regional countries while engaging in cross-regional coordination with NATO, continuously importing unstable factors into East Asia, and significantly increasing regional conflict risks. This threatens Asia-Pacific peace and stability and undermines the broader regional situation.",
+        "topic": "regional security, military expansion",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ding Duo",
+        "speaker_type": "individual",
+        "speaker_title": "Director of the Research Center for International and Regional Issues, National Institute for South China Sea Studies",
+        "speaker_importance": 2,
+        "context": "Research article published in People's Daily",
+        "quote_or_paraphrase": "All countries that cherish peace in the Asia-Pacific should maintain clear-eyed cognition of Japan's 'neo-militarism', and absolutely must not ignore or indulge it. Any military adventurism attempting to challenge the post-war order and undermine regional stability will ultimately face joint opposition and is destined to fail.",
+        "topic": "regional security, post-war order",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
   }
 ]
