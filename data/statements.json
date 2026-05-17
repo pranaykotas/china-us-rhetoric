@@ -91686,5 +91686,204 @@
         "tone_intensity": 4
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/new-framework-for-old-frictions-as",
+    "article_date": "2026-05-15",
+    "article_title": "New Framework for Old Frictions as Xi Meets Trump in Beijing",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting readout with President Trump, published in People's Daily",
+        "quote_or_paraphrase": "Can China and the United States overcome the Thucydides Trap and create a new paradigm of major-country relations? Can we meet global challenges together and provide greater stability for the world? I stand ready to work together with President Trump to set the course and steer the giant ship of China-U.S. relations, so as to make 2026 a historic, landmark year that opens up a new chapter in China-U.S. relations.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting readout with President Trump, published in People's Daily",
+        "quote_or_paraphrase": "China is committed to a steady, sound and sustainable development of China-U.S. relations. I have agreed with President Trump on a new vision of building a constructive China-U.S. relationship of strategic stability. This will provide strategic guidance for China-U.S. relations over the next three years and beyond.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting readout with President Trump, published in People's Daily",
+        "quote_or_paraphrase": "Constructive strategic stability means positive stability with cooperation as the mainstay, healthy stability with competition within proper limits, constant stability with manageable differences, and lasting stability with expectable peace.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "neutral",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting readout with President Trump, published in People's Daily",
+        "quote_or_paraphrase": "China-U.S. economic and trade ties are mutually beneficial and win-win in nature. Where disagreements and frictions exist, equal-footed consultation is the only right choice. China will only open its door wider. U.S. businesses are deeply involved in China's reform and opening up. China welcomes more mutually beneficial cooperation from the U.S.",
+        "topic": "trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting readout with President Trump, published in People's Daily",
+        "quote_or_paraphrase": "The two sides should implement the important common understandings we have reached, and make better use of communication channels in the political and diplomatic and military-to-military fields. The two countries should expand exchanges and cooperation in areas such as the economy and trade, health, agriculture, tourism, people-to-people ties and law enforcement.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting readout with President Trump, published in People's Daily",
+        "quote_or_paraphrase": "The Taiwan question is the most important issue in China-U.S. relations. If it is handled properly, the bilateral relationship will enjoy overall stability. Otherwise, the two countries will have clashes and even conflicts, putting the entire relationship in great jeopardy. 'Taiwan independence' and cross-Strait peace are as irreconcilable as fire and water. Safeguarding peace and stability across the Taiwan Strait is the biggest common denominator between China and the U.S. The U.S. side must exercise extra caution in handling the Taiwan question.",
+        "topic": "Taiwan",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Evening banquet remarks, published in People's Daily",
+        "quote_or_paraphrase": "Achieving the great rejuvenation of the Chinese nation and making America great again can go hand in hand. We can help each other succeed and advance the well-being of the whole world.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Evening banquet remarks, published in People's Daily",
+        "quote_or_paraphrase": "55 years ago, 'Ping-Pong diplomacy' was carried out between our two countries. The door that had remained frozen for over 20 years was opened. From then on, China and the United States have written many chapters of friendship through mutual opening up to each other and cooperation.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Evening banquet remarks, published in People's Daily",
+        "quote_or_paraphrase": "In this new era, President Trump and I have had multiple meetings and phone calls and kept China-U.S. relations generally stable. We both believe that the China-U.S. relationship is the most important bilateral relationship in the world. We must make it work, and never mess it up. Both China and the United States stand to gain from cooperation and lose from confrontation. Our two countries should be partners rather than rivals.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Evening banquet remarks, published in People's Daily",
+        "quote_or_paraphrase": "Looking back at the course of China-U.S. relations, whether or not we could have mutual respect, peaceful coexistence and win-win cooperation is the key to whether the relationship can advance steadily. China-U.S. relations concern the well-being of the over 1.7 billion people of both countries, and affect the interests of the over eight billion people of the world. Both sides should rise up to this historic responsibility and steer the giant ship of China-U.S. relations forward steadily and in the right direction.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official statement on Iran and Middle East situation",
+        "quote_or_paraphrase": "There is no point in continuing this conflict which should not have happened in the first place. To find an early way to resolve the situation is in the interest of not only the U.S. and Iran, but also regional countries and the rest of the world. China always believes that dialogue and negotiation is the right way forward, and the use of force is a dead end. Now that the door of dialogue has been opened, it should not be shut again.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with visiting US business delegation, published in People's Daily",
+        "quote_or_paraphrase": "Against the background of increasing unstable and uncertain factors in the current international situation, China and the United States maintaining candid and smooth dialogue and communication, and actively safeguarding stable and healthy bilateral relations, not only has major significance for the two countries, but will also inject certainty and positive energy into the cause of global peace and development. The Chinese side is willing to work together with the US side to properly implement the important consensus of the two heads of state, strive for more positive outcomes, achieve each other and jointly promote prosperity.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with visiting US business delegation, published in People's Daily",
+        "quote_or_paraphrase": "In today's world where transformation and turmoil are intertwined, stability appears even more precious and requires everyone to safeguard it together. A stable and predictable China-US economic and trade relationship conforms to the interests of the two countries and the world.",
+        "topic": "trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with visiting US business delegation, published in People's Daily",
+        "quote_or_paraphrase": "China-US economic and trade cooperation is enormous in scale, and market and industrial links are broad; strengthening cooperation between the two sides can not only promote mutual benefit and win-win outcomes, but is also beneficial to global economic growth. As the world's two largest economies, China and the United States should move toward each other, take the lead in promoting openness and cooperation, properly handle and manage differences, safeguard the economic and trade relationship between the two countries, and act as a force for global stability and constructiveness.",
+        "topic": "trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with visiting US business delegation, published in People's Daily",
+        "quote_or_paraphrase": "A stable and open policy environment is a long-term and unchanging commitment of the Chinese government. We will persist in expanding high-level opening up, as always do a good job serving foreign-funded enterprises, continuously improve and perfect various policies and raise administrative efficiency, fully listen to opinions and appeals, actively help resolve worries and difficulties, and allow enterprises to plan for the future with peace of mind and focus on their own development.",
+        "topic": "trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with visiting US business delegation, published in People's Daily",
+        "quote_or_paraphrase": "The stable, healthy, and sustainable development of China-US relations requires joint efforts from all sectors across both countries. It is hoped that more US-funded enterprises would continue to deepen their engagement within the Chinese market, thereby forging even stronger bonds of mutually beneficial cooperation between China and the United States, and at the same time continue acting as bridges for communication and dialogue between the two countries, promoting all sectors of the United States to view China's development more objectively and rationally, and promoting mutual trust and friendship between China and the United States.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
   }
 ]
