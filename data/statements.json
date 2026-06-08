@@ -93256,5 +93256,223 @@
         "tone_intensity": 3
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/breakdown-and-analysis-of-chinas",
+    "article_date": "2026-06-02",
+    "article_title": "Breakdown & Analysis of China's New Outbound Investment Regulations",
+    "statements": [
+      {
+        "speaker": "Ministry of Justice, National Development and Reform Commission (NDRC), Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "State Council Departments",
+        "speaker_importance": 4,
+        "context": "Official Q&A explaining rationale for new outbound investment regulations",
+        "quote_or_paraphrase": "As geopolitical risks rise and international competition intensifies, there is an urgent need for high-level specialised legislation. The model of relying primarily on departmental rules to implement outbound-investment administration no longer meets practical needs.",
+        "topic": "outbound investment policy",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Justice, National Development and Reform Commission (NDRC), Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "State Council Departments",
+        "speaker_importance": 4,
+        "context": "Official Q&A on outbound investment administration",
+        "quote_or_paraphrase": "The Regulations clarify that the State shall improve the outbound investment security review system and conduct security reviews of outbound investments that affect or may affect national security.",
+        "topic": "national security",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Justice, National Development and Reform Commission (NDRC), Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "State Council Departments",
+        "speaker_importance": 4,
+        "context": "Official Q&A on responses to foreign discriminatory measures",
+        "quote_or_paraphrase": "In recent years, the discriminatory measures of certain foreign governments and organisations against Chinese investors and their outbound investments have severely harmed the legitimate rights and interests of our citizens and organisations and infringed upon our overseas interests.",
+        "topic": "US-China relations / foreign discrimination",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Justice, National Development and Reform Commission (NDRC), Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "State Council Departments",
+        "speaker_importance": 4,
+        "context": "Official Q&A on countermeasures against foreign discrimination",
+        "quote_or_paraphrase": "Regarding trade-related investment barriers or other obstacles imposed by foreign countries, the competent commerce department may conduct an investigation, and based on results, relevant departments may take measures such as adjusting country-specific investment policy or prohibiting/restricting import and export of relevant goods or technologies.",
+        "topic": "trade / investment barriers",
+        "framing": "defensive/retaliatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Justice, National Development and Reform Commission (NDRC), Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "State Council Departments",
+        "speaker_importance": 4,
+        "context": "Official Q&A on countermeasures against foreign discrimination",
+        "quote_or_paraphrase": "Regarding discriminatory prohibitions, restrictions, or other similar measures adopted by foreign countries or international organisations in matters such as investment and operation, the Chinese government has the right to take corresponding measures and may impose countermeasures on organisations and individuals that directly or indirectly participate in the formulation, decision-making, and implementation of such measures, in accordance with the Anti-Foreign-Sanctions Law.",
+        "topic": "sanctions / foreign discrimination",
+        "framing": "retaliatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Justice, National Development and Reform Commission (NDRC), Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "State Council Departments",
+        "speaker_importance": 4,
+        "context": "Official Q&A on countermeasures against foreign entities",
+        "quote_or_paraphrase": "Regarding foreign organisations and individuals that endanger China's national sovereignty, security, and development interests; that violate normal market-transaction principles to interrupt transactions; or that adopt discriminatory measures, the relevant departments of the State Council may take measures including prohibiting or restricting their investment within the territory of China, their entry, and relevant transactions and cooperation.",
+        "topic": "sanctions / economic coercion",
+        "framing": "retaliatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Justice, National Development and Reform Commission (NDRC), Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "State Council Departments",
+        "speaker_importance": 4,
+        "context": "Official Q&A on China's approach to economic globalisation",
+        "quote_or_paraphrase": "Economic globalisation has encountered counter-currents, with unilateralism, protectionism, and isolationism on the rise. China firmly safeguards a rules-based, transparent, non-discriminatory, open, and inclusive multilateral trading system and opposes unilateralism and protectionism.",
+        "topic": "trade / economic relations",
+        "framing": "accusatory toward Western protectionism",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/zhong-sheng-us-must-remove-barriers",
+    "article_date": "2026-06-01",
+    "article_title": "Zhong Sheng: US Must Remove Barriers to AI Cooperation - Li Lecheng on China's Approach to Developing Future Industries",
+    "statements": [
+      {
+        "speaker": "Xie Feng",
+        "speaker_type": "individual",
+        "speaker_title": "Ambassador of China to the United States",
+        "speaker_importance": 3,
+        "context": "Remarks at Embassy of China event hosting 'Night of Pickleball & Premiere of China Trip Documentary'",
+        "quote_or_paraphrase": "China-US relations stand at a new historical starting point. Now it is up to us to follow the direction set by our two presidents. Let's work together toward a relationship with cooperation as the mainstay, competition within proper limits, manageable differences and expectable peace. That way, we could advance the stable, sound and sustainable development of China-US relations, and explore the right way for China and the United States to get along in this new era.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xie Feng",
+        "speaker_type": "individual",
+        "speaker_title": "Ambassador of China to the United States",
+        "speaker_importance": 3,
+        "context": "Remarks at Embassy of China event hosting 'Night of Pickleball & Premiere of China Trip Documentary'",
+        "quote_or_paraphrase": "President Xi Jinping recently replied to a letter from Chinese and U.S. students, where President Xi pointed out that initiative to invite 50,000 young Americans to China for exchange and study over five years has reached its goal two and a half years ahead of schedule. This is a powerful example of young people from our two countries reaching out to one another across the Pacific — a youthful promise for the future of China-U.S. relations.",
+        "topic": "people-to-people exchange",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary (People's Daily)",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-US AI cooperation",
+        "quote_or_paraphrase": "Recently, the heads of state of China and the US held constructive exchanges on the issue of AI, and agreed to launch an AI inter-governmental dialogue. At present, China-US relations have generally maintained stability, with the establishment of the new positioning of a 'a relationship of constructive strategic stability between China and the US'. As two AI great powers, China and the US working together to promote AI development and governance is both a concrete embodiment of implementing the consensus reached by the two heads of state and will also push AI to better serve the progress of human civilisation and the common welfare of the international community.",
+        "topic": "technology, AI cooperation",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary (People's Daily)",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-US AI cooperation",
+        "quote_or_paraphrase": "China and the US have previously co-sponsored each other's resolutions on AI at the UN General Assembly, and the two countries maintain regular Track II communication and dialogue; this fully demonstrates that the two sides are capable of conducting positive interaction in this important field. China stands ready to strengthen communication and coordination with the international community, including the US, to promote the formation of a globally consensus-based AI governance framework and standards.",
+        "topic": "technology, AI governance",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary (People's Daily)",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-US AI cooperation",
+        "quote_or_paraphrase": "At present, there remain some practical obstacles to China-US cooperation in the AI field. Certain people on the US side view AI through a zero-sum game mentality, politicising, instrumentalising, and weaponising AI technology, and have introduced protective measures such as investment restrictions, chip export controls, and cloud-computing service controls, artificially erecting barriers to cooperation. Such practices of 'decoupling and breaking chains' and 'small yards with high fences' violate the objective laws of scientific and technological development, harm the legitimate rights and interests of enterprises in both countries, and are unfavourable to the coordinated development of the global AI industry.",
+        "topic": "technology, trade, sanctions",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary (People's Daily)",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-US AI cooperation",
+        "quote_or_paraphrase": "In the face of suppression and containment, China firmly safeguards its own right to development, and remains committed to making AI an inclusive engine for global development.",
+        "topic": "technology, sanctions",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary (People's Daily)",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-US AI cooperation",
+        "quote_or_paraphrase": "Competition between China and the United States in the field of AI is natural, but it should be healthy competition, and the two sides should also demonstrate the responsibility of major powers through cooperation. Market practice has fully proven that China-US cooperation on AI has enormous potential and can achieve mutual benefit and win-win outcomes.",
+        "topic": "technology, AI cooperation",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary (People's Daily)",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-US AI cooperation",
+        "quote_or_paraphrase": "The world does not wish to see an 'AI Iron Curtain' or 'AI enclosures'. Ensuring that AI is for good and benefits all humanity is the greatest common interest shared by China and the United States in the field of AI. It is hoped that the US will move toward China, strengthen dialogue, manage competition, and carry out cooperation, so that AI can become a new frontier of China-US cooperation and a new ladder for human progress.",
+        "topic": "technology, diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Li Lecheng",
+        "speaker_type": "individual",
+        "speaker_title": "Minister of Industry and Information Technology",
+        "speaker_importance": 3,
+        "context": "Article on theory page discussing future industries",
+        "quote_or_paraphrase": "Major developed countries have successively elevated the cultivation of future industries to the level of national strategy. The US has incorporated future industries into its legal framework, while the EU has clarified key deployment directions, attempting to lock in advantages during the formation of new technological systems. Facing important historical opportunities and severe external challenges, we must seize the initiative and gain the upper hand.",
+        "topic": "technology, economic competition",
+        "framing": "competitive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Li Lecheng",
+        "speaker_type": "individual",
+        "speaker_title": "Minister of Industry and Information Technology",
+        "speaker_importance": 3,
+        "context": "Article on theory page discussing future industries",
+        "quote_or_paraphrase": "Strategic competition among the world's major economies surrounding future industries is becoming increasingly intense. Through measures such as increasing R&D investment to break through frontier technology barriers, optimizing visa policies and introducing incentive programs to attract top talent worldwide, and actively embedding one's own technological pathways into international standards systems, countries are driving escalating competition in technological innovation, talent acquisition, and leadership over standards.",
+        "topic": "technology, economic competition",
+        "framing": "competitive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
   }
 ]
