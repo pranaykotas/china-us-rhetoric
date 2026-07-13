@@ -93474,5 +93474,996 @@
         "tone_intensity": 4
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-6-point-agenda-for-chinas-science",
+    "article_date": "2026-07-09",
+    "article_title": "Xi's 6-Point Agenda for China's Science & Technology Advancement",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President of the People's Republic of China",
+        "speaker_importance": 5,
+        "context": "Speech at joint national science and technology award conference, general assemblies of Chinese Academy of Sciences and Chinese Academy of Engineering, and 11th national congress of China Association for Science and Technology",
+        "quote_or_paraphrase": "We must accelerate the advance of high-level scientific and technological self-reliance and self-strengthening, march firmly toward the goal of building China into a science and technology power by 2035, and solidly support and lead Chinese-style modernisation with scientific and technological innovation. Scientific and technological strength and innovation capacity are increasingly becoming the core competitiveness of nations.",
+        "topic": "technology, competition",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President of the People's Republic of China",
+        "speaker_importance": 5,
+        "context": "Speech at joint national science and technology award conference",
+        "quote_or_paraphrase": "Focusing on frontier fields such as AI, quantum technology, and life sciences; key fields such as integrated circuits and advanced manufacturing; and strategic domains such as the deep sea, deep space, and deep earth, we must make integrated arrangements for major engineering programs and major projects, while coordinating the advancement of original innovation and research on key core technologies.",
+        "topic": "technology, self-reliance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President of the People's Republic of China",
+        "speaker_importance": 5,
+        "context": "Speech at joint national science and technology award conference",
+        "quote_or_paraphrase": "We must strengthen the independent, self-reliant guarantee of basic supporting conditions such as high-end scientific instruments, scientific data, and scientific journals.",
+        "topic": "technology, self-reliance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President of the People's Republic of China",
+        "speaker_importance": 5,
+        "context": "Speech at joint national science and technology award conference",
+        "quote_or_paraphrase": "We must seize the window of opportunity in global talent flows and actively recruit outstanding young talent and teams from overseas.",
+        "topic": "talent, international competition",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President of the People's Republic of China",
+        "speaker_importance": 5,
+        "context": "Speech at joint national science and technology award conference",
+        "quote_or_paraphrase": "Frontier technologies such as AI are accelerating in their iteration and application, and the 'double-edged sword' effect is becoming increasingly apparent. We must coordinate development and security as a whole, closely track the development trends of new technologies and new applications, strengthen the building of the science and technology governance system and governance capacity, and ensure that science and technology move upward and toward the good, remain safe and controllable.",
+        "topic": "technology, security",
+        "framing": "cautious",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President of the People's Republic of China",
+        "speaker_importance": 5,
+        "context": "Speech at joint national science and technology award conference",
+        "quote_or_paraphrase": "We must participate deeply in global science and technology governance, broadly publicize China's propositions and China's solutions, and enhance our discourse power and influence in the making of international rules.",
+        "topic": "diplomacy, technology governance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Cai Qi",
+        "speaker_type": "individual",
+        "speaker_title": "Senior Party Official (member of Politburo Standing Committee)",
+        "speaker_importance": 5,
+        "context": "Address at second plenary session of 11th national congress of China Association for Science and Technology",
+        "quote_or_paraphrase": "Facing a complex and turbulent development environment, China needs the leading strategic support of science and technology more than at any time in the past, needs to bring fully into play the role of talent as the first resource more than at any time in the past, and needs to strengthen innovation as the first driving force more than at any time in the past.",
+        "topic": "technology, competition",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Qi",
+        "speaker_type": "individual",
+        "speaker_title": "Senior Party Official (member of Politburo Standing Committee)",
+        "speaker_importance": 5,
+        "context": "Address at second plenary session of 11th national congress of China Association for Science and Technology",
+        "quote_or_paraphrase": "Focus on strategically contested fields that must be fought for and on the weak links of industrial chains and supply chains, strengthen cross-field and cross-disciplinary coordination, and fight well the battle of storming key core technologies.",
+        "topic": "technology, self-reliance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Qi",
+        "speaker_type": "individual",
+        "speaker_title": "Senior Party Official (member of Politburo Standing Committee)",
+        "speaker_importance": 5,
+        "context": "Address at second plenary session of 11th national congress of China Association for Science and Technology",
+        "quote_or_paraphrase": "Coordinate development and security as a whole, maintain strategic clarity, establish bottom-line thinking, strengthen risk consciousness, carry forward the spirit of struggle, actively foster a fair and just environment for development, and resolutely safeguard national interests and science and technology security.",
+        "topic": "security, technology",
+        "framing": "cautious",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Qi",
+        "speaker_type": "individual",
+        "speaker_title": "Senior Party Official (member of Politburo Standing Committee)",
+        "speaker_importance": 5,
+        "context": "Address at second plenary session of 11th national congress of China Association for Science and Technology",
+        "quote_or_paraphrase": "Deepen international exchanges in science, technology, and the humanities, proactively integrate into global innovation networks, widely publicize China's scientific and technological achievements, promote platforms for openness and cooperation, actively participate in the development of international scientific and technological organizations, and contribute Chinese proposals and Chinese wisdom to global governance in science and technology, using the power of science and technology to help build a community with a shared future for mankind.",
+        "topic": "diplomacy, technology",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/flood-situation-grave-and-complex",
+    "article_date": "2026-07-08",
+    "article_title": "Flood Situation Grave & Complex - Outcomes of Wang's Visit to Nordic Countries - Zhong Sheng's Take on China-EU Trade & Investment Dialogue",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Official readout from visit to Nordic countries (Denmark, Sweden, Finland, Norway)",
+        "quote_or_paraphrase": "China and Europe are partners, not rivals, and cooperation is the fundamental character and keynote of the relationship. Both sides support strengthened all-round China-EU dialogue at all levels.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Official readout from visit to Nordic countries",
+        "quote_or_paraphrase": "Economic and trade cooperation is the ballast of bilateral relations; deepening cooperation is not optional but essential. Both sides firmly support free trade and economic globalization, and oppose unilateral actions and 'decoupling and breaking supply chains.'",
+        "topic": "trade",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Official readout from visit to Nordic countries",
+        "quote_or_paraphrase": "The Chinese side reaffirmed that China never deliberately pursues a trade surplus, and expressed the hope that the EU will remain open, avoid restrictive legislative measures, relax exports of high-value products to China, and promote an upward rebalancing of China-EU trade.",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media editorial",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-EU Trade and Investment Consultation mechanism",
+        "quote_or_paraphrase": "For some time now, protectionist currents have been rising within the EU. Certain politicians have persistently hyped false narratives such as 'China-EU trade imbalance', 'overcapacity', and 'unfair competition', concocted erroneous narratives like 'China Shock 2.0', and rolled out one restrictive trade measure after another, erecting obstacles to normal China-EU economic and trade cooperation.",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media editorial",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-EU Trade and Investment Consultation mechanism",
+        "quote_or_paraphrase": "At root, the European side suffers both from cognitive bias regarding the China-EU economic relationship and from an exposed sense of helplessness about its own structural contradictions. The EU deliberately evades the fact of its services trade surplus with China of US$48.3 billion in 2025.",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media editorial",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-EU Trade and Investment Consultation mechanism",
+        "quote_or_paraphrase": "Using protectionist barriers to avoid competition is like drinking poison to quench thirst; it will only allow structural problems to fester beyond remedy, ultimately harming the welfare of European consumers and Europe's long-term development potential.",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media editorial",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-EU Trade and Investment Consultation mechanism",
+        "quote_or_paraphrase": "China is not the source of the problems the EU faces, but a partner in solving them. All along, China has been willing to resolve differences through dialogue with the utmost sincerity, while also resolutely defending its own legitimate industrial and trade rights and interests.",
+        "topic": "trade",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media editorial",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on China-EU Trade and Investment Consultation mechanism",
+        "quote_or_paraphrase": "As two major global forces and two major markets, the stability of China-EU economic and trade relations carries global significance. At present, unilateralism and protectionism continue to batter the international economic and trade order, and WTO reform is at a critical juncture.",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/cai-cuihong-on-the-nature-and-harms",
+    "article_date": "2026-07-02",
+    "article_title": "Cai Cuihong on the Nature & Harms of America's Digital Hegemony",
+    "statements": [
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "Digital hegemony refers to a small number of countries, principally the United States as the first-mover in digital technology, relying on comprehensive advantages in key technologies, platform ecosystems, data resources, and institutional rules to transform digital capabilities into a systemic force for dominating the global order. American digital technology outwardly proclaims freedom, openness, and innovation, but in essence serves to maintain technological monopoly, seize economic benefits, consolidate dominance over rule-making, and expand strategic influence.",
+        "topic": "technology, digital dominance, hegemony",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "The United States suppresses global competitors through dual technological and legal controls, designating competitors like Huawei as national security threats, controlling exports of advanced chips to China, and pushing allies to restrict exports of advanced equipment. It also brings normal commercial trade under unilateral American licensing and review frameworks, and extends sanctions to third-party entities through legislation and enforcement mechanisms.",
+        "topic": "technology, sanctions, trade, competition",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "The United States manipulates the distribution of global digital economy gains through platform ecosystem monopoly, controlling key links such as app stores, search engines, social media, cloud services, and AI interfaces. Digital gains that ought to be shared globally are largely retained within the American platform system, with high value-added gains concentrated in American digital capital.",
+        "topic": "technology, economic dominance, platforms",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "Through digital communication operations, the United States dominates overseas public opinion by posing as local users, impersonating civil society organizations, and manufacturing expressions of public opinion. It leverages coordinated operations across multiple platforms and networks of accounts to influence information spread in particular regions and groups, transforming digital communication capabilities into instruments for shaping public perceptions and intervening in other countries' public opinion.",
+        "topic": "information warfare, public opinion, influence operations",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "The United States strengthens geo-security intervention through commercial digital capabilities. The Starlink commercial satellite system has undertaken functions of front-line communications, intelligence transmission, and combat support in regional conflicts, becoming a vehicle for overseas military intervention. Google and Amazon provide cloud computing and AI technical support to the Israeli government and security departments through Project Nimbus, with services involving military and security use scenarios.",
+        "topic": "military, technology, geopolitics",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "American digital hegemony erodes other countries' digital sovereignty by using open markets, free flows, and security reviews as pretexts to exert pressure on countries, making it difficult for them to make decisions aligned with their own interests regarding digital market opening, data flow arrangements, platform regulatory approaches, and support for domestic industries. Once American platforms and digital facilities are deeply embedded in other countries' economic and social operations, they influence key links such as data storage and system updates, thereby weakening these countries' actual capacity for control and governance.",
+        "topic": "sovereignty, digital governance, control",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "American digital hegemony widens the digital development divide through three mechanisms: first, pathways for technological catch-up are artificially obstructed through export controls, investment reviews, supply chain restrictions, and standards barriers, continuously delaying technological catch-up by late-developing countries and magnifying their existing disadvantages. Second, the mechanism through which digital revenues flow back is continuously distorted, with commercial returns flowing toward American platforms while developing countries struggle to convert their data resources and market scale into domestic development dividends. Third, channels for moving up the value chain are continuously compressed, confining developing countries to low value-added positions.",
+        "topic": "technology, development, inequality",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "American digital hegemony aggravates international security trust deficit through securitization of technological cooperation, institutionalizing security concerns through rules, and dividing digital relations into rival blocs. Chips, software, cloud services, data centers, communication systems, and AI models are endowed by the United States with strategic significance, causing normal technological exchanges and commercial dealings to be regarded as potential risks. Cross-border cooperation is increasingly subject to American security reviews and market-access restrictions.",
+        "topic": "technology, security, trust",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "American digital hegemony distorts global digital governance by tilting the governance process toward the interests of a small number of developed countries. Issues such as AI safety and cross-border data enforcement are accorded priority, while developing countries' demands for participation in rule-making and capacity building struggle to enter the agenda. On key issues such as data flows, AI governance, and digital infrastructure, developing countries lack sufficient discursive power and occupy primarily the position of rule-takers.",
+        "topic": "governance, rules, standards",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "American digital hegemony has shaped Western values and narrative modes into the default standard in digital space. Non-Western countries' expressions of their own history, culture, and development paths often struggle to obtain opportunities for presentation equal to those afforded to Western narratives. The visibility, reach, and reception of non-Western content on global platforms is easily influenced by American platform rules, algorithmic rankings, and labeling mechanisms. Non-Western countries' governance experience and demands for digital sovereignty are often interpreted within Western discourse frameworks and even distorted and stigmatized.",
+        "topic": "discourse, culture, narrative control",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Cai Cuihong",
+        "speaker_type": "individual",
+        "speaker_title": "Professor at the Center for American Studies at Fudan University",
+        "speaker_importance": 2,
+        "context": "Article published in Qiushi (CPC flagship journal)",
+        "quote_or_paraphrase": "The essence of American digital hegemony is to practice monopoly in the name of so-called freedom, and to seek the gains of global domination through technological superiority. The international community should be highly vigilant against its expansionist conduct. Breaking down digital hegemony requires defending digital sovereignty, promoting universal benefit and inclusiveness, adhering to open cooperation and opposing pan-securitization of digital issues, improving global governance, and advocating mutual learning among civilizations.",
+        "topic": "hegemony, sovereignty, multilateralism",
+        "framing": "accusatory, prescriptive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/takeaways-from-xis-speech-at-partys",
+    "article_date": "2026-07-01",
+    "article_title": "Takeaways from Xi's Speech at Party's 105th Anniversary - What does Xi want from County Secretaries? Wang Meets Saudi FM & UNSG Contenders - Politburo Warns of 'Extreme Weather' Challenges",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Speech at ceremony marking 105th anniversary of CPC founding",
+        "quote_or_paraphrase": "The Party has stood on the right side of history and on the side of human civilization and progress, and through unceasing self-strengthening struggle has profoundly changed the trajectory and dynamics of the world. Today, the Party is leading people in advancing Chinese-style modernization, creating a new form of human civilization and broadening the path for developing countries to achieve modernization. Socialist China is widely recognized as a builder of world peace, a contributor to global development, and a defender of the international order.",
+        "topic": "diplomacy, global role",
+        "framing": "assertive, confident",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Speech at ceremony marking 105th anniversary of CPC founding",
+        "quote_or_paraphrase": "China's development is now at a period in which strategic opportunities coexist with risks and challenges, and in which uncertain and unpredictable factors are increasing; we need to be prepared at all times to withstand major tests of high winds and rough waves, and even perilous storms. The whole Party must strengthen awareness of potential dangers, adhere to bottom-line thinking, carry forward the spirit of struggle, and enhance its ability to struggle; better coordinate the two overall situations of domestic and international affairs.",
+        "topic": "security, strategic environment",
+        "framing": "cautious, defensive",
+        "tone": "cautious",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Speech at ceremony marking 105th anniversary of CPC founding",
+        "quote_or_paraphrase": "We must conform to the aspirations of the people and the trend of the times, hold high the banner of peace, development, cooperation, and win-win outcomes, promote the common values of all humanity, advance the building of a new type of international relations, and push forward the implementation of the Global Development Initiative, the Global Security Initiative, the Global Civilization Initiative, and the Global Governance Initiative, injecting more positive energy into world peace and development.",
+        "topic": "diplomacy, multilateralism, global initiatives",
+        "framing": "constructive, cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with UN Secretary-General candidates Macky Sall and Maria Fernanda Espinosa",
+        "quote_or_paraphrase": "China is an indispensable major force on the international stage. China has always been a steadfast supporter of the cause of the United Nations and of multilateralism. The four global initiatives proposed by President Xi Jinping are intended to honour China's commitment to safeguarding multilateralism through concrete actions, promote the UN's better adaptation to the needs of the times, and enable it to continue developing and growing stronger through reform and change.",
+        "topic": "multilateralism, international order",
+        "framing": "constructive, cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Saudi Foreign Minister Faisal bin Farhan Al-Saud",
+        "quote_or_paraphrase": "China welcomes the opening of negotiations between the United States and Iran. The facts have proven time and again that one cannot obtain peace and tranquility by trading blows with fists; only by upholding morality and justice can lasting peace and stability be preserved. The current ceasefire situation remains fragile, but talking is always better than continuing to fight, and dialogue is always better than confrontation.",
+        "topic": "Middle East, diplomacy, Iran-US relations",
+        "framing": "constructive, mediating",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/china-bangladesh-ties-upgraded-more",
+    "article_date": "2026-06-28",
+    "article_title": "China-Bangladesh Ties Upgraded - More PLA Generals Sacked - 3rd Round of Goods Trade-in Bonds Issued - Ding Visits Xinjiang - Audit Finds Diversion of Rural Revitalisation Funds",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Bangladesh PM Tarique Rahman; official readout",
+        "quote_or_paraphrase": "China supports Bangladesh in upholding national independence, sovereignty and territorial integrity and rejecting foreign interference. China will work with Bangladesh to increase exchanges of governance experience, enhance ties at all levels, deepen strategic communication, strengthen political mutual trust, and continue to support each other on issues concerning core interests and major concerns.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Bangladesh PM Tarique Rahman; official readout",
+        "quote_or_paraphrase": "China adheres to the policy of fostering an amicable, secure and prosperous neighborhood and will continue to provide neighboring countries with new opportunities and fresh dynamism. China will strengthen communication and coordination with Bangladesh within multilateral frameworks including the U.N. to jointly promote an equal and orderly multipolar world and a universally beneficial and inclusive economic globalization.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Cambodian People's Party President Hun Sen; official readout",
+        "quote_or_paraphrase": "The international and regional situation is currently undergoing complex and profound changes. China and Cambodia should join hands to demonstrate a sense of responsibility amid the changing landscape and to hold to the right path amid the turbulence, injecting greater stability into regional peace and development.",
+        "topic": "diplomacy",
+        "framing": "cautious",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Cambodian People's Party President Hun Sen; official readout",
+        "quote_or_paraphrase": "China appreciates Cambodia's steadfast adherence to the One-China principle and its support for the major concepts and initiatives proposed by China. China is willing to strengthen coordination and cooperation with Cambodia to better safeguard the fundamental state of good-neighbourly friendship in the region.",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Jia Guide",
+        "speaker_type": "individual",
+        "speaker_title": "China's Permanent Representative to the UN Office at Geneva and Other International Organizations in Switzerland",
+        "speaker_importance": 3,
+        "context": "Joint statement on behalf of 20 countries at the UNHRC",
+        "quote_or_paraphrase": "The statement sought to expose and condemn the hegemonic practice of unilateral tariff under the pretext of 'forced labour'. The arbitrary imposition of tariff under the guise of so-called anti-forced labour measures will only infringe upon the right to development and the right to decent work. We urge relevant countries to respect facts, refrain from politicizing trade issues and weaponizing human rights, uphold the international economic and trading order.",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-shandong-visit-lis-china-opportunity",
+    "article_date": "2026-06-25",
+    "article_title": "Xi's Shandong Visit - Li's 'China Opportunity 2.0' Pitch in Dalian - Wang-Dar Call on US-Iran Talks - Breakdown of New Measures for Industrial Chain & Supply Chain Security Investigation Work",
+    "statements": [
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Speech at Summer Davos in Dalian",
+        "quote_or_paraphrase": "China remains committed to opening up further. We have extended zero-tariff policies to 63 countries, stayed as the world's second-largest import market for 17 years running, and recorded an import growth of 20.5 percent in the first five months of this year, significantly higher than export growth. For China, integrated development with the world has never been an expediency, but a strategic decision.",
+        "topic": "trade, economic policy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Speech at Summer Davos in Dalian",
+        "quote_or_paraphrase": "China's innovation has been nurtured in an enabling environment...Chinese enterprises have endured operational pressures brought about by prolonged and costly R&D commitments. Some incurred heavy losses at certain stages, and others faced unfair external suppression. Yet none of them ever wavered in their commitment.",
+        "topic": "technology, innovation, trade",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Speech at Summer Davos in Dalian",
+        "quote_or_paraphrase": "China's industrial competitiveness has not been created through subsidies; rather, it stems from the combined advantages of its complete industrial system, ultra-large-scale market, and sound innovation ecosystem. China's industrial subsidies strictly comply with WTO rules; they are fair and broadly beneficial, and China treats domestic and foreign-invested enterprises equally.",
+        "topic": "trade, economic policy",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Speech at Summer Davos in Dalian",
+        "quote_or_paraphrase": "What these combined dividends generate for the world are greater opportunities and potential of development...Today, China's large open-source AI models have been downloaded by over 10 billion times globally in cumulative terms...These are proof enough that what China's technologies and products in emerging areas bring to the world are not shocks or threats, but opportunities and empowerment.",
+        "topic": "technology, trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Speech at Summer Davos in Dalian",
+        "quote_or_paraphrase": "Second, never before has innovation been so deeply interconnected, yet the barriers to collaboration are increasing. Collective efforts that cross disciplines and national borders have become the mainstream and necessity of innovation. Yet technological walls, barriers and blockades are also growing more pervasive.",
+        "topic": "technology, trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Engagement with business executives at Summer Davos",
+        "quote_or_paraphrase": "In recent years, the international community has increasingly recognized that there are no winners in trade wars and tariff wars, and that more and more countries are more actively advancing economic and trade exchanges, returning to the right path of mutual benefit and win-win cooperation. No matter how the external environment changes, China will always follow the great historical trend of openness and cooperation.",
+        "topic": "trade, diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Engagement with business executives at Summer Davos",
+        "quote_or_paraphrase": "The high-quality products exported by China constitute an important contribution to the world economy...We have never deliberately pursued a trade surplus. China has always shared its domestic market with the world and is willing to import more high-quality products from all countries.",
+        "topic": "trade",
+        "framing": "cooperative",
+        "tone": "neutral",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Call with Pakistan's Foreign Minister Ishaq Dar",
+        "quote_or_paraphrase": "The peace process has only just begun, and there is still a long, even tortuous and arduous, road ahead. But the Chinese side will, as always, support Pakistan and like-minded countries in continuing to play a constructive role...We should harness technology for good and be more effective in advancing collective governance...Advanced technologies should serve as tools that benefit people across countries, rather than sources of chaos that undermine peace and stability.",
+        "topic": "diplomacy, regional stability, technology governance",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Call with Pakistan's Foreign Minister Ishaq Dar",
+        "quote_or_paraphrase": "The Middle East, including the Gulf region, should no longer serve as an arena for great power competition or a victim of geopolitics, and regional countries should uphold genuine strategic autonomy and firmly keep their future in their own hands.",
+        "topic": "diplomacy, regional competition",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Publication of Measures for Industrial Chain and Supply Chain Security Investigation Work",
+        "quote_or_paraphrase": "Where a foreign state, region, or international organization, in violation of international law and the basic norms governing international relations, adopts discriminatory prohibitive measures, restrictive measures, or other similar measures against our country in the area of industrial chains and supply chains, or carries out or assists in carrying out acts that harm the security of our country's industrial chains and supply chains, the Ministry of Commerce may conduct an industrial chain and supply chain security investigation.",
+        "topic": "trade, supply chains, sanctions",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Publication of Measures for Industrial Chain and Supply Chain Security Investigation Work",
+        "quote_or_paraphrase": "Based on investigation results, the Ministry of Commerce may, together with relevant departments, adopt measures against states, regions, and international organizations that implement or assist in implementing acts harming the security of China's industrial chains and supply chains, including prohibiting or restricting import and export of goods or technology, levying special fees, placing organizations and individuals on countermeasure lists under the Anti-Foreign Sanctions Law, and other necessary measures.",
+        "topic": "trade, sanctions, supply chains",
+        "framing": "defensive, punitive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Announcement on export control violations of strategic mineral dual-use items",
+        "quote_or_paraphrase": "Further optimizing the handling of reports on violations concerning strategic mineral dual-use items and enhancing law enforcement capabilities is a fundamental requirement for improving the country's export control system, as well as a normal measure to safeguard national security and interests. Giving play to the supervisory role of tip-offs regarding export control violations is a common international practice.",
+        "topic": "export controls, national security, technology",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/li-focuses-on-shipbuilding-and-nuclear",
+    "article_date": "2026-06-23",
+    "article_title": "Li Focuses on Shipbuilding & Nuclear Power in Dalian - Ding's Message on Securing Industrial & Supply Chains - New Plan to Attract Foreign Investment",
+    "statements": [
+      {
+        "speaker": "Ding Xuexiang",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Premier",
+        "speaker_importance": 4,
+        "context": "Remarks at the 4th China International Supply Chain Expo in Beijing",
+        "quote_or_paraphrase": "The current world situation is complex and volatile, and the risk of fragmentation of industrial and supply chains is increasing. China effectively brings into play its advantages such as a complete industrial system and a super-large-scale market, strives to keep the arteries of the world economy unobstructed, and firmly safeguards the stable and smooth functioning of global industrial and supply chains. Four proposals: (1) Strengthen mutual trust - prevent the politicization, weaponization, and over-securitization of economic and trade issues, work hard to eliminate the interference of non-economic factors; (2) Strengthen trade connectivity - maintain true multilateralism, uphold the multilateral trading system with the WTO at its core, oppose practicing protectionism in the name of green and low-carbon development; (3) Strengthen integrated development - work in concert to promote deep integration of innovation chain with industrial and supply chains; (4) Strengthen resource sharing - maintain open connectivity and smooth operation of global energy markets, promote mutually beneficial cooperation and peaceful use of critical minerals.",
+        "topic": "trade, supply chains, multilateralism",
+        "framing": "defensive, constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official announcement on export controls",
+        "quote_or_paraphrase": "China has decided to add 10 American entities to the export control list in accordance with the nation's export control law and regulations on export control of dual-use items. The measure was taken following the wrongful act of the U.S. government to add more Chinese firms to a so-called company list linked to Chinese military. Export operators are prohibited from exporting dual-use items to the 10 entities, which include Aveox Inc., Red Cat Holdings Inc., Teal Drones Inc., IMSAR, Jaia Robotics Inc., Ball Aerospace & Technologies Corp., Oshkosh Defense, L3Harris Maritime Services Inc., MP Materials Corp., and USA Rare Earth Inc. Organizations and individuals from any country or region are prohibited from transferring or providing dual-use items originating in China to these entities.",
+        "topic": "trade, technology, sanctions, US-China relations",
+        "framing": "retaliatory, accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official announcement on government procurement restrictions",
+        "quote_or_paraphrase": "China has announced a notice prohibiting the purchase of products manufactured by 46 designated U.S. companies in government procurement. Procurement entities participating in government purchasing activities are barred from buying products made by the listed U.S. firms, including Lockheed Martin Corporation and Raytheon Missiles & Defense.",
+        "topic": "trade, sanctions, US-China relations",
+        "framing": "retaliatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/yin-yanlin-explains-what-china-means",
+    "article_date": "2026-06-19",
+    "article_title": "Yin Yanlin Explains What China Means by 'Investing in People' - Ding Chun Diagnoses Europe's Malaise",
+    "statements": [
+      {
+        "speaker": "Ding Chun",
+        "speaker_type": "individual",
+        "speaker_title": "Director of the Center for European Studies and Professor of the Institute of World Economics, Fudan University; Vice President of the Chinese Association for European Studies",
+        "speaker_importance": 2,
+        "context": "Article in Qiushi (party theoretical journal)",
+        "quote_or_paraphrase": "Recent US tariff increases on key industries such as automobiles, steel, and aluminum have significantly affected European exports, corporate profits, and economic growth. If tariff threats materialize, output losses in the German automobile industry will reach €15 billion in the short term and could be as high as €30 billion in the long term.",
+        "topic": "trade, US-Europe relations",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ding Chun",
+        "speaker_type": "individual",
+        "speaker_title": "Director of the Center for European Studies and Professor of the Institute of World Economics, Fudan University; Vice President of the Chinese Association for European Studies",
+        "speaker_importance": 2,
+        "context": "Article in Qiushi (party theoretical journal)",
+        "quote_or_paraphrase": "The external actor that seems to have any adverse impact on Europe's economic prospects is the United States. European Commission President Ursula von der Leyen said in April that since the start of this US-Israel-Iran conflict, the EU's spending on imported fossil fuels has already increased by €22 billion.",
+        "topic": "trade, US foreign policy, geopolitics",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ding Chun",
+        "speaker_type": "individual",
+        "speaker_title": "Director of the Center for European Studies and Professor of the Institute of World Economics, Fudan University; Vice President of the Chinese Association for European Studies",
+        "speaker_importance": 2,
+        "context": "Article in Qiushi (party theoretical journal)",
+        "quote_or_paraphrase": "When confronted with pressure from US tariff increases, member states have found it difficult to formulate a unified approach regarding negotiating positions and the strength of countermeasures because of differences in industrial structure and trade dependence. As a result, the EU's bargaining power as a whole has been weakened.",
+        "topic": "trade, US tariffs, US-Europe relations",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/beijings-employment-plan-warns-against",
+    "article_date": "2026-06-18",
+    "article_title": "Beijing's Employment Plan Warns Against 'Large-scale Unemployment Risks' - New Global Governance White Paper - China-Myanmar Joint Statement - Iran Must 'Properly Address' Hormuz Navigation Issue",
+    "statements": [
+      {
+        "speaker": "Vice President Han Zheng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice President of the People's Republic of China",
+        "speaker_importance": 5,
+        "context": "Meeting with former US Transportation Secretary Elaine Chao in Beijing, reported by Xinhua",
+        "quote_or_paraphrase": "The heads of state of China and the United States have agreed on a new vision of a constructive China-U.S. relationship of strategic stability, providing important strategic guidance for future bilateral relations. China has always been committed to developing stable China-U.S. relations. Implementing the consensus reached by the two heads of state calls for joint actions from all sectors on both sides. Efforts should be made to further strengthen cooperation in economic and trade, among other fields, and deepen cultural, people-to-people and subnational exchanges, to shore up the support for the development of bilateral relations.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Phone call with Iranian Foreign Minister Seyed Abbas Araghchi",
+        "quote_or_paraphrase": "China welcomes the reaching of the first-phase MoU between Iran and the United States. Facts have proven that force and power politics cannot solve problems, and that dialogue and negotiation are the correct choice. As a comprehensive strategic partner, China has always supported Iran's reasonable and legitimate propositions, supported Iran in safeguarding its own sovereignty and security. China stands ready to strengthen communication and coordination with Iran and, while consolidating and deepening China-Iran relations, to continue making contributions to safeguarding and promoting regional peace and stability.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/state-council-discusses-functional",
+    "article_date": "2026-06-16",
+    "article_title": "State Council Discusses Functional Zoning Strategy - What is Xi Jinping Thought on Party Building? - Zhong Sheng Warning on Japan's Military-Industrial Complex - Nepal FM's Meets Wang Yi",
+    "statements": [
+      {
+        "speaker": "Lin Jian",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Ministry Spokesperson",
+        "speaker_importance": 2,
+        "context": "Regular press briefing",
+        "quote_or_paraphrase": "China welcomes the U.S. and Iran reaching agreement on the text of the memorandum of understanding for the first stage of negotiations and commends Pakistan's mediation efforts. We hope the document will be signed according to the agreed timetable and all relevant parties will stay committed to peaceful solutions and resolve issues through dialogue and negotiation. China stands ready to join the international community in playing an active role in restoring peace and tranquility to the Middle East and Gulf region at an early date.",
+        "topic": "Middle East diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Lin Jian",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Ministry Spokesperson",
+        "speaker_importance": 2,
+        "context": "Regular press briefing",
+        "quote_or_paraphrase": "We have noted that the text of the memorandum of understanding for the first stage of negotiations between Iran and the United States includes the reopening of the Strait of Hormuz. We hope the Strait will become safe again for free passage at an early date. China stands ready to maintain communication with regional countries and the international community on relevant issues.",
+        "topic": "Middle East diplomacy",
+        "framing": "constructive",
+        "tone": "neutral",
+        "tone_intensity": 1
+      },
+      {
+        "speaker": "Lin Jian",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Ministry Spokesperson",
+        "speaker_importance": 2,
+        "context": "Regular press briefing",
+        "quote_or_paraphrase": "Since the outbreak of the conflict, China has been working tirelessly for the end of fighting and for peace. President Xi Jinping made four propositions on safeguarding and promoting peace and stability in the Middle East, which embody China's consistent position and active efforts to promote peace, end hostilities, and advocate resolving disputes through dialogue. As a Chinese solution to end the conflict and realize peace, the propositions have played an important role in building global consensus and received broad recognition from regional countries and the international community. Guided by the spirit of the propositions and upholding fairness and justice, China, as a responsible major country, will continue to make our contribution to enabling lasting peace in the Middle East.",
+        "topic": "Middle East diplomacy",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "He Lifeng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Premier and Politburo member",
+        "speaker_importance": 4,
+        "context": "Meeting with US Representative Lou Correa in Beijing",
+        "quote_or_paraphrase": "The presidents of China and the United States agreed on a new vision of building a constructive bilateral relationship of strategic stability, providing strategic guidance for the next phase of China-U.S. relations. China is ready to work with the United States to fully and accurately implement the important common understandings reached by the two heads of state, strengthen dialogue and expand cooperation on the basis of mutual respect, peaceful coexistence and win-win cooperation, and strive to promote the healthy, stable, and sustainable development of bilateral economic and trade relations.",
+        "topic": "US-China relations",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Reception for 25th anniversary of Shanghai Cooperation Organization",
+        "quote_or_paraphrase": "It is necessary to improve global governance. Practice true multilateralism, uphold the principle of extensive consultation, joint contribution, and shared benefits, safeguard the authority and role of the United Nations, and advocate an equal and ordered multipolar world and universally beneficial and inclusive economic globalization.",
+        "topic": "multilateralism and global governance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/state-council-meeting-on-budget-management",
+    "article_date": "2026-06-12",
+    "article_title": "State Council Meeting on Budget Management, Tech, Education & Environment - What Protections do New Regulations offer Gig Workers? China Sanctions Philippine Defense Secretary",
+    "statements": [
+      {
+        "speaker": "Ministry of Foreign Affairs",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official statement on sanctions against Philippine Defense Secretary",
+        "quote_or_paraphrase": "Gilberto Teodoro Jr. repeatedly made irresponsible remarks on China, which undermines China's legitimate interests and sabotages China-Philippines relations. China has decided to prohibit him and his family from entering Chinese mainland, Hong Kong and Macao, and not allow organizations and individuals in China to engage in any transaction, cooperation or other activities with him.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/wang-xuedian-gci-pursuing-pluralistic",
+    "article_date": "2026-06-10",
+    "article_title": "Wang Xuedian: GCI Pursuing Pluralistic Co-existence in a World of Multiple Modernities",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Article quoting Xi's statements on the Global Civilization Initiative",
+        "quote_or_paraphrase": "We should jointly advocate strengthening international people-to-people exchanges and cooperation, explore the building of a global civilizational dialogue and cooperation network, enrich the content of exchanges, expand channels of cooperation, promote mutual understanding and affinity among the peoples of all countries, and jointly advance the development and progress of human civilization.",
+        "topic": "diplomacy, civilizational dialogue",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Article quoting Xi on the Global Civilization Initiative's purpose",
+        "quote_or_paraphrase": "The purpose of putting forward the Global Civilization Initiative is to promote mutual understanding and affinity among the peoples of all countries, and to promote mutual tolerance and mutual learning among all civilizations.",
+        "topic": "diplomacy, civilizational dialogue",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Article quoting Xi on civilizational exchange and mutual learning",
+        "quote_or_paraphrase": "Civilizational exchange and mutual learning is the inexhaustible driving force for advancing human civilizational progress and world peace and development.",
+        "topic": "diplomacy, civilizational dialogue",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Xuedian",
+        "speaker_type": "individual",
+        "speaker_title": "Dean of the Advanced Institute of Confucian Studies, Shandong University",
+        "speaker_importance": 2,
+        "context": "Academic article on the Global Civilization Initiative",
+        "quote_or_paraphrase": "The 'end of history' theory was a product of Western-centrism. The 'clash of civilizations' theory is a false proposition; conflicts are not caused by different civilizations themselves but are largely geopolitical bloc conflicts that Western great powers have ideologized to maintain their interests.",
+        "topic": "diplomacy, Western dominance, geopolitical conflict",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Xuedian",
+        "speaker_type": "individual",
+        "speaker_title": "Dean of the Advanced Institute of Confucian Studies, Shandong University",
+        "speaker_importance": 2,
+        "context": "Academic article on the Global Civilization Initiative",
+        "quote_or_paraphrase": "Since the Industrial Revolution, modern Western civilization, relying on its advantages in productive forces, achieved global expansion and imposed its own development model and value standards upon the world, causing the global governance system to be deeply imprinted with 'Western-centrism'. This exposed the hegemonic logic of treating civilization's temporal attribute in an absolutized manner and using it to suppress or negate the spatial attributes of other civilizations.",
+        "topic": "Western dominance, development models, global governance",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Xuedian",
+        "speaker_type": "individual",
+        "speaker_title": "Dean of the Advanced Institute of Confucian Studies, Shandong University",
+        "speaker_importance": 2,
+        "context": "Academic article on the Global Civilization Initiative",
+        "quote_or_paraphrase": "The Global Civilization Initiative resolutely opposes using the temporal attribute as a pretext to negate or suppress civilization's spatial attribute, and advocates that all countries must advance modernization on the basis of inheriting their own civilizational characteristics and holding firm to their cultural subjectivity.",
+        "topic": "civilizational diversity, global governance, Western dominance",
+        "framing": "defensive, counter to Western hegemony",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Xuedian",
+        "speaker_type": "individual",
+        "speaker_title": "Dean of the Advanced Institute of Confucian Studies, Shandong University",
+        "speaker_importance": 2,
+        "context": "Academic article on the Global Civilization Initiative",
+        "quote_or_paraphrase": "Global governance transformation should break the monopoly of great powers and drive the full absorption of the governance wisdom and practical experience of non-Western civilizations in the formulation of international rules and the setting of global agendas, making rule formulation more representative and balanced.",
+        "topic": "global governance, Western dominance, international rules",
+        "framing": "accusatory, challenging Western hegemony",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-north-korea-visit-three-gorges",
+    "article_date": "2026-06-09",
+    "article_title": "Xi's North Korea Visit - Three Gorges New Waterway Project - Wang Yi on Dialogue among Civilizations",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Visit to Pyongyang, remarks reported in People's Daily",
+        "quote_or_paraphrase": "Facing the profound changes unseen in a century that are accelerating across the world, the two sides should take a broad and long-term view and seize opportunities in the prevailing trend of human history. China and the DPRK should strengthen strategic coordination and cooperation, resolutely defend their respective sovereignty, security, and development interests, and jointly safeguard regional peace and development.",
+        "topic": "diplomacy, regional strategy",
+        "framing": "assertive defense against external pressures",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Visit to Pyongyang, remarks reported in People's Daily",
+        "quote_or_paraphrase": "I have put forward the concept of building a community with a shared future for mankind and the four major global initiatives, hoping to promote the development of global governance in a more just and reasonable direction, which has received broad support and positive responses from the international community including the DPRK side.",
+        "topic": "global governance, diplomacy",
+        "framing": "constructive alternative to Western-led order",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Remarks at event marking International Day for Dialogue among Civilizations, reported in People's Daily",
+        "quote_or_paraphrase": "Human civilization development currently faces unprecedented challenges, divisions and confrontation are intensifying, turbulence and conflict are recurring, international rule of law is being eroded, and trust deficits are deepening. We must transcend narrow theories of 'civilizational superiority' and 'clash of civilizations'. China persists in high-level opening up and is willing to strengthen civilizational dialogue with all countries, deepen exchanges of experience in state governance, jointly crack the difficult problems of the era, and work together to broaden the path of world modernization.",
+        "topic": "diplomacy, global governance, ideology",
+        "framing": "accusatory of Western approaches; constructive alternative positioning",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
   }
 ]
