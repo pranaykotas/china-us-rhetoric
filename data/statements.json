@@ -94788,5 +94788,333 @@
         "tone_intensity": 3
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-youth-agenda-veterans-propaganda",
+    "article_date": "2021-05-03",
+    "article_title": "Xi's Youth Agenda - Veterans Propaganda Campaign - Vacuous Vaccine Rhetoric",
+    "statements": [
+      {
+        "speaker": "People's Daily",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "News article in May 3, 2021 edition",
+        "quote_or_paraphrase": "Some developed countries have artificially created an 'immune gap' by hoarding vaccines and imposing export controls... The international community has generally called for jointly resisting 'vaccine nationalism'",
+        "topic": "COVID-19 vaccines and multilateralism",
+        "framing": "accusatory toward developed countries (implicitly Western/US-led)",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/li-meets-with-visiting-leaders-in",
+    "article_date": "2026-06-24",
+    "article_title": "Li Meets with Visiting Leaders in Dalian - Wang Yi's BRICS Engagements in Delhi - Make Biomedicine 'Emerging Pillar Industry'; Foster Brain-computer Interface Tech as Future Industry",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Iranian Deputy Secretary of Supreme National Security Council Qadir Nizamipour at BRICS NSA meetings in Delhi",
+        "quote_or_paraphrase": "China welcomes follow-up consultations between Iran and the United States based on the MoU signed between the two countries. The core provisions calling for cessation of hostilities, refraining from use or threat of force, mutual respect for sovereignty and non-interference in internal affairs embody equality and align with UN Charter. Effectively maintaining and implementing the MoU will help consolidate the ceasefire and bring peace to the Middle East.",
+        "topic": "diplomacy, Middle East conflict, Iran-US relations",
+        "framing": "constructive, supportive of de-escalation",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with UAE's Ali Mohammed Hammed Al Shamsi at BRICS NSA meetings",
+        "quote_or_paraphrase": "Since the outbreak of the US-Israel-Iran war, China and UAE have maintained close communication. The war should never have happened and ought to be ended as soon as possible. Three key priorities: (1) persist in permanent and comprehensive ceasefire and implement the MoU; (2) restore normal navigation through Strait of Hormuz; (3) rebuild mutual trust among regional countries and explore new regional security architecture. The Middle East should not become an arena for major-power rivalry or victim of geopolitics.",
+        "topic": "diplomacy, Middle East conflict, regional security",
+        "framing": "constructive, opposes great-power competition in the region",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Egyptian official Youssef Alaa El-Deen at BRICS NSA meetings",
+        "quote_or_paraphrase": "China has always maintained that regional hotspots and divergences should be resolved through dialogue and negotiation, and opposed the use or threat of force. The MoU signed between US and Iran, which commits both sides to respect sovereignty, refrain from military operations and avoid interfering in internal affairs, sends a positive signal and should be jointly upheld. Now that the door to peace has been opened, it must not be closed again.",
+        "topic": "diplomacy, Middle East conflict, international law",
+        "framing": "constructive, emphasizes international rules and peaceful resolution",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Separate readout on lessons from West Asia war at BRICS meetings",
+        "quote_or_paraphrase": "Four key lessons: (1) Importance of safeguarding international rules—any resolution should be premised on compliance with international rules; the law of the jungle may prevail temporarily but is not sustainable. (2) Importance of respecting national sovereignty—territorial integrity must not be violated, internal affairs must not be interfered in. (3) Importance of new security concept—countries increasingly form a community with shared destiny; seeking absolute security at expense of others' security will backfire. (4) Importance of grasping new forms of warfare—information and cyber warfare increasingly manifested.",
+        "topic": "international law, security, geopolitics",
+        "framing": "defensive of international order, implicitly critical of US-led interventionism",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "BRICS NSA meeting remarks on counter-terrorism and cybersecurity",
+        "quote_or_paraphrase": "The world is witnessing a new wave of international terrorist activities; root cause lies in unilateralist actions that have intensified conflicts. BRICS countries should address both symptoms and root causes, strengthen counter-terrorism cooperation, deepen intelligence sharing and operational coordination. On cybersecurity: emerging technologies like AI are reshaping cyberspace; BRICS should jointly uphold international rules for cyberspace, oppose artificial creation of division and confrontation, promote UN Convention against Cybercrime, and participate in International Alliance to Combat Telecom and Online Fraud.",
+        "topic": "counter-terrorism, cybersecurity, international governance",
+        "framing": "accusatory toward unilateralism; defensive of international order",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Broader BRICS meeting statement",
+        "quote_or_paraphrase": "BRICS cooperation has increasingly become a backbone force for safeguarding peace, promoting development, and upholding justice. Four key priorities: (1) Uphold international order through BRICS responsibility—hold high banner of multilateralism, firmly safeguard UN Charter purposes and principles, clearly oppose unilateralism and protectionism. (2) Resolve security dilemmas through BRICS consensus—advocate common, comprehensive, cooperative, sustainable security concept, firmly promote political solutions to hotspot issues. (3) Respond to global challenges through BRICS action—resolutely combat all forms of terrorism, clearly oppose militarization of outer space. (4) Improve governance of emerging domains—closely guard against AI risks, regulate AI development direction, support advancing global cyberspace and digital governance through UN as main channel.",
+        "topic": "multilateralism, international order, global governance",
+        "framing": "assertive opposition to unilateralism and US-led order; constructs alternative multilateral framework",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "BRICS meeting closing remarks",
+        "quote_or_paraphrase": "China will assume BRICS rotating chairmanship next year and is willing to work with BRICS partners to actively implement the four global initiatives proposed by President Xi Jinping: promoting prosperity through development, maintaining stability through security, increasing mutual trust through civilization, and pursuing justice through governance.",
+        "topic": "multilateralism, global governance, China's international role",
+        "framing": "assertive positioning of China as alternative leader",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Russian Security Council Secretary Sergei Shoigu at BRICS NSA meetings",
+        "quote_or_paraphrase": "China is willing to work together with Russia to implement important consensus reached by two heads of state, continuously strengthen all-round China-Russia strategic coordination, promote accelerated development and rejuvenation of both countries, and make contributions to cause of peace and development for humanity. BRICS is important platform for international community to practice multilateralism, safeguard fairness and justice, and promote peace and security. China and Russia should strengthen coordination and cooperation, promote continuous strengthening and expansion of BRICS mechanism, and truly make it the foremost formation of the Global South.",
+        "topic": "China-Russia relations, multilateralism, BRICS",
+        "framing": "cooperative, emphasizes strategic coordination against unilateral order",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Sergei Shoigu",
+        "speaker_type": "individual",
+        "speaker_title": "Russian Security Council Secretary",
+        "speaker_importance": 4,
+        "context": "Meeting with Wang Yi at BRICS NSA meetings",
+        "quote_or_paraphrase": "In face of profound changes unseen in a century, Russia and China should deepen mutual trust, carry out close cooperation, jointly resist various forms of interference and infiltration by external forces in security field, and oppose Japan's attempts at 'remilitarization'. Russia stands ready to work with China to continually enhance strategic coordination within multilateral mechanisms such as BRICS, and to jointly safeguard peace and stability of region and world.",
+        "topic": "China-Russia relations, multilateralism, regional security",
+        "framing": "accusatory toward external interference; cooperative on China-Russia alignment",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-meets-min-aung-hlaing-us-iran",
+    "article_date": "2026-06-17",
+    "article_title": "Xi Meets Min Aung Hlaing - US-Iran MoU 'Far from an End Point, but a New Starting Point' - NDRC's Vision for China's Service Sector Development - Why New Officials Must Settle Old Accounts",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting readout with Myanmar's President Min Aung Hlaing",
+        "quote_or_paraphrase": "In the face of the fluid and turbulent international landscape, China and Myanmar need to stay strategically clear-headed and focused, and enhance solidarity and coordination",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "cautious",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with Myanmar's President Min Aung Hlaing",
+        "quote_or_paraphrase": "At present the international situation is complex and turbulent. China and Myanmar should strengthen close coordination and cooperation within multilateral frameworks such as the United Nations, the Lancang-Mekong Cooperation, and the Shanghai Cooperation Organisation, safeguard the common interests of developing countries, and promote the building of a more just and reasonable global governance system",
+        "topic": "multilateralism",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with UN Secretary-General candidate Rebeca Grynspan in Beijing",
+        "quote_or_paraphrase": "China has consistently been a supporter and builder of the UN cause. As a responsible major country and a permanent member of the UN Security Council, China will participate in the selection of the next UN secretary-general in a constructive manner. China stands ready to work with all parties to safeguard, revitalize and strengthen the United Nations",
+        "topic": "multilateralism",
+        "framing": "cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Phone call with Pakistan's Foreign Minister Mohammad Ishaq Dar",
+        "quote_or_paraphrase": "Since the outbreak of the war, China has engaged with all parties and actively promoted a ceasefire and peace talks. From the very beginning, China has firmly supported Pakistan and emphasized to all parties that Pakistan is a trustworthy mediator. China has also engaged separately with Iran and the United States in its own way",
+        "topic": "diplomacy",
+        "framing": "cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Phone call with Pakistan's Foreign Minister Mohammad Ishaq Dar",
+        "quote_or_paraphrase": "The international community should further support the Iran-US talks, and multilateral institutions, including the United Nations Security Council, should also play a greater role. China has consistently advocated that regional countries should take their future and destiny into their own hands",
+        "topic": "diplomacy",
+        "framing": "cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/focus-on-basic-education-wang-huning",
+    "article_date": "2026-07-23",
+    "article_title": "Focus on Basic Education - Wang Huning Visits Tibet - Cai Qi Meets Heads of Party Schools - What Was Wang Yi's Message in Manila? - Lan Fo'an Discusses Policies to Expand Demand",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with US Secretary of State Marco Rubio in Manila",
+        "quote_or_paraphrase": "This year marks a pivotal moment for China-U.S. relations. The two heads of state successfully held a historic meeting in Beijing, establishing the positioning of building a constructive China-U.S. relationship of strategic stability. Our responsibility is to follow the course set by the two heads of state, eliminate interference, overcome obstacles, and ensure that the consensus reached by the leaders is translated into consensus and action across the entire governments and in all fields. Through strategic stability between China and the U.S., we should promote world peace and tranquility.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with US Secretary of State Marco Rubio in Manila",
+        "quote_or_paraphrase": "Wang Yi elaborated China's solemn position regarding a series of recent negative words and actions by the U.S. side, calling on the U.S. to respect China's core interests, abide by the One-China principle, effectively manage contradictions and differences, address China's legitimate concerns, and turn this year of opportunity in China–U.S. relations into reality.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Philippine Foreign Affairs Secretary Ma. Theresa Lazaro in Manila",
+        "quote_or_paraphrase": "Facts have proven that allowing external forces to meddle in regional affairs and deliberately hyping up maritime disputes will only reduce the Philippines to a pawn manipulated by others. Any attempt at provocation backed by external countries will ultimately leave the Philippines bearing the bitter consequences of its own making.",
+        "topic": "South China Sea",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Philippine Foreign Affairs Secretary Ma. Theresa Lazaro in Manila",
+        "quote_or_paraphrase": "The Philippines abandoned bilateral negotiation mechanisms, assembled an ad hoc 'arbitral tribunal' urged by extraterritorial forces, and manufactured and hyped up the so-called award, which is illegal and void. China has never accepted, participated, or recognized this 'award' from the very outset.",
+        "topic": "South China Sea",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "China-ASEAN foreign ministers meeting in Manila",
+        "quote_or_paraphrase": "First, safeguard the regional environment for peace and development. Taking the 50th anniversary of the Treaty of Amity and Cooperation in Southeast Asia as an opportunity, both sides should carry forward the Asian values of peace, cooperation, openness, and inclusiveness; firmly oppose unreasonable interference by external forces; resist the creation of exclusive 'small circles'; reject the incitement of bloc confrontation; and never allow militarism to make a comeback.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "China-ASEAN foreign ministers meeting in Manila",
+        "quote_or_paraphrase": "Wang Yi elaborated China's principled position on the South China Sea. The South China Sea is our common home. China and ASEAN countries have the wisdom and capability to continue handling South China Sea issues properly, ensuring that peace, stability, cooperation, and friendship remain the dominant narrative of the South China Sea. Regional countries should strictly abide by the Declaration on the Conduct of Parties in the South China Sea (DOC) while resisting attempts by external powers to fan the flames and opposing efforts by certain countries to stir up trouble over maritime issues. The leading role in safeguarding peace and stability in the South China Sea must be firmly kept in the hands of regional countries themselves.",
+        "topic": "South China Sea",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Malaysian Foreign Minister Mohamad Hasan in Manila",
+        "quote_or_paraphrase": "The early conclusion of consultations on the Code of Conduct in the South China Sea (COC) would help safeguard peace and stability in the region, keep the region's future in the hands of regional countries, and deny external actors any opportunity to meddle or cause disruption.",
+        "topic": "South China Sea",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Canadian Foreign Minister in Manila",
+        "quote_or_paraphrase": "Since the beginning of this year, China-Canada relations have continued to improve, with increasingly close exchanges at all levels and fruitful cooperation across various fields. Bilateral trade volume grew by 16 percent year-on-year in the first half of the year, with Canadian exports to China increasing by 23.3 percent. Canadian agricultural products such as canola and beef have returned to the Chinese market, and Chinese electric vehicles have entered the Canadian market. China is ready to work with Canada to implement the important common understandings reached by the leaders of the two countries, properly handle differences and sensitive issues, and continuously enrich the substance of the China-Canada new Strategic Partnership.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Papua New Guinea's Foreign Affairs Minister Justin Tkatchenko in Manila",
+        "quote_or_paraphrase": "China appreciates PNG for closing the Taipei economic office, adding that the decision is another key measure by the PNG government to implement the one-China principle, and will further consolidate the political foundation of the relationship between China and PNG. It also provides a model for other countries to handle issues related to Taiwan institutions.",
+        "topic": "Taiwan",
+        "framing": "defensive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Papua New Guinea's Foreign Affairs Minister Justin Tkatchenko in Manila",
+        "quote_or_paraphrase": "China's development of relations with Pacific island countries does not involve geopolitical games or seek a so-called sphere of influence. These countries have the right to independently choose their development partners and should not be interfered with by third parties.",
+        "topic": "diplomacy",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      }
+    ]
   }
 ]
