@@ -95116,5 +95116,386 @@
         "tone_intensity": 2
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/5th-plenum-politburo-meets-on-economy",
+    "article_date": "2026-07-31",
+    "article_title": "5th Plenum - Politburo Meets on Economy - How PLA has Evolved Under Xi - China Expresses 'Serious Concern' with US Economic Measures - China's Nukes 'Essential'; Japan's Nuke Ambitions a 'Red Line'",
+    "statements": [
+      {
+        "speaker": "Politburo/Party Central Committee",
+        "speaker_type": "institution",
+        "speaker_title": "Party organ",
+        "speaker_importance": 5,
+        "context": "Mid-year Politburo meeting readout published in People's Daily",
+        "quote_or_paraphrase": "As profound changes have taken place in the external environment, China's domestic circumstances, and the Party's own conditions, comprehensive and strict Party self-governance is also facing many new situations and new problems.",
+        "topic": "domestic governance",
+        "framing": "neutral",
+        "tone": "neutral",
+        "tone_intensity": 1
+      },
+      {
+        "speaker": "Politburo/Party Central Committee",
+        "speaker_type": "institution",
+        "speaker_title": "Party organ",
+        "speaker_importance": 5,
+        "context": "Mid-year Politburo meeting readout published in People's Daily",
+        "quote_or_paraphrase": "The meeting held that, since the beginning of this year, the Party Central Committee with Comrade Xi Jinping at its core has...effectively responding to various external shocks and internal difficulties. Our country's economy has exhibited a development trend in which growth momentum is shifting toward the new and the economic structure is shifting toward the better.",
+        "topic": "economy/external challenges",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Politburo/Party Central Committee",
+        "speaker_type": "institution",
+        "speaker_title": "Party organ",
+        "speaker_importance": 5,
+        "context": "Mid-year Politburo meeting readout published in People's Daily",
+        "quote_or_paraphrase": "Expand the space for mutually beneficial international economic and trade cooperation, vigorously develop trade in services, and promote the balanced development of trade. Improve the system for the management of outbound investment and the comprehensive overseas service system, and actively attract and utilize foreign investment.",
+        "topic": "trade and investment",
+        "framing": "constructive",
+        "tone": "neutral",
+        "tone_intensity": 1
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President/General Secretary",
+        "speaker_importance": 5,
+        "context": "Symposium with non-CPC personages on economic work, July 24, 2026",
+        "quote_or_paraphrase": "In carrying out economic work in the second half of the year, adhere to deepening reform and opening up, accelerate the transformation of old and new growth drivers, effectively implement a more proactive fiscal policy and a moderately accommodative monetary policy...increase efforts to expand domestic demand and optimize supply.",
+        "topic": "economy/trade",
+        "framing": "neutral",
+        "tone": "neutral",
+        "tone_intensity": 1
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President/General Secretary",
+        "speaker_importance": 5,
+        "context": "Symposium with non-CPC personages on economic work, July 24, 2026",
+        "quote_or_paraphrase": "At present, our country's economic performance also faces some difficulties and challenges...In the second half of the year, we must enhance the effectiveness of macro policy, focusing on...expanding high-standard opening up.",
+        "topic": "economy/external challenges",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Ministry of Commerce (MOFCOM)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Spokesperson statement on US tariffs",
+        "quote_or_paraphrase": "The Chinese side expressed serious concern over the recent economic and trade restrictions imposed by the United States on China. The US move was 'a typical act of unilateralism and protectionism, which China firmly opposes.' China has consistently opposed forced labor and has established a comprehensive labor law and regulatory framework. By contrast, the United States has yet to ratify the Forced Labour Convention, 1930, and has long manipulated the 'forced labor' issue.",
+        "topic": "trade/tariffs",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Commerce (MOFCOM)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Spokesperson statement on US tariffs",
+        "quote_or_paraphrase": "In China-U.S. economic and trade consultations, the United States made a clear commitment that any replacement additional tariffs on Chinese goods would not exceed 20 percent. Currently, the replacement additional tariffs imposed by the United States on Chinese goods stand at 12.5 percent. The United States should correct its wrong practices and fully remove the relevant unilateral tariff measures.",
+        "topic": "trade/tariffs",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Commerce (MOFCOM)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Spokesperson statement on US tariffs",
+        "quote_or_paraphrase": "China will continue to closely monitor and conduct a full assessment of subsequent U.S. moves, and reserves the right to take all necessary measures. China is willing to continue dialogue and consultations with the United States on the basis of mutual respect, equality and mutual benefit.",
+        "topic": "trade/diplomacy",
+        "framing": "defensive/constructive",
+        "tone": "cautious",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Ministry of Commerce (MOFCOM)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Spokesperson statement on US AI investigation threats",
+        "quote_or_paraphrase": "China has slammed the US plan to investigate and threat to sanction Chinese artificial intelligence (AI) firms, stressing that such moves lack factual basis and legal justification. China has consistently opposed the US politicizing and weaponizing science, technology and trade issues, as well as smearing Chinese companies and imposing sanctions under various groundless pretexts.",
+        "topic": "technology/sanctions",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Commerce (MOFCOM)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Spokesperson statement on US AI investigation threats",
+        "quote_or_paraphrase": "The MOFCOM spokesperson further criticized the US side, which was disregarding facts such as the close release timelines of Chinese and US cutting-edge AI models and the progress made by some Chinese models, saying that it has groundlessly accused Chinese companies of relying on 'distillation' or 'stealing US intellectual property,' while threatening sanctions. These practices lack factual basis and legal justification, apply double standards in practice, and are typical acts of AI hegemony.",
+        "topic": "technology",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Commerce (MOFCOM)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Spokesperson statement on US FCC Covered List decision",
+        "quote_or_paraphrase": "The U.S. side should immediately revoke these measures and end its erroneous practices. The FCC has, despite China's repeated representations and restrained approach, continued to introduce and escalate restrictive measures, seriously harming China's legitimate trade interests, undermining the stability of China-U.S. economic and trade relations, and disrupting the stability of global industrial and supply chains.",
+        "topic": "trade/technology",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Commerce (MOFCOM)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Spokesperson statement on US FCC Covered List decision",
+        "quote_or_paraphrase": "The United States has overstretched the concept of national security and used administrative measures to interfere in normal commercial transactions and trade activities. The pursuit of 'decoupling and supply chain disruption' constitutes a typical case of market distortion and unilateral bullying. If the United States insists on moving ahead, China will take resolute countermeasures to safeguard its legitimate rights and interests.",
+        "topic": "trade/sanctions",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "He Lifeng",
+        "speaker_type": "individual",
+        "speaker_title": "Senior official (economic coordination)",
+        "speaker_importance": 4,
+        "context": "Call with USTR Jamieson Greer and Treasury Secretary Scott Bessent, readout from People's Daily",
+        "quote_or_paraphrase": "The two sides held candid, in-depth and constructive exchanges on implementing the important consensus reached between the two heads of state at their meeting in Beijing, and on maintaining stable economic and trade relations, expanding practical cooperation, and properly addressing each other's concerns. The Chinese side expressed serious concern over the recent economic and trade restrictions imposed by the United States on China.",
+        "topic": "diplomacy/trade",
+        "framing": "constructive/defensive",
+        "tone": "cautious",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "He Lifeng",
+        "speaker_type": "individual",
+        "speaker_title": "Senior official (economic coordination)",
+        "speaker_importance": 4,
+        "context": "Call with USTR Jamieson Greer and Treasury Secretary Scott Bessent, readout from People's Daily",
+        "quote_or_paraphrase": "Both sides agreed that under the strategic guidance of the two heads of state, they would further leverage the role of the China-U.S. economic and trade consultation mechanism to enhance communication, build mutual trust and dispel doubts, expand cooperation, promote the stable and positive development of China-U.S. economic and trade relations, and contribute to building a constructive China-U.S. relationship of strategic stability.",
+        "topic": "diplomacy/trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Mao Ning",
+        "speaker_type": "individual",
+        "speaker_title": "Ministry of Foreign Affairs Spokesperson",
+        "speaker_importance": 2,
+        "context": "MFA regular press briefing",
+        "quote_or_paraphrase": "China's nuclear policy maintains a high degree of stability, continuity and predictability. We advocate the complete prohibition and thorough destruction of nuclear weapons, follow a policy of no-first-use of nuclear weapons, and unconditionally commit not to use or threaten to use nuclear weapons against non-nuclear-weapon states or nuclear-weapon-free zones. China follows a nuclear strategy of self-defense, keeping its nuclear capabilities at the minimum level required for safeguarding national security, and does not engage in any form of nuclear arms race.",
+        "topic": "military/security",
+        "framing": "constructive/defensive",
+        "tone": "neutral",
+        "tone_intensity": 1
+      },
+      {
+        "speaker": "Mao Ning",
+        "speaker_type": "individual",
+        "speaker_title": "Ministry of Foreign Affairs Spokesperson",
+        "speaker_importance": 2,
+        "context": "MFA regular press briefing",
+        "quote_or_paraphrase": "China's nuclear strength is an essential force for deterring nuclear warfare and safeguarding world peace and security as well as global strategic stability.",
+        "topic": "military/security",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Jiang Bin",
+        "speaker_type": "individual",
+        "speaker_title": "Ministry of National Defense Spokesperson",
+        "speaker_importance": 2,
+        "context": "Ministry of National Defense press conference",
+        "quote_or_paraphrase": "Described recent remarks by the Japanese defense minister as 'extremely provocative and dangerous,' saying they had once again exposed Japan's pretense and lies to the international community. 'I wonder whether the Japanese side is using these remarks to test the tolerance of public opinion and pave the way for its ill attempts challenging the bottom line of international justice.'",
+        "topic": "military/regional security",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Jiang Bin",
+        "speaker_type": "individual",
+        "speaker_title": "Ministry of National Defense Spokesperson",
+        "speaker_importance": 2,
+        "context": "Ministry of National Defense press conference",
+        "quote_or_paraphrase": "Japan is internationally recognized as a nuclear-threshold state and has stockpiled approximately 44.4 metric tons of separated plutonium and long maintained the capability for a rapid nuclear breakout. Japan's attempt to breach the three non-nuclear principles seriously violates its obligations under international law as stipulated in the Treaty on the Non-Proliferation of Nuclear Weapons, severely undermines the international nuclear non-proliferation regime, and poses a grave threat to the outcomes of the victory of World War II and the post-war international order.",
+        "topic": "military/regional security",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 5
+      },
+      {
+        "speaker": "Jiang Bin",
+        "speaker_type": "individual",
+        "speaker_title": "Ministry of National Defense Spokesperson",
+        "speaker_importance": 2,
+        "context": "Ministry of National Defense press conference",
+        "quote_or_paraphrase": "'Japan's nuclear ambition is a red line that should never be crossed. Otherwise, if the Pandora's box is opened, the consequences would be catastrophic,' calling on the international community and people in Japan to remain highly vigilant and resolutely contain such a tendency.",
+        "topic": "military/regional security",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 5
+      },
+      {
+        "speaker": "Mao Ning",
+        "speaker_type": "individual",
+        "speaker_title": "Ministry of Foreign Affairs Spokesperson",
+        "speaker_importance": 2,
+        "context": "MFA regular press briefing",
+        "quote_or_paraphrase": "Japan's abandoned chemical weapons mark one of the gravest crimes that Japanese militarists committed during the war of aggression against China. The complete destruction of the ACWs is Japan's unshirkable historical, political and legal responsibility. Japan should have completed the destruction process by 2007. However, the Japanese side has demonstrated insufficient sincerity and inadequate input in fulfilling its obligations, and the implementation of the destruction plan has already missed its deadline four times.",
+        "topic": "regional security/history",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-message-on-overseas-chinese-affairs",
+    "article_date": "2026-07-29",
+    "article_title": "Xi's Message on Overseas Chinese Affairs Work - Shi Taifeng: Political Party building is Foremost for Party & State - China-Slovakia Ties - GDI Turns 5 - China Position on 'Excess Capacity Issue'",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary of CPC, President, Chairman of CMC",
+        "speaker_importance": 5,
+        "context": "Instructions to national conference on overseas Chinese affairs",
+        "quote_or_paraphrase": "Overseas Chinese affairs work has made positive contributions to promoting the country's economic and social development, preserving and promoting Chinese culture, and enhancing exchanges and cooperation between China and other countries. On the new journey, we must better rally the hearts and strength of overseas Chinese and guide them to uphold fine traditions, deepen their feelings for family and country, give play to their unique advantages, and actively serve the great cause of national reunification, promoting the united struggle of Chinese sons and daughters at home and abroad.",
+        "topic": "diplomacy, national unity",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Slovakia's President Peter Pellegrini",
+        "quote_or_paraphrase": "As transformations unseen in a century are accelerating across the world, the relations between China and Europe are facing both new, important opportunities and many challenges. The key to turning challenges into opportunities lies in conducting equal consultation and seeking commonality while resolving differences. China always sees the EU as a partner, and develops relations with the EU with sincerity and goodwill. It is hoped that Slovakia would play a constructive role in encouraging the EU to focus on consensus and properly handle disagreements with China, and in promoting the sound and steady development of China-EU relations.",
+        "topic": "diplomacy, EU relations",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Remarks at meeting commemorating five years of Global Development Initiative",
+        "quote_or_paraphrase": "We should uphold the international system centered around the U.N. and the international order based on international law, and make every effort to foster a generally stable international environment and favorable conditions for global development cooperation. China will continue to support the U.N. in its pursuit of reform, revitalization, and a stronger development pillar, so as to advance the interests of developing countries.",
+        "topic": "diplomacy, global governance",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Remarks at meeting commemorating five years of Global Development Initiative",
+        "quote_or_paraphrase": "We should champion openness and cooperation in a strong push to eliminate the digital and AI divides between North and South. Two weeks ago, China, together with 28 other countries, initiated the World Artificial Intelligence Cooperation Organization (WAICO). This is a major move taken by China to answer the call of the Global South for promoting AI development and governance. China is ready to deepen collaboration on innovation with all parties to help the Global South effectively seize new opportunities and tackle new challenges.",
+        "topic": "technology, global development",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs (through official document)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official position paper 'China's Position on the So-called Excess Capacity Issue'",
+        "quote_or_paraphrase": "Certain countries and economies have rising concerns about their industrial competitiveness and market positions, politicizing economic and trade issues by hyping the so-called 'excess capacity' problem in China, accusing Chinese production capacity of disrupting global markets, and using this as a pretext to escalate restrictive measures against China, thereby intensifying protectionism. Engaging in protectionism only disrupts the global economic and trade order, undermines the security and stability of global industrial and supply chains, hampers the healthy and orderly development of industrial cooperation, and poses long-term risks to world economic growth.",
+        "topic": "trade, economic policy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs (through official document)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official position paper 'China's Position on the So-called Excess Capacity Issue'",
+        "quote_or_paraphrase": "China's modernization of industrial development represents not 'China Shock 2.0' but 'China Opportunity 2.0' for the world.",
+        "topic": "trade, economic policy",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs (through official document)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official position paper 'China's Position on the So-called Excess Capacity Issue'",
+        "quote_or_paraphrase": "The U.S. Inflation Reduction Act, which plans to provide a total of USD750 billion in various subsidies from 2022 to 2031, requires that electric vehicles eligible for these subsidies shall be produced and sold in the U.S. or North America, effectively excluding other WTO members. The U.S. provides far more industrial subsidies for artificial intelligence (AI) than any other country. According to available statistics, the European Commission is set to provide EUR1.44 trillion in various subsidies between 2021 and 2030. The EU Industrial Accelerator Act links local content to fiscal support through the EU origin requirement.",
+        "topic": "trade, subsidies, protectionism",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs (through official document)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official position paper 'China's Position on the So-called Excess Capacity Issue'",
+        "quote_or_paraphrase": "It is imperative that all countries make the pie of global development bigger and introduce subsidies and other industrial policies in a rational and compliant manner, rather than use them as a tool to constrain the development of others. China stands ready to engage in discussions on the subsidy policy with all sides under the WTO framework to jointly bring relevant practices into compliance.",
+        "topic": "trade, subsidies, diplomacy",
+        "framing": "constructive",
+        "tone": "cautious",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-speaks-to-lula-xi-thought-on-rule",
+    "article_date": "2026-07-28",
+    "article_title": "Xi Speaks to Lula - Xi Thought on Rule of Law at Heart of Legal Propaganda & Education Plan",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Phone call with Brazilian President Luiz Inácio Lula da Silva, reported in People's Daily",
+        "quote_or_paraphrase": "China and Brazil, as important members of the Global South, should stand firmly on the right side of history and of the progress of civilization, and play a greater constructive role in reforming and improving the global governance system and defending international fairness and justice.",
+        "topic": "diplomacy, global governance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Phone call with Brazilian President Luiz Inácio Lula da Silva, reported in People's Daily",
+        "quote_or_paraphrase": "The two sides should join hands to promote the high-quality development of Greater BRICS cooperation, keep the direction of cooperation on track, maintain the momentum of unity, deliver more outcomes, and write a new chapter in the solidarity and self-strengthening of the Global South.",
+        "topic": "diplomacy, multilateralism",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
   }
 ]
