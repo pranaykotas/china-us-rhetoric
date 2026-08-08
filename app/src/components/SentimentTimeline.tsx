@@ -78,20 +78,20 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
     if (!bucket) return null;
 
     return (
-      <div className="bg-white p-2 sm:p-3 shadow-lg rounded-lg border text-xs sm:text-sm max-w-[200px] sm:max-w-none">
-        <p className="font-medium text-gray-900 mb-1 sm:mb-2">{label} ({bucket.total} statements)</p>
+      <div className="bg-white p-2 sm:p-3 border border-tk-rule text-xs sm:text-sm max-w-[200px] sm:max-w-none">
+        <p className="font-medium text-tk-ink mb-1 sm:mb-2">{label} <span className="tk-meta-muted">({bucket.total})</span></p>
         <div className="space-y-0.5 sm:space-y-1">
           {TONE_STACK_ORDER.slice().reverse().map((tone) => (
             <div key={tone} className="flex items-center gap-1 sm:gap-2">
-              <div className="w-2 h-2 sm:w-3 sm:h-3 rounded shrink-0" style={{ backgroundColor: TONE_COLORS[tone] }} />
-              <span className="capitalize text-gray-700">{tone}</span>
-              <span className="ml-auto font-medium">{bucket.tonePercents[tone]}%</span>
+              <div className="w-2 h-2 sm:w-3 sm:h-3 shrink-0" style={{ backgroundColor: TONE_COLORS[tone] }} />
+              <span className="capitalize text-[var(--tk-ink-70)]">{tone}</span>
+              <span className="ml-auto font-medium font-mono">{bucket.tonePercents[tone]}%</span>
             </div>
           ))}
         </div>
-        <div className="mt-1 sm:mt-2 pt-1 sm:pt-2 border-t border-gray-200">
-          <span className="text-gray-500">Sentiment: </span>
-          <span className="font-medium">{bucket.sentimentIndex}</span>
+        <div className="mt-1 sm:mt-2 pt-1 sm:pt-2 border-t border-tk-rule">
+          <span className="text-[var(--tk-ink-50)]">Sentiment: </span>
+          <span className="font-medium font-mono">{bucket.sentimentIndex}</span>
         </div>
       </div>
     );
@@ -110,38 +110,36 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
   const chartMargin = { top: 10, right: isMobile ? 15 : 30, left: 4, bottom: isMobile ? 10 : 5 };
 
   return (
-    <div id="sentiment-timeline" className="bg-white p-3 sm:p-4 rounded-lg shadow">
+    <div id="sentiment-timeline" className="bg-white p-3 sm:p-4 border border-tk-rule">
       <div className="flex flex-wrap justify-between items-start gap-2 mb-3 sm:mb-4">
-        <h3 className="text-base sm:text-lg font-medium text-gray-900">Rhetoric Sentiment Index</h3>
+        <h3 className="text-base sm:text-lg font-normal text-tk-ink tracking-[-0.01em]">Rhetoric Sentiment Index</h3>
         <div className="flex flex-wrap gap-1">
-          <div className="flex gap-1 bg-gray-100 rounded-lg p-1">
+          <div className="flex gap-px border border-tk-rule">
             <button
               onClick={() => setGranularity('monthly')}
-              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm rounded-md transition-colors ${
-                granularity === 'monthly' ? 'bg-white shadow text-gray-900' : 'text-gray-500 hover:text-gray-700'
+              className={`px-2 sm:px-3 py-1 text-xs font-mono uppercase tracking-wider transition-colors ${
+                granularity === 'monthly' ? 'bg-tk-wine text-white' : 'text-[var(--tk-ink-50)] hover:bg-tk-cream'
               }`}
             >
               Monthly
             </button>
             <button
               onClick={() => setGranularity('quarterly')}
-              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm rounded-md transition-colors ${
-                granularity === 'quarterly' ? 'bg-white shadow text-gray-900' : 'text-gray-500 hover:text-gray-700'
+              className={`px-2 sm:px-3 py-1 text-xs font-mono uppercase tracking-wider transition-colors ${
+                granularity === 'quarterly' ? 'bg-tk-wine text-white' : 'text-[var(--tk-ink-50)] hover:bg-tk-cream'
               }`}
             >
               Quarterly
             </button>
           </div>
-          <div className="flex gap-1 bg-gray-100 rounded-lg p-1 ml-1">
-            <button
-              onClick={() => setShowEvents((v) => !v)}
-              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm rounded-md transition-colors ${
-                showEvents ? 'bg-white shadow text-gray-900' : 'text-gray-500 hover:text-gray-700'
-              }`}
-            >
-              Events
-            </button>
-          </div>
+          <button
+            onClick={() => setShowEvents((v) => !v)}
+            className={`px-2 sm:px-3 py-1 text-xs font-mono uppercase tracking-wider border border-tk-rule transition-colors ml-1 ${
+              showEvents ? 'bg-tk-wine text-white border-tk-wine' : 'text-[var(--tk-ink-50)] hover:bg-tk-cream'
+            }`}
+          >
+            Events
+          </button>
         </div>
       </div>
 
@@ -150,25 +148,28 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
           <ComposedChart data={chartData} onClick={handleClick} margin={chartMargin}>
             <XAxis
               dataKey="label"
-              tick={{ fontSize: tickFontSize }}
+              tick={{ fontSize: tickFontSize, fontFamily: '"Roboto Mono", monospace', fill: 'rgba(23,20,19,0.7)' }}
               interval={xAxisInterval}
               angle={-45}
               textAnchor="end"
               height={xAxisHeight}
+              stroke="rgba(23,20,19,0.16)"
             />
             <YAxis
               yAxisId="percent"
               domain={[0, 100]}
               ticks={[0, 25, 50, 75]}
-              tick={{ fontSize: tickFontSize }}
+              tick={{ fontSize: tickFontSize, fontFamily: '"Roboto Mono", monospace', fill: 'rgba(23,20,19,0.7)' }}
               width={28}
+              stroke="rgba(23,20,19,0.16)"
             />
             <YAxis
               yAxisId="sentiment"
               orientation="right"
               domain={[-2, 2]}
-              tick={{ fontSize: tickFontSize }}
+              tick={{ fontSize: tickFontSize, fontFamily: '"Roboto Mono", monospace', fill: 'rgba(23,20,19,0.7)' }}
               width={24}
+              stroke="rgba(23,20,19,0.16)"
             />
             <Tooltip content={<CustomTooltip />} />
 
@@ -190,9 +191,9 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
               yAxisId="sentiment"
               type="monotone"
               dataKey="sentimentIndex"
-              stroke="#000"
+              stroke="#171413"
               strokeWidth={3}
-              dot={{ r: isMobile ? 2 : 3, fill: '#000' }}
+              dot={{ r: isMobile ? 2 : 3, fill: '#171413' }}
               name="Sentiment Index"
             />
 
@@ -204,14 +205,14 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
                   key={event.month}
                   x={xLabel}
                   yAxisId="percent"
-                  stroke="#9ca3af"
+                  stroke="rgba(23,20,19,0.3)"
                   strokeDasharray="4 2"
                   label={{
                     value: event.label,
                     angle: -90,
                     position: 'insideTopRight',
                     fontSize: isMobile ? 7 : 9,
-                    fill: '#6b7280',
+                    fill: 'rgba(23,20,19,0.5)',
                   }}
                 />
               );
@@ -221,7 +222,7 @@ export function SentimentTimeline({ monthlyData, onMonthClick }: SentimentTimeli
               verticalAlign="bottom"
               height={isMobile ? 48 : 36}
               formatter={(value: string) => (
-                <span style={{ fontSize: isMobile ? 10 : 12 }} className="capitalize">
+                <span style={{ fontSize: isMobile ? 10 : 12, fontFamily: '"Roboto Mono", monospace', color: '#171413' }} className="capitalize">
                   {value === 'sentimentIndex' ? 'Sentiment Index' : value}
                 </span>
               )}

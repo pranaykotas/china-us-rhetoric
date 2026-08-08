@@ -62,7 +62,6 @@ export function SpeakerProfile({ speaker, allStatements, onClose, onFilterBySpea
     return Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 3);
   }, [speakerStatements]);
 
-  // 12-month hostility sparkline
   const sparklineData = useMemo(() => {
     const monthMap: Record<string, { hostile: number; total: number }> = {};
     const now = new Date();
@@ -87,7 +86,6 @@ export function SpeakerProfile({ speaker, allStatements, onClose, onFilterBySpea
       }));
   }, [speakerStatements]);
 
-  // 3 notable quotes — highest speaker_importance × tone_intensity
   const notableQuotes = useMemo(() => {
     return [...speakerStatements]
       .sort((a, b) => {
@@ -100,61 +98,64 @@ export function SpeakerProfile({ speaker, allStatements, onClose, onFilterBySpea
 
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
+      className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50"
       onClick={onClose}
     >
       <div
-        className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[85vh] overflow-y-auto"
+        className="bg-white border border-tk-rule max-w-2xl w-full max-h-[85vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="p-6">
-          {/* Header */}
-          <div className="flex justify-between items-start mb-4">
+        {/* Header */}
+        <div className="border-b-2 border-tk-wine p-6">
+          <div className="flex justify-between items-start">
             <div>
-              <h2 className="text-xl font-bold text-gray-900">{speaker}</h2>
-              {speakerTitle && <p className="text-sm text-gray-500 mt-0.5">{speakerTitle}</p>}
-              <p className="text-xs text-gray-400 mt-1">{total} statements in dataset</p>
+              <h2 className="text-xl font-normal text-tk-ink tracking-[-0.01em]">{speaker}</h2>
+              {speakerTitle && <p className="text-sm text-[var(--tk-ink-70)] mt-0.5">{speakerTitle}</p>}
+              <p className="tk-meta-muted mt-1">{total} statements in dataset</p>
             </div>
             <div className="flex gap-2 items-center">
               <button
                 onClick={() => { onFilterBySpeaker(speaker); onClose(); }}
-                className="text-sm text-blue-600 hover:text-blue-800 border border-blue-200 px-3 py-1 rounded"
+                className="text-xs font-mono uppercase tracking-wider text-tk-wine border border-tk-wine px-3 py-1 hover:bg-tk-wine hover:text-white transition-colors"
               >
                 Filter
               </button>
-              <button onClick={onClose} className="text-gray-400 hover:text-gray-600">
+              <button onClick={onClose} className="text-[var(--tk-ink-50)] hover:text-tk-ink">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
             </div>
           </div>
+        </div>
 
+        <div className="p-6">
           {/* Hostility summary */}
-          <div className="mb-4 p-3 bg-gray-50 rounded-lg flex items-center gap-2">
-            <span className="font-semibold text-gray-900">{hostilityRate}% hostile</span>
-            <span className={`text-sm ${hostilityDelta > 0 ? 'text-red-600' : 'text-green-600'}`}>
-              {hostilityDelta >= 0 ? `(+${hostilityDelta}pp vs avg)` : `(${hostilityDelta}pp vs avg)`}
+          <div className="mb-5 p-3 bg-tk-cream border-l-2 border-tk-wine flex items-center gap-2">
+            <span className="font-medium text-tk-ink font-mono text-lg">{hostilityRate}%</span>
+            <span className="text-sm text-[var(--tk-ink-70)]">hostile</span>
+            <span className={`text-sm font-mono ${hostilityDelta > 0 ? 'text-red-600' : 'text-green-700'}`}>
+              {hostilityDelta >= 0 ? `+${hostilityDelta}pp` : `${hostilityDelta}pp`}
             </span>
-            <span className="text-xs text-gray-400 ml-auto">dataset avg: {globalHostilityRate}%</span>
+            <span className="tk-meta-muted ml-auto">avg: {globalHostilityRate}%</span>
           </div>
 
           {/* Tone distribution bars */}
-          <div className="mb-4">
-            <h3 className="text-sm font-medium text-gray-700 mb-2">Tone distribution</h3>
+          <div className="mb-5">
+            <h3 className="tk-eyebrow mb-2">Tone distribution</h3>
             <div className="space-y-1.5">
               {CANONICAL_TONES.map((tone) => {
                 const pct = total > 0 ? Math.round((toneCounts[tone] / total) * 100) : 0;
                 return (
                   <div key={tone} className="flex items-center gap-2 text-xs">
-                    <span className="w-24 capitalize text-gray-600">{tone}</span>
-                    <div className="flex-1 bg-gray-100 rounded h-4 overflow-hidden">
+                    <span className="w-24 capitalize text-[var(--tk-ink-70)]">{tone}</span>
+                    <div className="flex-1 bg-tk-cream h-4 overflow-hidden">
                       <div
-                        className="h-full rounded"
+                        className="h-full"
                         style={{ width: `${pct}%`, backgroundColor: TONE_COLORS[tone] }}
                       />
                     </div>
-                    <span className="w-16 text-right text-gray-500">
+                    <span className="w-16 text-right text-[var(--tk-ink-50)] font-mono">
                       {pct}% ({toneCounts[tone]})
                     </span>
                   </div>
@@ -164,11 +165,11 @@ export function SpeakerProfile({ speaker, allStatements, onClose, onFilterBySpea
           </div>
 
           {/* Top topics */}
-          <div className="mb-4">
-            <h3 className="text-sm font-medium text-gray-700 mb-2">Top topics</h3>
+          <div className="mb-5">
+            <h3 className="tk-eyebrow mb-2">Top topics</h3>
             <div className="flex flex-wrap gap-2">
               {topTopics.map(([topic, count]) => (
-                <span key={topic} className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded">
+                <span key={topic} className="px-2 py-1 bg-tk-cream text-tk-ink text-xs font-mono border border-tk-rule">
                   {topic} ({count})
                 </span>
               ))}
@@ -177,8 +178,8 @@ export function SpeakerProfile({ speaker, allStatements, onClose, onFilterBySpea
 
           {/* 12-month hostility sparkline */}
           {sparklineData.length > 1 && (
-            <div className="mb-4">
-              <h3 className="text-sm font-medium text-gray-700 mb-2">Hostility rate (last 12 months)</h3>
+            <div className="mb-5">
+              <h3 className="tk-eyebrow mb-2">Hostility rate (last 12 months)</h3>
               <div className="h-20">
                 <ResponsiveContainer width="100%" height="100%">
                   <LineChart data={sparklineData}>
@@ -190,9 +191,9 @@ export function SpeakerProfile({ speaker, allStatements, onClose, onFilterBySpea
                     <Line
                       type="monotone"
                       dataKey="hostilityRate"
-                      stroke="#ef4444"
+                      stroke="#620d3c"
                       strokeWidth={2}
-                      dot={{ r: 3, fill: '#ef4444' }}
+                      dot={{ r: 3, fill: '#620d3c' }}
                       name="Hostility %"
                     />
                   </LineChart>
@@ -203,23 +204,23 @@ export function SpeakerProfile({ speaker, allStatements, onClose, onFilterBySpea
 
           {/* Notable statements */}
           <div>
-            <h3 className="text-sm font-medium text-gray-700 mb-2">Notable statements</h3>
+            <h3 className="tk-eyebrow mb-2">Notable statements</h3>
             <div className="space-y-3">
               {notableQuotes.map((s, i) => (
-                <div key={i} className="border-l-2 border-gray-200 pl-3">
-                  <p className="text-sm text-gray-800 italic">"{s.quote_or_paraphrase}"</p>
+                <div key={i} className="border-l-2 border-tk-wine pl-3">
+                  <p className="text-sm text-[var(--tk-ink-70)] italic">"{s.quote_or_paraphrase}"</p>
                   <div className="flex items-center flex-wrap gap-2 mt-1">
-                    <span className="text-xs text-gray-400">{s.article_date}</span>
-                    <span className={`px-1.5 py-0.5 text-xs rounded-full ${TONE_BG_CLASSES[s.canonicalTone]}`}>
+                    <span className="tk-meta-muted">{s.article_date}</span>
+                    <span className={`px-1.5 py-0.5 text-xs font-mono ${TONE_BG_CLASSES[s.canonicalTone]}`}>
                       {s.canonicalTone}
                     </span>
                     <a
                       href={s.article_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs text-blue-500 hover:underline"
+                      className="text-xs text-tk-wine hover:underline"
                     >
-                      source →
+                      source ↗
                     </a>
                   </div>
                 </div>

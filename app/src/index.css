@@ -1,7 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto+Mono:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --tk-primary: #620d3c;
+  --tk-primary-dark: #4a0a2e;
+  --tk-primary-soft: #f5e6ec;
+  --tk-gold: #f1a222;
+  --tk-gold-soft: #fcf0d9;
+  --tk-bg: #FFFFFF;
+  --tk-bg-deep: #F7F5F2;
+  --tk-ink: #171413;
+  --tk-ink-70: rgba(23, 20, 19, 0.70);
+  --tk-ink-50: rgba(23, 20, 19, 0.50);
+  --tk-ink-20: rgba(23, 20, 19, 0.16);
+  --tk-ink-10: rgba(23, 20, 19, 0.08);
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  color: var(--tk-ink);
+  background-color: #FDFDFD;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+  letter-spacing: -0.01em;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.tk-eyebrow {
+  font-family: 'Roboto Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--tk-ink-50);
+}
+
+.tk-meta {
+  font-family: 'Roboto Mono', ui-monospace, monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.tk-meta-muted {
+  font-family: 'Roboto Mono', ui-monospace, monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--tk-ink-50);
 }

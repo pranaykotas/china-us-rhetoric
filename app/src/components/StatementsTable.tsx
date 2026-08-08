@@ -32,10 +32,10 @@ ${statement.article_date} | Source: ${statement.article_url}`;
     <button
       onClick={handleCopy}
       title="Copy quote with citation"
-      className="opacity-0 group-hover:opacity-100 ml-1 shrink-0 text-gray-400 hover:text-gray-700 transition-all"
+      className="opacity-0 group-hover:opacity-100 ml-1 shrink-0 text-[var(--tk-ink-50)] hover:text-tk-wine transition-all"
     >
       {copied ? (
-        <svg className="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-4 h-4 text-tk-wine" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
         </svg>
       ) : (
@@ -66,7 +66,7 @@ export function StatementsTable({
 
   const SortHeader = ({ field, label, className = '' }: { field: SortField; label: string; className?: string }) => (
     <th
-      className={`px-3 sm:px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 ${className}`}
+      className={`px-3 sm:px-4 py-3 text-left tk-meta-muted cursor-pointer hover:bg-tk-cream transition-colors duration-150 ${className}`}
       onClick={() => onSort(field)}
     >
       <div className="flex items-center gap-1">
@@ -79,42 +79,41 @@ export function StatementsTable({
   );
 
   return (
-    <div className="bg-white shadow rounded-lg overflow-hidden">
+    <div className="bg-white border border-tk-rule overflow-hidden">
       <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-gray-200">
-          <thead className="bg-gray-50">
-            <tr>
+        <table className="min-w-full">
+          <thead>
+            <tr className="border-b-2 border-tk-ink">
               <SortHeader field="date" label="Date" />
               <SortHeader field="speaker" label="Speaker" />
-              <th className="px-3 sm:px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-3 sm:px-4 py-3 text-left tk-meta-muted">
                 Quote / Paraphrase
               </th>
-              {/* Hide Category + Intensity on mobile */}
-              <th className="hidden md:table-cell px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="hidden md:table-cell px-4 py-3 text-left tk-meta-muted">
                 Category
               </th>
               <SortHeader field="tone" label="Tone" />
               <SortHeader field="tone_intensity" label="Int." className="hidden md:table-cell" />
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
+          <tbody>
             {visibleStatements.map((statement, index) => (
               <tr
                 key={`${statement.article_url}-${index}`}
-                className="hover:bg-gray-50 cursor-pointer group"
+                className="hover:bg-tk-cream cursor-pointer group border-b border-tk-rule last:border-b-0 transition-colors duration-150"
                 onClick={() => onStatementClick(statement)}
               >
-                <td className="px-3 sm:px-4 py-3 whitespace-nowrap text-xs sm:text-sm text-gray-900">
+                <td className="px-3 sm:px-4 py-3 whitespace-nowrap text-xs font-mono text-[var(--tk-ink-50)]">
                   {statement.article_date}
                 </td>
-                <td className="px-3 sm:px-4 py-3 whitespace-nowrap text-xs sm:text-sm font-medium text-gray-900">
+                <td className="px-3 sm:px-4 py-3 whitespace-nowrap text-xs sm:text-sm font-medium text-tk-ink">
                   <div className="flex items-center gap-1">
                     <span>{statement.speaker}</span>
                     {onSpeakerProfileClick && (
                       <button
                         onClick={(e) => { e.stopPropagation(); onSpeakerProfileClick(statement.speaker); }}
                         title={`View ${statement.speaker} profile`}
-                        className="opacity-0 group-hover:opacity-100 text-gray-400 hover:text-blue-600 transition-all"
+                        className="opacity-0 group-hover:opacity-100 text-[var(--tk-ink-50)] hover:text-tk-wine transition-all"
                       >
                         <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -124,31 +123,31 @@ export function StatementsTable({
                     )}
                   </div>
                 </td>
-                <td className="px-3 sm:px-4 py-3 text-xs sm:text-sm text-gray-700">
+                <td className="px-3 sm:px-4 py-3 text-xs sm:text-sm text-[var(--tk-ink-70)]">
                   <div className="flex items-start gap-1">
                     <span className="line-clamp-2 sm:line-clamp-1">{statement.quote_or_paraphrase}</span>
                     <CopyRowButton statement={statement} />
                   </div>
                 </td>
-                <td className="hidden md:table-cell px-4 py-3 whitespace-nowrap text-sm text-gray-900">
+                <td className="hidden md:table-cell px-4 py-3 whitespace-nowrap text-sm text-tk-ink">
                   {statement.topicCategory}
                 </td>
                 <td className="px-3 sm:px-4 py-3 whitespace-nowrap">
                   <span
-                    className={`px-1.5 sm:px-2 py-0.5 sm:py-1 text-xs rounded-full ${
-                      TONE_BG_CLASSES[statement.canonicalTone] || 'bg-gray-100 text-gray-800'
+                    className={`px-1.5 sm:px-2 py-0.5 sm:py-1 text-xs font-mono ${
+                      TONE_BG_CLASSES[statement.canonicalTone] || 'bg-tk-cream text-tk-ink'
                     }`}
                   >
                     {statement.canonicalTone}
                   </span>
                 </td>
-                <td className="hidden md:table-cell px-4 py-3 whitespace-nowrap text-sm text-gray-900">
+                <td className="hidden md:table-cell px-4 py-3 whitespace-nowrap text-sm text-tk-ink">
                   <div className="flex items-center">
                     {[1, 2, 3, 4, 5].map((level) => (
                       <div
                         key={level}
-                        className={`w-2 h-4 mx-0.5 rounded ${
-                          level <= statement.tone_intensity ? 'bg-blue-500' : 'bg-gray-200'
+                        className={`w-2 h-4 mx-0.5 ${
+                          level <= statement.tone_intensity ? 'bg-tk-wine' : 'bg-tk-cream'
                         }`}
                       />
                     ))}
@@ -161,38 +160,38 @@ export function StatementsTable({
       </div>
 
       {totalPages > 1 && (
-        <div className="bg-white px-3 sm:px-4 py-3 border-t border-gray-200">
+        <div className="bg-white px-3 sm:px-4 py-3 border-t border-tk-rule">
           {/* Mobile pagination */}
           <div className="flex items-center justify-between sm:hidden">
             <button
               onClick={() => onPageChange(currentPage - 1)}
               disabled={currentPage === 1}
-              className="px-3 py-1.5 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
+              className="px-3 py-1.5 text-sm border border-tk-rule disabled:opacity-50 disabled:cursor-not-allowed hover:bg-tk-cream font-mono"
             >
               ← Prev
             </button>
-            <span className="text-xs text-gray-600">
+            <span className="tk-meta-muted">
               {currentPage} / {totalPages}
             </span>
             <button
               onClick={() => onPageChange(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className="px-3 py-1.5 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
+              className="px-3 py-1.5 text-sm border border-tk-rule disabled:opacity-50 disabled:cursor-not-allowed hover:bg-tk-cream font-mono"
             >
               Next →
             </button>
           </div>
           {/* Desktop pagination */}
           <div className="hidden sm:flex items-center justify-between">
-            <div className="text-sm text-gray-700">
+            <div className="text-sm text-[var(--tk-ink-70)]">
               Showing {startIndex + 1}–{Math.min(endIndex, statements.length)} of{' '}
               {statements.length} statements
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-1">
               <button
                 onClick={() => onPageChange(currentPage - 1)}
                 disabled={currentPage === 1}
-                className="px-3 py-1 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
+                className="px-3 py-1 text-sm border border-tk-rule disabled:opacity-50 disabled:cursor-not-allowed hover:bg-tk-cream font-mono"
               >
                 Previous
               </button>
@@ -211,8 +210,8 @@ export function StatementsTable({
                   <button
                     key={pageNum}
                     onClick={() => onPageChange(pageNum)}
-                    className={`px-3 py-1 text-sm border rounded ${
-                      currentPage === pageNum ? 'bg-blue-500 text-white' : 'hover:bg-gray-100'
+                    className={`px-3 py-1 text-sm border font-mono ${
+                      currentPage === pageNum ? 'bg-tk-wine text-white border-tk-wine' : 'border-tk-rule hover:bg-tk-cream'
                     }`}
                   >
                     {pageNum}
@@ -222,7 +221,7 @@ export function StatementsTable({
               <button
                 onClick={() => onPageChange(currentPage + 1)}
                 disabled={currentPage === totalPages}
-                className="px-3 py-1 text-sm border rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-100"
+                className="px-3 py-1 text-sm border border-tk-rule disabled:opacity-50 disabled:cursor-not-allowed hover:bg-tk-cream font-mono"
               >
                 Next
               </button>

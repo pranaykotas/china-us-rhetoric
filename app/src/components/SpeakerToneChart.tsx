@@ -64,16 +64,16 @@ export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: Sp
     if (!data) return null;
 
     return (
-      <div className="bg-white p-2 sm:p-3 shadow-lg rounded-lg border text-xs sm:text-sm">
-        <p className="font-medium text-gray-900 mb-1 sm:mb-2">{label} ({data.total} statements)</p>
+      <div className="bg-white p-2 sm:p-3 border border-tk-rule text-xs sm:text-sm">
+        <p className="font-medium text-tk-ink mb-1 sm:mb-2">{label} <span className="tk-meta-muted">({data.total})</span></p>
         <div className="space-y-0.5 sm:space-y-1">
           {TONE_STACK_ORDER.slice().reverse().map((tone) => {
             const val = data[tone] as number;
             return val > 0 ? (
               <div key={tone} className="flex items-center gap-1 sm:gap-2">
-                <div className="w-2 h-2 sm:w-3 sm:h-3 rounded shrink-0" style={{ backgroundColor: TONE_COLORS[tone] }} />
-                <span className="capitalize text-gray-700">{tone}</span>
-                <span className="ml-auto font-medium">{val}%</span>
+                <div className="w-2 h-2 sm:w-3 sm:h-3 shrink-0" style={{ backgroundColor: TONE_COLORS[tone] }} />
+                <span className="capitalize text-[var(--tk-ink-70)]">{tone}</span>
+                <span className="ml-auto font-medium font-mono">{val}%</span>
               </div>
             ) : null;
           })}
@@ -90,8 +90,8 @@ export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: Sp
     name.length > maxNameLen ? name.substring(0, maxNameLen - 1) + '…' : name;
 
   return (
-    <div className="bg-white p-3 sm:p-4 rounded-lg shadow">
-      <h3 className="text-base sm:text-lg font-medium text-gray-900 mb-3 sm:mb-4">
+    <div className="bg-white p-3 sm:p-4 border border-tk-rule">
+      <h3 className="text-base sm:text-lg font-normal text-tk-ink tracking-[-0.01em] mb-3 sm:mb-4">
         Tone Distribution by Speaker
       </h3>
       <div className="h-80 sm:h-72 lg:h-80">
@@ -104,16 +104,18 @@ export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: Sp
             <XAxis
               type="number"
               domain={[0, 100]}
-              tick={{ fontSize: isMobile ? 9 : 11 }}
+              tick={{ fontSize: isMobile ? 9 : 11, fontFamily: '"Roboto Mono", monospace', fill: 'rgba(23,20,19,0.7)' }}
               tickFormatter={(v) => `${v}%`}
+              stroke="rgba(23,20,19,0.16)"
             />
             <YAxis
               type="category"
               dataKey="speaker"
-              tick={{ fontSize: isMobile ? 9 : 11 }}
+              tick={{ fontSize: isMobile ? 9 : 11, fill: '#171413' }}
               width={yAxisWidth}
               tickFormatter={formatSpeakerName}
               onClick={(data) => onSpeakerClick?.((data as { value: string }).value)}
+              stroke="rgba(23,20,19,0.16)"
             />
             <Tooltip content={<CustomTooltip />} />
             {TONE_STACK_ORDER.map((tone) => (
@@ -136,8 +138,8 @@ export function SpeakerToneChart({ statements, onSpeakerClick, onToneClick }: Sp
             onClick={() => onToneClick?.(tone)}
             className="flex items-center gap-1 hover:opacity-70 transition-opacity"
           >
-            <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded" style={{ backgroundColor: TONE_COLORS[tone] }} />
-            <span className="text-xs text-gray-600 capitalize">{tone}</span>
+            <div className="w-2.5 h-2.5 sm:w-3 sm:h-3" style={{ backgroundColor: TONE_COLORS[tone] }} />
+            <span className="text-xs text-tk-ink capitalize font-mono">{tone}</span>
           </button>
         ))}
       </div>

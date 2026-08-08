@@ -19,15 +19,15 @@ interface EraPresetsProps {
 export function EraPresets({ activePreset, onPresetSelect }: EraPresetsProps) {
   return (
     <div className="flex items-center gap-2 flex-wrap">
-      <span className="text-xs text-gray-500 font-medium uppercase tracking-wide">Era:</span>
+      <span className="tk-meta-muted">Era:</span>
       {ERA_PRESETS.map((preset) => (
         <button
           key={preset.id}
           onClick={() => onPresetSelect(preset)}
-          className={`px-3 py-1 text-sm rounded-full border transition-colors ${
+          className={`px-3 py-1 text-xs font-mono uppercase tracking-wider border transition-colors duration-150 ${
             activePreset === preset.id
-              ? 'bg-blue-600 text-white border-blue-600'
-              : 'bg-white text-gray-700 border-gray-300 hover:border-blue-400 hover:text-blue-600'
+              ? 'bg-tk-wine text-white border-tk-wine'
+              : 'bg-white text-tk-ink border-tk-rule hover:bg-tk-cream'
           }`}
         >
           {preset.label}

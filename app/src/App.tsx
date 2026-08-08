@@ -272,7 +272,6 @@ function App() {
       setActivePreset(mapping.presetId ?? 'all');
       setSelectedMonth(null);
     }
-    // Scroll to timeline
     document.getElementById('sentiment-timeline')?.scrollIntoView({ behavior: 'smooth' });
   }, []);
 
@@ -298,19 +297,19 @@ ${statement.article_date} | Source: ${statement.article_url}`;
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className="text-gray-600">Loading...</div>
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-[var(--tk-ink-50)] font-mono text-sm uppercase tracking-wider">Loading…</div>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-red-600 font-medium">Error loading data</h2>
-          <p className="text-gray-600 mt-2">{error}</p>
-          <p className="text-sm text-gray-500 mt-4">
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="border border-tk-rule p-6">
+          <h2 className="text-tk-wine font-medium">Error loading data</h2>
+          <p className="text-[var(--tk-ink-70)] mt-2">{error}</p>
+          <p className="text-sm text-[var(--tk-ink-50)] mt-4">
             Make sure statements.json is in the public folder.
           </p>
         </div>
@@ -327,38 +326,39 @@ ${statement.article_date} | Source: ${statement.article_url}`;
     dateRange;
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-4 sm:py-6 px-4">
+    <div className="min-h-screen">
+      {/* Wine navbar */}
+      <header className="bg-tk-wine">
+        <div className="max-w-7xl mx-auto py-4 sm:py-5 px-4 sm:px-10">
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
             <div>
-              <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
-                Tracking People's Daily - Statement Analysis
+              <h1 className="text-xl sm:text-2xl font-normal text-white tracking-[-0.02em]">
+                Tracking People's Daily
               </h1>
-              <p className="text-gray-600 mt-1">
+              <p className="text-white/70 mt-1 text-sm">
                 Chinese leader statements about the United States
               </p>
-              <p className="text-xs text-gray-400 mt-1">
-                Data source:{' '}
+              <p className="font-mono text-[10.5px] tracking-wider uppercase text-white/80 mt-1.5">
+                Data:{' '}
                 <a
                   href="https://trackingpeoplesdaily.substack.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-700 underline"
+                  className="text-tk-gold hover:text-tk-gold/80 underline"
                 >
-                  Tracking People's Daily
+                  Tracking People's Daily ↗
                 </a>
-                {' '}by Manoj Kewalramani. Project by Pranay Kotasthane and Manoj Kewalramani.
-                {' '}
+                {' '}by Manoj Kewalramani · Project by Pranay Kotasthane and Manoj Kewalramani
+                {' · '}
                 <button
                   onClick={() => setMethodologyExpanded((v) => !v)}
-                  className="text-blue-500 hover:text-blue-700 underline"
+                  className="text-white hover:text-white/90 underline"
                 >
-                  {methodologyExpanded ? '▲ hide methodology' : '[?] methodology'}
+                  {methodologyExpanded ? '▲ methodology' : 'methodology →'}
                 </button>
               </p>
               {methodologyExpanded && (
-                <div className="mt-2 text-xs text-gray-600 max-w-2xl bg-gray-50 rounded p-3 border border-gray-200">
+                <div className="mt-3 text-sm text-white/85 max-w-2xl border-l-2 border-tk-gold pl-4">
                   <p>
                     Claude Haiku reads each newsletter article and extracts every statement a Chinese official
                     makes about the US — recording speaker, tone (confrontational → conciliatory), topic, and
@@ -369,9 +369,9 @@ ${statement.article_date} | Source: ${statement.article_url}`;
                       href="https://github.com/pranaykotas/china-us-rhetoric/blob/main/METHODOLOGY.md"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-500 hover:text-blue-700 underline"
+                      className="text-tk-gold hover:text-tk-gold/80 underline"
                     >
-                      Full methodology →
+                      Full methodology ↗
                     </a>
                   </p>
                 </div>
@@ -386,11 +386,11 @@ ${statement.article_date} | Source: ${statement.article_url}`;
                     onChange={(e) => setShowUSOnly(e.target.checked)}
                     className="sr-only peer"
                   />
-                  <div className="w-9 h-5 bg-gray-200 peer-focus:ring-2 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:bg-blue-600 after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all" />
+                  <div className="w-9 h-5 bg-white/20 peer-focus:ring-2 peer-focus:ring-tk-gold/50 peer-checked:bg-tk-gold after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:h-4 after:w-4 after:transition-all peer-checked:after:translate-x-full" />
                 </div>
-                <span className="text-sm text-gray-700">
+                <span className="text-sm text-white/85">
                   US-focused only
-                  <span className="text-xs text-gray-400 ml-1">
+                  <span className="font-mono text-[10.5px] tracking-wider text-white/70 ml-1.5">
                     ({usRelevantCount}/{allEnriched.length})
                   </span>
                 </span>
@@ -401,18 +401,18 @@ ${statement.article_date} | Source: ${statement.article_url}`;
       </header>
 
       {!introDismissed && (
-        <div className="bg-blue-50 border-b border-blue-200">
-          <div className="max-w-7xl mx-auto px-4 py-4 flex gap-4 items-start">
-            <div className="flex-1 text-sm text-blue-900 leading-relaxed">
-              <span className="font-semibold">What is this?</span>{' '}
+        <div className="bg-tk-gold-soft border-b border-tk-rule">
+          <div className="max-w-7xl mx-auto px-4 sm:px-10 py-4 flex gap-4 items-start">
+            <div className="flex-1 text-sm text-tk-ink leading-relaxed">
+              <span className="font-medium">What is this?</span>{' '}
               People's Daily is the official newspaper of the Central Committee of the Communist Party of China.
-              This dashboard tracks how Chinese officials have characterized the United States since January 2021,
+              This dashboard tracks how Chinese officials have characterised the United States since January 2021,
               extracted from the{' '}
               <a
                 href="https://trackingpeoplesdaily.substack.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline hover:text-blue-700"
+                className="underline text-tk-wine hover:text-tk-wine-dark"
               >
                 Tracking People's Daily
               </a>
@@ -422,7 +422,7 @@ ${statement.article_date} | Source: ${statement.article_url}`;
             </div>
             <button
               onClick={dismissIntro}
-              className="shrink-0 text-blue-400 hover:text-blue-700 transition-colors mt-0.5"
+              className="shrink-0 text-[var(--tk-ink-50)] hover:text-tk-ink transition-colors mt-0.5"
               aria-label="Dismiss"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -433,12 +433,12 @@ ${statement.article_date} | Source: ${statement.article_url}`;
         </div>
       )}
 
-      <main className="max-w-7xl mx-auto py-6 px-4 space-y-6">
+      <main className="max-w-7xl mx-auto py-8 px-4 sm:px-10 space-y-8">
         {/* 1. Metric Sparkline Cards */}
         <MetricCards monthlyData={monthlyData} />
 
         {/* Era preset buttons */}
-        <div className="bg-white px-4 py-3 rounded-lg shadow">
+        <div className="border border-tk-rule bg-white px-4 py-3">
           <EraPresets activePreset={activePreset} onPresetSelect={handlePresetSelect} />
         </div>
 
@@ -475,46 +475,46 @@ ${statement.article_date} | Source: ${statement.article_url}`;
 
         {/* Active filters indicator */}
         {hasActiveFilters && (
-          <div className="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 flex items-center justify-between">
+          <div className="bg-tk-wine-soft border border-tk-rule px-4 py-3 flex items-center justify-between">
             <div className="flex flex-wrap gap-2 items-center text-sm">
-              <span className="text-blue-700 font-medium">Active filters:</span>
+              <span className="text-tk-wine font-medium font-mono text-xs uppercase tracking-wider">Active filters:</span>
               {dateRange && (
-                <span className="px-2 py-0.5 bg-blue-100 text-blue-800 rounded-full text-xs">
+                <span className="px-2 py-0.5 bg-tk-wine text-white text-xs font-mono">
                   Era: {activePreset !== 'all' ? activePreset : `${dateRange.start} – ${dateRange.end}`}
                 </span>
               )}
               {selectedMonth && (
-                <span className="px-2 py-0.5 bg-blue-100 text-blue-800 rounded-full text-xs">
-                  Month: {selectedMonth}
+                <span className="px-2 py-0.5 bg-tk-wine text-white text-xs font-mono">
+                  {selectedMonth}
                 </span>
               )}
               {selectedSpeakers.map((s) => (
-                <span key={s} className="px-2 py-0.5 bg-blue-100 text-blue-800 rounded-full text-xs">
+                <span key={s} className="px-2 py-0.5 bg-tk-wine text-white text-xs font-mono">
                   {s}
                 </span>
               ))}
               {selectedTopicCategories.map((t) => (
-                <span key={t} className="px-2 py-0.5 bg-green-100 text-green-800 rounded-full text-xs">
+                <span key={t} className="px-2 py-0.5 bg-tk-wine-soft text-tk-wine text-xs font-mono border border-tk-wine/30">
                   {t}
                 </span>
               ))}
               {selectedTones.map((t) => (
-                <span key={t} className="px-2 py-0.5 bg-purple-100 text-purple-800 rounded-full text-xs capitalize">
+                <span key={t} className="px-2 py-0.5 bg-tk-wine-soft text-tk-wine text-xs font-mono capitalize border border-tk-wine/30">
                   {t}
                 </span>
               ))}
               {searchText && (
-                <span className="px-2 py-0.5 bg-gray-100 text-gray-800 rounded-full text-xs">
-                  Search: "{searchText}"
+                <span className="px-2 py-0.5 bg-tk-cream text-tk-ink text-xs font-mono border border-tk-rule">
+                  "{searchText}"
                 </span>
               )}
-              <span className="text-blue-600 ml-2">
-                {filteredStatements.length} of {enrichedStatements.length} statements
+              <span className="text-tk-wine ml-2 font-mono text-xs">
+                {filteredStatements.length} / {enrichedStatements.length}
               </span>
             </div>
             <button
               onClick={clearAllFilters}
-              className="text-sm text-red-600 hover:text-red-800 whitespace-nowrap ml-4"
+              className="text-sm text-tk-wine hover:text-tk-wine-dark font-mono text-xs uppercase tracking-wider whitespace-nowrap ml-4"
             >
               Clear all
             </button>
@@ -522,7 +522,7 @@ ${statement.article_date} | Source: ${statement.article_url}`;
         )}
 
         {/* 6. Search and Filters */}
-        <div className="bg-white rounded-lg shadow p-4 space-y-4">
+        <div className="bg-white border border-tk-rule p-4 space-y-4">
           <SearchBar value={searchText} onChange={setSearchText} />
           <FilterPanel
             speakers={allSpeakers}
@@ -552,50 +552,49 @@ ${statement.article_date} | Source: ${statement.article_url}`;
         {/* Statement Detail Modal */}
         {selectedStatement && (
           <div
-            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
+            className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50"
             onClick={() => setSelectedStatement(null)}
           >
             <div
-              className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto"
+              className="bg-white border border-tk-rule max-w-2xl w-full max-h-[80vh] overflow-y-auto"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="p-6">
+              <div className="border-b-2 border-tk-wine px-6 py-4">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h2 className="text-xl font-bold text-gray-900">
+                    <h2 className="text-xl font-normal text-tk-ink tracking-[-0.01em]">
                       {selectedStatement.speaker}
                     </h2>
                     {selectedStatement.speaker_title && (
-                      <p className="text-sm text-gray-500 mt-0.5">{selectedStatement.speaker_title}</p>
+                      <p className="text-sm text-[var(--tk-ink-70)] mt-0.5">{selectedStatement.speaker_title}</p>
                     )}
                   </div>
                   <button
                     onClick={() => setSelectedStatement(null)}
-                    className="text-gray-400 hover:text-gray-600"
+                    className="text-[var(--tk-ink-50)] hover:text-tk-ink"
                   >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                   </button>
                 </div>
+                <p className="tk-meta-muted mt-1">{selectedStatement.article_date}</p>
+              </div>
 
-                <p className="text-sm text-gray-500 mt-1">
-                  {selectedStatement.article_date}
-                </p>
-
-                <div className="mt-4">
+              <div className="p-6">
+                <div>
                   <div className="flex items-center justify-between mb-1">
-                    <h3 className="text-sm font-medium text-gray-500">Quote / Paraphrase</h3>
+                    <h3 className="tk-eyebrow">Quote / Paraphrase</h3>
                     <button
                       onClick={() => handleModalCopy(selectedStatement)}
-                      className="flex items-center gap-1 text-xs text-gray-400 hover:text-gray-700 border border-gray-200 rounded px-2 py-0.5"
+                      className="flex items-center gap-1 text-xs text-[var(--tk-ink-50)] hover:text-tk-ink border border-tk-rule px-2 py-0.5 font-mono uppercase tracking-wider"
                     >
                       {modalCopied ? (
                         <>
-                          <svg className="w-3.5 h-3.5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-3.5 h-3.5 text-tk-wine" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
-                          Copied!
+                          Copied
                         </>
                       ) : (
                         <>
@@ -603,74 +602,74 @@ ${statement.article_date} | Source: ${statement.article_url}`;
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                               d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
                           </svg>
-                          Copy citation
+                          Copy
                         </>
                       )}
                     </button>
                   </div>
-                  <p className="mt-1 text-gray-900 italic">
+                  <p className="mt-2 text-tk-ink italic border-l-2 border-tk-wine pl-4">
                     "{selectedStatement.quote_or_paraphrase}"
                   </p>
                 </div>
 
-                <div className="mt-4">
-                  <h3 className="text-sm font-medium text-gray-500">Context</h3>
-                  <p className="mt-1 text-gray-900">{selectedStatement.context}</p>
+                <div className="mt-5">
+                  <h3 className="tk-eyebrow mb-1">Context</h3>
+                  <p className="text-[var(--tk-ink-70)]">{selectedStatement.context}</p>
                 </div>
 
-                <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <h3 className="text-sm font-medium text-gray-500">Topic Category</h3>
-                    <p className="mt-1 text-gray-900">{selectedStatement.topicCategory}</p>
+                    <h3 className="tk-eyebrow mb-1">Topic Category</h3>
+                    <p className="text-tk-ink">{selectedStatement.topicCategory}</p>
                   </div>
                   <div>
-                    <h3 className="text-sm font-medium text-gray-500">Raw Topic</h3>
-                    <p className="mt-1 text-gray-900">{selectedStatement.topic}</p>
-                  </div>
-                </div>
-
-                <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <h3 className="text-sm font-medium text-gray-500">Framing</h3>
-                    <p className="mt-1 text-gray-900">{selectedStatement.framing}</p>
-                  </div>
-                  <div>
-                    <h3 className="text-sm font-medium text-gray-500">Speaker Importance</h3>
-                    <p className="mt-1 text-gray-900">{selectedStatement.speaker_importance ?? 'N/A'}/5</p>
+                    <h3 className="tk-eyebrow mb-1">Raw Topic</h3>
+                    <p className="text-tk-ink">{selectedStatement.topic}</p>
                   </div>
                 </div>
 
                 <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <h3 className="text-sm font-medium text-gray-500">Tone</h3>
-                    <p className="mt-1 text-gray-900 capitalize">
+                    <h3 className="tk-eyebrow mb-1">Framing</h3>
+                    <p className="text-tk-ink">{selectedStatement.framing}</p>
+                  </div>
+                  <div>
+                    <h3 className="tk-eyebrow mb-1">Speaker Importance</h3>
+                    <p className="text-tk-ink font-mono">{selectedStatement.speaker_importance ?? 'N/A'}/5</p>
+                  </div>
+                </div>
+
+                <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <h3 className="tk-eyebrow mb-1">Tone</h3>
+                    <p className="text-tk-ink capitalize">
                       {selectedStatement.canonicalTone}
                       {selectedStatement.tone !== selectedStatement.canonicalTone && (
-                        <span className="text-xs text-gray-400 ml-2">(raw: {selectedStatement.tone})</span>
+                        <span className="tk-meta-muted ml-2">(raw: {selectedStatement.tone})</span>
                       )}
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-sm font-medium text-gray-500">Intensity</h3>
-                    <p className="mt-1 text-gray-900">{selectedStatement.tone_intensity}/5</p>
+                    <h3 className="tk-eyebrow mb-1">Intensity</h3>
+                    <p className="text-tk-ink font-mono">{selectedStatement.tone_intensity}/5</p>
                   </div>
                 </div>
 
-                <div className="mt-6 flex items-center gap-4">
+                <div className="mt-6 pt-4 border-t border-tk-rule flex items-center gap-4">
                   <a
                     href={selectedStatement.article_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 text-sm"
+                    className="text-tk-wine hover:text-tk-wine-dark text-sm"
                   >
-                    Read original article →
+                    Read original article ↗
                   </a>
                   <button
                     onClick={() => {
                       setSelectedStatement(null);
                       setSelectedSpeakerProfile(selectedStatement.speaker);
                     }}
-                    className="text-sm text-gray-500 hover:text-gray-700"
+                    className="text-sm text-[var(--tk-ink-50)] hover:text-tk-ink"
                   >
                     View speaker profile →
                   </button>
@@ -690,6 +689,31 @@ ${statement.article_date} | Source: ${statement.article_url}`;
           />
         )}
       </main>
+
+      {/* Takshashila footer ribbon */}
+      <footer className="bg-tk-wine mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-10 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="text-white/85 text-sm text-center sm:text-left">
+            A research project by the{' '}
+            <a
+              href="https://takshashila.org.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white font-medium hover:text-tk-gold transition-colors"
+            >
+              Takshashila Institution ↗
+            </a>
+          </div>
+          <a
+            href="https://takshashila.org.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-5 py-2 bg-tk-gold text-tk-ink font-mono text-xs uppercase tracking-wider font-semibold hover:bg-tk-gold/90 transition-colors"
+          >
+            Visit Takshashila →
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

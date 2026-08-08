@@ -3,7 +3,7 @@ import { TopicCategory } from '../types';
 import { TOPIC_LIST } from '../utils/colors';
 
 interface FilterPanelProps {
-  speakers: string[];  // sorted by statement count descending
+  speakers: string[];
   tones: string[];
   selectedSpeakers: string[];
   selectedTopics: TopicCategory[];
@@ -75,16 +75,16 @@ export function FilterPanel({
     <div className="space-y-4">
       {/* Topic Category Filter */}
       <div>
-        <h3 className="text-sm font-medium text-gray-700 mb-2">Topic Category</h3>
+        <h3 className="tk-eyebrow mb-2">Topic Category</h3>
         <div className="flex flex-wrap gap-1.5 sm:gap-2">
           {TOPIC_LIST.map((cat) => (
             <button
               key={cat}
               onClick={() => toggleItem(cat, selectedTopics, onTopicsChange)}
-              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm rounded-full border transition-colors ${
+              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm border transition-colors duration-150 ${
                 selectedTopics.includes(cat)
-                  ? 'bg-green-500 text-white border-green-500'
-                  : 'bg-white text-gray-700 border-gray-300 hover:border-green-300'
+                  ? 'bg-tk-wine text-white border-tk-wine'
+                  : 'bg-white text-tk-ink border-tk-rule hover:bg-tk-cream'
               }`}
             >
               {cat}
@@ -95,16 +95,16 @@ export function FilterPanel({
 
       {/* Tones Filter */}
       <div>
-        <h3 className="text-sm font-medium text-gray-700 mb-2">Tone</h3>
+        <h3 className="tk-eyebrow mb-2">Tone</h3>
         <div className="flex flex-wrap gap-1.5 sm:gap-2">
           {tones.map((tone) => (
             <button
               key={tone}
               onClick={() => toggleItem(tone, selectedTones, onTonesChange)}
-              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm rounded-full border transition-colors capitalize ${
+              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm border transition-colors duration-150 capitalize ${
                 selectedTones.includes(tone)
-                  ? 'bg-purple-500 text-white border-purple-500'
-                  : 'bg-white text-gray-700 border-gray-300 hover:border-purple-300'
+                  ? 'bg-tk-wine text-white border-tk-wine'
+                  : 'bg-white text-tk-ink border-tk-rule hover:bg-tk-cream'
               }`}
             >
               {tone}
@@ -113,22 +113,21 @@ export function FilterPanel({
         </div>
       </div>
 
-      {/* Speakers Filter — top 10 pills + typeahead */}
+      {/* Speakers Filter */}
       <div>
-        <h3 className="text-sm font-medium text-gray-700 mb-2">Speakers</h3>
+        <h3 className="tk-eyebrow mb-2">Speakers</h3>
 
-        {/* Selected speaker chips */}
         {selectedSpeakers.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mb-2">
             {selectedSpeakers.map((s) => (
               <span
                 key={s}
-                className="inline-flex items-center gap-1 px-2 py-0.5 text-xs bg-blue-100 text-blue-800 rounded-full"
+                className="inline-flex items-center gap-1 px-2 py-0.5 text-xs bg-tk-wine text-white font-mono"
               >
                 {s}
                 <button
                   onClick={() => removeSpeaker(s)}
-                  className="hover:text-blue-600 font-bold leading-none"
+                  className="hover:text-tk-gold font-bold leading-none"
                   aria-label={`Remove ${s}`}
                 >
                   ×
@@ -138,16 +137,15 @@ export function FilterPanel({
           </div>
         )}
 
-        {/* Top 10 quick-select pills */}
         <div className="flex flex-wrap gap-1.5 mb-2">
           {top10.map((speaker) => (
             <button
               key={speaker}
               onClick={() => toggleItem(speaker, selectedSpeakers, onSpeakersChange)}
-              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm rounded-full border transition-colors ${
+              className={`px-2 sm:px-3 py-1 text-xs sm:text-sm border transition-colors duration-150 ${
                 selectedSpeakers.includes(speaker)
-                  ? 'bg-blue-500 text-white border-blue-500'
-                  : 'bg-white text-gray-700 border-gray-300 hover:border-blue-300'
+                  ? 'bg-tk-wine text-white border-tk-wine'
+                  : 'bg-white text-tk-ink border-tk-rule hover:bg-tk-cream'
               }`}
             >
               {speaker}
@@ -155,7 +153,6 @@ export function FilterPanel({
           ))}
         </div>
 
-        {/* Typeahead for all 553 speakers */}
         <div className="relative" ref={searchRef}>
           <input
             type="text"
@@ -166,35 +163,34 @@ export function FilterPanel({
               setDropdownOpen(true);
             }}
             onFocus={() => speakerSearch.length >= 2 && setDropdownOpen(true)}
-            className="w-full sm:w-64 px-3 py-1.5 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-400"
+            className="w-full sm:w-64 px-3 py-1.5 text-sm border border-tk-rule focus:outline-none focus:ring-1 focus:ring-tk-wine"
           />
           {dropdownOpen && speakerSearch.length >= 2 && searchResults.length > 0 && (
-            <ul className="absolute z-20 mt-1 w-full sm:w-64 bg-white border border-gray-200 rounded-md shadow-lg max-h-48 overflow-y-auto text-sm">
+            <ul className="absolute z-20 mt-0 w-full sm:w-64 bg-white border border-tk-rule max-h-48 overflow-y-auto text-sm">
               {searchResults.map((speaker) => (
                 <li
                   key={speaker}
                   onClick={() => addSpeaker(speaker)}
-                  className={`px-3 py-2 cursor-pointer hover:bg-blue-50 flex items-center justify-between ${
-                    selectedSpeakers.includes(speaker) ? 'text-blue-600 font-medium' : 'text-gray-700'
+                  className={`px-3 py-2 cursor-pointer hover:bg-tk-cream flex items-center justify-between border-b border-tk-rule last:border-b-0 ${
+                    selectedSpeakers.includes(speaker) ? 'text-tk-wine font-medium' : 'text-tk-ink'
                   }`}
                 >
                   <span>{speaker}</span>
                   {selectedSpeakers.includes(speaker) && (
-                    <span className="text-blue-400 text-xs">✓</span>
+                    <span className="text-tk-wine text-xs">✓</span>
                   )}
                 </li>
               ))}
             </ul>
           )}
           {dropdownOpen && speakerSearch.length >= 2 && searchResults.length === 0 && (
-            <div className="absolute z-20 mt-1 w-full sm:w-64 bg-white border border-gray-200 rounded-md shadow-lg px-3 py-2 text-sm text-gray-400">
+            <div className="absolute z-20 mt-0 w-full sm:w-64 bg-white border border-tk-rule px-3 py-2 text-sm text-[var(--tk-ink-50)]">
               No speakers found
             </div>
           )}
         </div>
       </div>
 
-      {/* Clear Filters */}
       {hasFilters && (
         <button
           onClick={() => {
@@ -202,7 +198,7 @@ export function FilterPanel({
             onTopicsChange([]);
             onTonesChange([]);
           }}
-          className="text-sm text-red-600 hover:text-red-800"
+          className="text-sm text-tk-wine hover:text-tk-wine-dark font-mono uppercase tracking-wider"
         >
           Clear all filters
         </button>

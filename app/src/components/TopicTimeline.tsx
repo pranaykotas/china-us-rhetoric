@@ -42,14 +42,14 @@ export function TopicTimeline({ monthlyData, onTopicClick, onMonthClick }: Topic
       .sort((a, b) => b.count - a.count);
 
     return (
-      <div className="bg-white p-2 sm:p-3 shadow-lg rounded-lg border text-xs sm:text-sm max-w-[180px] sm:max-w-none">
-        <p className="font-medium text-gray-900 mb-1 sm:mb-2">{label}</p>
+      <div className="bg-white p-2 sm:p-3 border border-tk-rule text-xs sm:text-sm max-w-[180px] sm:max-w-none">
+        <p className="font-medium text-tk-ink mb-1 sm:mb-2">{label}</p>
         <div className="space-y-0.5 sm:space-y-1">
           {items.map(({ cat, count }) => (
             <div key={cat} className="flex items-center gap-1 sm:gap-2">
-              <div className="w-2 h-2 sm:w-3 sm:h-3 rounded shrink-0" style={{ backgroundColor: TOPIC_COLORS[cat] }} />
-              <span className="text-gray-700">{cat}</span>
-              <span className="ml-auto font-medium">{count}</span>
+              <div className="w-2 h-2 sm:w-3 sm:h-3 shrink-0" style={{ backgroundColor: TOPIC_COLORS[cat] }} />
+              <span className="text-[var(--tk-ink-70)]">{cat}</span>
+              <span className="ml-auto font-medium font-mono">{count}</span>
             </div>
           ))}
         </div>
@@ -68,8 +68,8 @@ export function TopicTimeline({ monthlyData, onTopicClick, onMonthClick }: Topic
   const xAxisInterval = isMobile ? 3 : 'preserveStartEnd';
 
   return (
-    <div className="bg-white p-3 sm:p-4 rounded-lg shadow flex-1">
-      <h3 className="text-base sm:text-lg font-medium text-gray-900 mb-3 sm:mb-4">Topic Evolution</h3>
+    <div className="bg-white p-3 sm:p-4 border border-tk-rule flex-1">
+      <h3 className="text-base sm:text-lg font-normal text-tk-ink tracking-[-0.01em] mb-3 sm:mb-4">Topic Evolution</h3>
       <div className="h-48 sm:h-60 lg:h-72">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart
@@ -79,13 +79,18 @@ export function TopicTimeline({ monthlyData, onTopicClick, onMonthClick }: Topic
           >
             <XAxis
               dataKey="label"
-              tick={{ fontSize: tickFontSize }}
+              tick={{ fontSize: tickFontSize, fontFamily: '"Roboto Mono", monospace', fill: 'rgba(23,20,19,0.7)' }}
               interval={xAxisInterval}
               angle={-30}
               textAnchor="end"
               height={isMobile ? 50 : 40}
+              stroke="rgba(23,20,19,0.16)"
             />
-            <YAxis tick={{ fontSize: tickFontSize }} width={24} />
+            <YAxis
+              tick={{ fontSize: tickFontSize, fontFamily: '"Roboto Mono", monospace', fill: 'rgba(23,20,19,0.7)' }}
+              width={24}
+              stroke="rgba(23,20,19,0.16)"
+            />
             <Tooltip content={<CustomTooltip />} />
             {TOPIC_LIST.map((cat) => (
               <Area
@@ -111,8 +116,8 @@ export function TopicTimeline({ monthlyData, onTopicClick, onMonthClick }: Topic
             onClick={() => onTopicClick?.(cat)}
             className="flex items-center gap-1 hover:opacity-70 transition-opacity"
           >
-            <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded" style={{ backgroundColor: TOPIC_COLORS[cat] }} />
-            <span className="text-xs text-gray-600">{cat}</span>
+            <div className="w-2.5 h-2.5 sm:w-3 sm:h-3" style={{ backgroundColor: TOPIC_COLORS[cat] }} />
+            <span className="text-xs text-tk-ink font-mono">{cat}</span>
           </button>
         ))}
       </div>
