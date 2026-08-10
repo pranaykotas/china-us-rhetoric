@@ -95497,5 +95497,182 @@
         "tone_intensity": 2
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xinhua-party-group-defines-agencys",
+    "article_date": "2026-07-21",
+    "article_title": "Xinhua Party Group Defines Agency's Role as Conveying Xi's Voice to Party & Society - China-Thailand Joint Statement - State Council Discusses Services Sector, 6 Networks & IPR",
+    "statements": [
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier of the State Council",
+        "speaker_importance": 5,
+        "context": "Meeting with Thai Prime Minister Anutin Charnvirakul in Beijing",
+        "quote_or_paraphrase": "At present, unilateralism and protectionism are growing ever more rampant. As practitioners and beneficiaries of openness and cooperation, China and Thailand should unite in close collaboration, strengthen coordination and cooperation within multilateral mechanisms such as the UN, the WTO, China-ASEAN, APEC, and Lancang-Mekong cooperation, and jointly safeguard the legitimate rights and interests of the two countries and international fairness and justice.",
+        "topic": "diplomacy, multilateralism, trade",
+        "framing": "assertive stance against unilateralism and protectionism; constructive approach to multilateral cooperation",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Guyana's permanent representative to the UN, Carolyn Rodrigues-Birkett",
+        "quote_or_paraphrase": "At present the international system with the UN at its core is facing shocks, multilateralism is being challenged, and the law of the jungle is resurfacing...President Xi Jinping has pointed out that the more the international situation is beset by turbulence and transformation, the more we must uphold and safeguard the authority of the UN and firmly defend the international system with the UN at its core. Multilateralism is a protective treasure for small and medium-sized countries, and the UN is an important pillar for the common development of all nations.",
+        "topic": "multilateralism, international order, UN",
+        "framing": "defensive posture; assertion that multilateralism and UN authority are under threat",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Guyana's permanent representative to the UN",
+        "quote_or_paraphrase": "This year marks the 55th anniversary of PRC's restoration of its lawful seat at the United Nations. No matter how the international situation changes, China has always been committed to being a builder of world peace, a contributor to global development, and a defender of the international order; it has always abided by the purposes and principles of the UN Charter and firmly supported the UN's cause...China will take part in the process of electing the next Secretary-General in a responsible and constructive manner, and supports the selection of a Secretary-General who abides by the Charter, is outstanding in ability, fair and upright, and willing to shoulder responsibility.",
+        "topic": "multilateralism, international order, UN",
+        "framing": "constructive; emphasis on China's role as a defender of international order",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/chinas-countermeasures-against-us",
+    "article_date": "2026-08-06",
+    "article_title": "China's 'Countermeasures' Against US - What's in Japan's new Defense White Paper?",
+    "statements": [
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official statement on national security investigation into imported office equipment",
+        "quote_or_paraphrase": "China's Ministry of Commerce launched a national security investigation into imported office equipment with printing and copying functions featuring foreign system software, to safeguard foreign trade order and investigate the impact of imported products, technologies or services on national security interests.",
+        "topic": "trade, national security",
+        "framing": "defensive",
+        "tone": "neutral",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Statement on countermeasures against US firm Compliance Testing LLC",
+        "quote_or_paraphrase": "The FCC has repeatedly stretched the concept of national security and imposed multiple restrictions on China covering telecom operations, testing laboratories, drones, consumer routers, submarine cables and other fields. China's countermeasures are generally restrained, and China cherishes the hard-won stability in bilateral trade and economic ties. China demands the United States immediately revoke the relevant measures and return to friendly consultation and cooperation. If the U.S. insists on introducing new restrictive measures against China, China will take further countermeasures in response.",
+        "topic": "trade, technology, sanctions",
+        "framing": "accusatory and defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official announcement on strengthened export controls on drone-related dual-use items to the US",
+        "quote_or_paraphrase": "In accordance with Export Control Law and Regulations on Export Control of Dual-Use Items, China has decided to strengthen export controls on drone-related dual-use items to the United States, with strict case-by-case review and no licensing-facilitation measures for exports to the US.",
+        "topic": "trade, technology, military",
+        "framing": "defensive, retaliatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "National Coordination Mechanism for Anti-Foreign-Sanctions Work",
+        "speaker_type": "institution",
+        "speaker_title": "Government mechanism",
+        "speaker_importance": 4,
+        "context": "Official announcement on countermeasures against six US entities",
+        "quote_or_paraphrase": "Recently, the United States, on the pretext of so-called 'forced labor', has sanctioned Chinese enterprises, seriously violating international law and basic norms governing international relations, and seriously infringing upon China's sovereignty, security, and development interests. Six US entities, including Applied DNA Sciences, Inc., assisted and supported the United States' illegal Xinjiang-related sanctions. China has decided to place these 6 US entities on the countermeasures list and prohibit organizations and individuals within China from engaging in related transactions, cooperation, and other activities with them.",
+        "topic": "sanctions, trade",
+        "framing": "accusatory, retaliatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "National Certification and Accreditation Administration",
+        "speaker_type": "institution",
+        "speaker_title": "Government agency",
+        "speaker_importance": 3,
+        "context": "Official announcement on suspension of US certification body authorizations",
+        "quote_or_paraphrase": "China's National Certification and Accreditation Administration has decided to suspend the authorization of U.S.-based certification bodies to conduct follow-up factory inspections for products certified under the CCC system, effective immediately.",
+        "topic": "trade, market access",
+        "framing": "retaliatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Lin Jian",
+        "speaker_type": "individual",
+        "speaker_title": "Ministry of Foreign Affairs Spokesperson",
+        "speaker_importance": 2,
+        "context": "Regular press briefing response to questions about US import restrictions",
+        "quote_or_paraphrase": "China firmly opposes the U.S. overstretching the concept of national security, and abusing state power to go after Chinese businesses. Protectionism will not make the U.S. more competitive. The U.S. move seriously disrupts normal trade and economic exchanges between Chinese and U.S. businesses, and is not in the interest of U.S. businesses and consumers or anyone else for that matter. China will continue firmly protecting our businesses' legitimate and lawful rights and interests.",
+        "topic": "trade, technology, sanctions",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official response to Japan's Defense White Paper",
+        "quote_or_paraphrase": "The Defense of Japan 2026 white paper once again targeted China with groundless accusations, rehashing the so-called 'China threat' and grossly interfering in China's internal affairs with brazen comments on China's Taiwan region. We deplore and firmly reject this. China is committed to peaceful development and a national defense policy that is defensive in nature. Taiwan is an inalienable part of China's territory and is entirely China's internal affair. Japan is in no place to interfere. Japanese militarists once inflicted immense suffering on Asia, and Japan has not reflected on history but kept speeding up remilitarization. The latest white paper continues to trumpet the development of long-range offensive capabilities and exposes the truth behind Japan's claim of being a 'peaceful nation'. The international community must stay on high alert and push it back.",
+        "topic": "military, Taiwan, regional security, diplomacy",
+        "framing": "accusatory, defensive",
+        "tone": "confrontational",
+        "tone_intensity": 5
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/sun-chenghao-on-future-of-transatlantic",
+    "article_date": "2026-08-03",
+    "article_title": "Sun Chenghao on Future of Transatlantic Ties - Li Yan on AI Competition with US & Charges of 'Industrial-scale Distilling' by Chinese AI Companies",
+    "statements": [
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Spokesperson statement (referenced in Li Yan article)",
+        "quote_or_paraphrase": "The US side disregards facts that Chinese models have reached world-leading levels and labels Chinese companies with accusations that they rely on 'distillation to steal American intellectual property'. Such accusations lack factual basis, lack legal justification, and apply double standards. They constitute AI hegemonism.",
+        "topic": "technology, AI competition",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary of the CPC, President",
+        "speaker_importance": 5,
+        "context": "Keynote address at 2026 World Artificial Intelligence Conference and High-level Meeting on Global AI Governance (July 17)",
+        "quote_or_paraphrase": "We should jointly oppose the practice of expanding the concept of national security in the field of AI and placing one's own country's security above that of other countries.",
+        "topic": "technology, AI governance, US practice",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary of the CPC, President",
+        "speaker_importance": 5,
+        "context": "Keynote address at 2026 World Artificial Intelligence Conference (July 17)",
+        "quote_or_paraphrase": "Proposed four points: adhere to openness and win-win cooperation; strengthen risk awareness and ensure security; encourage inclusiveness and mutual learning; advocate solidarity and improve global governance. Called for establishing a global AI governance framework with broad consensus and opposing exclusive, bloc-based governance models.",
+        "topic": "AI governance, multilateralism, opposition to Western-dominated order",
+        "framing": "constructive, assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
   }
 ]
