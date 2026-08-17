@@ -95674,5 +95674,187 @@
         "tone_intensity": 3
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/planning-for-climate-change-and-extreme",
+    "article_date": "2026-08-16",
+    "article_title": "Planning for Climate Change & Extreme Weather - CICIR Chief on Xi's Global Initiatives - Zheng Chunrong on Germany's Political & Economic Predicament - Defining loyalty to the Party & How to Build It?",
+    "statements": [
+      {
+        "speaker": "Fu Xiaoqiang",
+        "speaker_type": "individual",
+        "speaker_title": "Director, China Institutes of Contemporary International Relations (CICIR)",
+        "speaker_importance": 3,
+        "context": "Article in Qiushi journal",
+        "quote_or_paraphrase": "The four major global initiatives—development, security, civilization, and governance—transcend the Western system of governance theory and break through the old pattern of 'the West dominates, the world obeys.' They represent a historic shift from piecemeal measures and passive response to systematic remediation and governance at the source, and pioneer a new paradigm of interstate relations that discards zero-sum games.",
+        "topic": "diplomacy, global governance, great power competition",
+        "framing": "assertive, constructive alternative to Western-led order",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Fu Xiaoqiang",
+        "speaker_type": "individual",
+        "speaker_title": "Director, China Institutes of Contemporary International Relations (CICIR)",
+        "speaker_importance": 3,
+        "context": "Article in Qiushi journal",
+        "quote_or_paraphrase": "The essence of the Western hegemonic order is that 'one country's security overrides the security of all countries', 'one country's development deprives other countries of their right to development', 'one country's civilization disparages the value of diverse civilizations', and 'one country's governance substitutes for common global governance.' This reveals the historical origins of the 'four deficits'—the peace deficit, development deficit, security deficit, and governance deficit.",
+        "topic": "US hegemony, global order",
+        "framing": "accusatory, critical of Western-led order",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Chen Zhenlin",
+        "speaker_type": "individual",
+        "speaker_title": "Party Secretary and Director-General, China Meteorological Administration",
+        "speaker_importance": 3,
+        "context": "Article in Qiushi journal",
+        "quote_or_paraphrase": "Certain countries continue to comprehensively suppress and contain our country, with 'small yards, high fences' and 'blockading and severing chains' continually escalating, which has compelled the meteorological field to accelerate the achievement of high-level self-reliance and self-strengthening in science and technology.",
+        "topic": "technology, scientific competition, sanctions",
+        "framing": "defensive, accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Chen Zhenlin",
+        "speaker_type": "individual",
+        "speaker_title": "Party Secretary and Director-General, China Meteorological Administration",
+        "speaker_importance": 3,
+        "context": "Article in Qiushi journal",
+        "quote_or_paraphrase": "Global climate governance is mired in multiple predicaments including geopolitical rivalry, policy divergence, and uneven distribution of resources; certain countries continue to comprehensively suppress and contain our country, with 'small yards, high fences' and 'blockading and severing chains' continually escalating.",
+        "topic": "US policy, technology, sanctions, competition",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Chen Zhenlin",
+        "speaker_type": "individual",
+        "speaker_title": "Party Secretary and Director-General, China Meteorological Administration",
+        "speaker_importance": 3,
+        "context": "Article in Qiushi journal",
+        "quote_or_paraphrase": "At the opening ceremony of the 2026 World Artificial Intelligence Conference and High-Level Meeting on Global AI Governance, General Secretary Xi Jinping announced that over the next five years China will promote the implementation of the 'Mazu' meteorological intelligent early warning solution in 30 countries...we must actively participate in the governance of international organizations such as the World Meteorological Organization, and deepen and expand cooperation with relevant UN agencies in fields such as disaster prevention and mitigation, responding to climate change, and humanitarian relief...to build 'Mazu' as a Chinese service brand in the meteorological field.",
+        "topic": "international cooperation, global governance, technology",
+        "framing": "constructive, cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zheng Chunrong",
+        "speaker_type": "individual",
+        "speaker_title": "Scholar, Tongji University",
+        "speaker_importance": 1,
+        "context": "Article in Qiushi journal on Germany",
+        "quote_or_paraphrase": "Germany's previous long period of economic prosperity depended on three favorable factors: relying on the US for security guarantees, it was able to reduce defense spending; relying on stable and inexpensive energy supplies from Russia; and relying on China's vast market. However, after the process of economic globalization and free-trade system came under strain, the US has accelerated the shift of its strategic focus from Europe to the Asia-Pacific, and using withdrawal from NATO as leverage, has pressured its European allies to shoulder the main responsibility for regional defense.",
+        "topic": "US policy, NATO, security, trade",
+        "framing": "analytical, describing US strategic shift",
+        "tone": "neutral",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Zheng Chunrong",
+        "speaker_type": "individual",
+        "speaker_title": "Scholar, Tongji University",
+        "speaker_importance": 1,
+        "context": "Article in Qiushi journal on Germany",
+        "quote_or_paraphrase": "In the China-EU electric-vehicle dispute, Germany opposed imposing additional tariffs and supported reaching a negotiated solution based on minimum price levels. Regarding the EU's proposed Industrial Accelerator Act, it criticized the European Commission's planned minimum 'Made in EU' threshold, arguing that protectionism would hinder European companies from accessing cutting-edge technologies globally.",
+        "topic": "trade, US-China-EU competition",
+        "framing": "descriptive of Germany's stance on China trade",
+        "tone": "neutral",
+        "tone_intensity": 1
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/wang-yi-on-xis-thought-on-diplomacy",
+    "article_date": "2026-08-12",
+    "article_title": "Wang Yi on Xi's Thought on Diplomacy & the Future of China's Global Engagement",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Essay in People's Daily on Xi Jinping Thought on Diplomacy",
+        "quote_or_paraphrase": "Seen from the standpoint of 'one's own country first', the world is narrow and crowded, and there is fierce competition at every turn. Seen from the standpoint of a shared destiny, the world is vast and expansive, and there are opportunities for cooperation everywhere. This is a direct critique of America First logic.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of National Defense",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official statement in late July",
+        "quote_or_paraphrase": "Japan's nuclear ambition is a red line that should never be crossed.",
+        "topic": "security/regional",
+        "framing": "assertive",
+        "tone": "confrontational",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Jiang Bin",
+        "speaker_type": "individual",
+        "speaker_title": "Ministry of National Defense Spokesperson",
+        "speaker_importance": 2,
+        "context": "Press conference response on China-Russia maritime operations",
+        "quote_or_paraphrase": "The China-Russia joint maritime patrol was conducted on the high seas, not within the waters Tokyo unilaterally claims as its EEZ... The joint operations of China and Russia are fully in accordance with international law and practice. Tokyo is in no position to make such unfounded remarks.",
+        "topic": "law of the sea/security",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Essay in People's Daily on Xi Jinping Thought on Diplomacy",
+        "quote_or_paraphrase": "China and the United States have established a new positioning of building a relationship of constructive strategic stability.",
+        "topic": "US-China relations",
+        "framing": "constructive",
+        "tone": "neutral",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Essay in People's Daily on Xi Jinping Thought on Diplomacy",
+        "quote_or_paraphrase": "Transcending conflict and confrontation with peaceful development, replacing absolute security with common security, discarding zero-sum games in favour of mutual benefit and win-win outcomes... breaking down the old 'center-periphery' system through an equal and ordered multipolar world.",
+        "topic": "diplomacy/international relations",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Essay in People's Daily on Xi Jinping Thought on Diplomacy",
+        "quote_or_paraphrase": "China will remain unwavering in upholding multilateralism and win-win cooperation, and opposing unilateralism and protectionism; uphold sovereign equality, fairness and justice, and oppose bullying the weak by the strong and the law of the jungle.",
+        "topic": "international order/trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Essay in People's Daily on Xi Jinping Thought on Diplomacy",
+        "quote_or_paraphrase": "China has resolutely opposed maximum-pressure tactics and external interference, continually enhanced its capacity to counter sanctions, counter interference, and counter 'long-arm jurisdiction', and effectively safeguarded development rights and space.",
+        "topic": "sanctions/US pressure",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
   }
 ]
