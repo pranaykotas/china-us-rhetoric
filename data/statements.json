@@ -95856,5 +95856,163 @@
         "tone_intensity": 4
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/zhuque-3-success-significance-of",
+    "article_date": "2026-08-20",
+    "article_title": "Zhuque-3 Success - Significance of ‘Emotional Consumption’ - Chinese Media’s Social Responsibility Reports’ - Deep Dive into AI Governance Vision - Wang Meets Chile FM",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Congratulatory letter to Hungarian President Andras Baka",
+        "quote_or_paraphrase": "Hungary is one of the first countries to recognize the People's Republic of China and shares a long-standing traditional friendship with China. Xi expressed attachment to developing China-Hungary ties and stands ready to deepen mutual political trust and practical cooperation in all areas.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with Ecuadorian President Daniel Roy-Gilchrist Noboa Azín",
+        "quote_or_paraphrase": "China is willing to work with Ecuador to advance high-quality Belt and Road cooperation, expand bilateral trade, deepen cooperation in emerging areas such as 5G and AI. At present, the situation in Latin America is complex and volatile. China is willing to serve as a reliable partner for countries in the region and expand China-Latin America cooperation.",
+        "topic": "diplomacy, trade, technology",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xue Lan and Chen Ying",
+        "speaker_type": "individual",
+        "speaker_title": "Academics from Tsinghua and CASS",
+        "speaker_importance": 3,
+        "context": "Article on China's position on AI governance published in People's Daily",
+        "quote_or_paraphrase": "Certain countries have distorted AI governance into a tool for preserving their own technological superiority and competitive position, undermining international scientific research cooperation networks and industrial collaboration systems. This damages common interests of all countries. China adheres to openness and win-win outcomes, promoting inclusive development of AI through open source and sharing.",
+        "topic": "technology, AI governance",
+        "framing": "accusatory toward unnamed countries; constructive toward China's approach",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xue Lan and Chen Ying",
+        "speaker_type": "individual",
+        "speaker_title": "Academics from Tsinghua and CASS",
+        "speaker_importance": 3,
+        "context": "Article on China's position on AI governance published in People's Daily",
+        "quote_or_paraphrase": "China has actively explored a path of agile governance suited to AI development, achieving an organic unity of encouraging innovation and regulating development, contributing a Chinese solution to global AI safety governance.",
+        "topic": "technology, AI governance",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xue Lan and Chen Ying",
+        "speaker_type": "individual",
+        "speaker_title": "Academics from Tsinghua and CASS",
+        "speaker_importance": 3,
+        "context": "Article on China's position on AI governance published in People's Daily",
+        "quote_or_paraphrase": "China has consistently adhered to promoting inclusive development of AI through open source and openness. Cumulative global downloads of China's open-source AI large models have surpassed 10 billion. The new open-source model Kimi K3 has been released with 2.8 trillion parameters, making it currently the largest open-source model in the world.",
+        "topic": "technology, AI",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wei Liang",
+        "speaker_type": "individual",
+        "speaker_title": "Vice-President of China Academy of Information and Communications Technology",
+        "speaker_importance": 3,
+        "context": "Article on AI governance published in People's Daily",
+        "quote_or_paraphrase": "Certain countries regard AI as a tool of major-power competition and adopt exclusionary strategies such as 'building walls and erecting barriers' and 'decoupling and severing chains.' Only by examining AI within the vision of building a community with a shared future for humanity can all countries participate equally, make decisions equally, and benefit equally.",
+        "topic": "technology, AI, geopolitics",
+        "framing": "accusatory toward unnamed countries; constructive toward multilateral approach",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wei Liang",
+        "speaker_type": "individual",
+        "speaker_title": "Vice-President of China Academy of Information and Communications Technology",
+        "speaker_importance": 3,
+        "context": "Article on AI governance published in People's Daily",
+        "quote_or_paraphrase": "Xi Jinping stated: 'The development of AI should not be a solo performance by any one country, but rather a symphony of global cooperation.' China advocates open source and openness, encouraging developers and enterprises worldwide to join in building open-source communities and promoting open sharing of basic resources.",
+        "topic": "technology, AI, diplomacy",
+        "framing": "constructive, contrasting cooperative vision with unilateral approaches",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wei Liang",
+        "speaker_type": "individual",
+        "speaker_title": "Vice-President of China Academy of Information and Communications Technology",
+        "speaker_importance": 3,
+        "context": "Article on AI governance published in People's Daily",
+        "quote_or_paraphrase": "China provides 5,000 places for thematic AI study and training programmes for developing countries; builds international AI application cooperation centres oriented toward ASEAN, Arab League, African Union, CELAC, SCO and BRICS countries; and promotes implementation of 'Mazu' meteorological intelligent early-warning solution in 30 countries to provide governance experience to the international community.",
+        "topic": "technology, AI, development cooperation",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Zhong Sheng commentary",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on Japanese politicians visiting Yasukuni Shrine",
+        "quote_or_paraphrase": "Japanese right-wing conduct is a flagrant profanation of historical justice, a grave wounding of the feelings of victimized Asian countries, and a deliberate provocation against the fruits of WWII victory and the postwar international order. This has rightly met with strong international condemnation.",
+        "topic": "diplomacy, history, Japan",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Human Resources and Social Security",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 3,
+        "context": "Report on recruitment campaign",
+        "quote_or_paraphrase": "The 100-Day, Ten-Million Recruitment Special Campaign has launched four online recruitment sessions covering artificial intelligence, advanced manufacturing, medical and health care, and foreign trade, involving more than 3,000 participating employers with recruitment demand for 24,000 positions.",
+        "topic": "domestic economic policy",
+        "framing": "neutral",
+        "tone": "neutral",
+        "tone_intensity": 1
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/zhu-rongjis-funeral-xi-meets-ecuador",
+    "article_date": "2026-08-19",
+    "article_title": "Zhu Rongji’s Funeral - Xi Meets Ecuador President Noboa - NPC Session Agenda - What’s the Agenda for Political Building in the Military?",
+    "statements": [
+      {
+        "speaker": "Xi Jinping Thought on Strengthening the Military Research Center",
+        "speaker_type": "institution",
+        "speaker_title": "Research institution/Party organ",
+        "speaker_importance": 4,
+        "context": "Article in People's Daily on military political building",
+        "quote_or_paraphrase": "Faced with encirclement, containment and suppression from outside, the modernisation of national defence and the armed forces may face the risk of having its progress interrupted. The modernisation faces the predicament of having its key core technologies subjected to 'chokeholds', 'severed links' and 'high walls'",
+        "topic": "military, technology, sanctions",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping Thought on Strengthening the Military Research Center",
+        "speaker_type": "institution",
+        "speaker_title": "Research institution/Party organ",
+        "speaker_importance": 4,
+        "context": "Article in People's Daily on military political building",
+        "quote_or_paraphrase": "At present, competition among the major powers is growing ever more intense, the struggle in the ideological sphere is sharp and complex, and various trends of thought can readily impact the cognition of officers and soldiers",
+        "topic": "diplomacy, great power competition",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
   }
 ]
