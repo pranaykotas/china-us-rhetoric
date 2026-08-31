@@ -96014,5 +96014,381 @@
         "tone_intensity": 3
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/patriotic-youth-preparing-for-rcep",
+    "article_date": "2021-02-04",
+    "article_title": "Patriotic Youth, Preparing for RCEP & the Party's History",
+    "statements": [
+      {
+        "speaker": "Yang Guangbin",
+        "speaker_type": "individual",
+        "speaker_title": "Dean of the School of International Relations, Renmin University of China",
+        "speaker_importance": 2,
+        "context": "Theory page article in People's Daily",
+        "quote_or_paraphrase": "Some countries have blindly transplanted Western democratic systems, resulting in ineffective governance in lighter cases and national unrest in more serious ones. China's democratic centralism and consultative democracy differ fundamentally from the Western democratic system, where the legislature is a conglomerate of interests resulting in 'veto-based politics'.",
+        "topic": "diplomacy/governance",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Gao Xiang",
+        "speaker_type": "individual",
+        "speaker_title": "Vice President of the Chinese Academy of Social Sciences and President of the Chinese Academy of History",
+        "speaker_importance": 3,
+        "context": "Theory page article in People's Daily",
+        "quote_or_paraphrase": "The invasion of Western powers and corruption of feudal rule reduced China to a semi-colonial and semi-feudal society. The Chinese Communist Party defeated Japanese imperialism and completely ended the humiliating history of the Chinese nation of being invaded and enslaved for more than 100 years after the Opium War. The CCP has made great contributions to the cause of world justice and the development of human civilization.",
+        "topic": "history/diplomacy",
+        "framing": "accusatory/assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/no-early-harvest-package-settlement",
+    "article_date": "2026-08-25",
+    "article_title": "No ‘Early Harvest’; ‘Package Settlement’ Referenced in India-China SR-level Talks on Boundary",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "25th Special Representatives meeting in Beijing with Indian National Security Advisor Ajit Doval",
+        "quote_or_paraphrase": "China and India are each other's important neighbours and major developing countries. China-India relations have transcended the bilateral sphere and possess global and strategic significance. China is willing to work with India from a strategic height and long-term perspective, strengthen communication, increase understanding, eliminate differences, and overcome obstacles to realize 'the dragon and the elephant tango'.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "25th Special Representatives meeting in Beijing",
+        "quote_or_paraphrase": "The two sides should sum up historical experience, place the boundary question in an appropriate position within bilateral relations, and persist in moving forward without stagnating, moving backward, or deviating from course. Gradually construct a positive narrative on China-India boundary affairs so that dialogue, peace, consultation, and cooperation become the mainstream.",
+        "topic": "border/boundary",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "25th Special Representatives meeting readout",
+        "quote_or_paraphrase": "The two sides held in-depth communication on advancing boundary delimitation negotiations and reaffirmed that in accordance with the political guiding principles agreed upon in 2005 and in a spirit of mutual respect and understanding, they will utilize the Special Representatives' meeting mechanism to seek a fair, reasonable and mutually acceptable package settlement to the boundary question.",
+        "topic": "border/boundary",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-four-point-perspective-on-middle",
+    "article_date": "2026-08-25",
+    "article_title": "Xi’s Four-Point Perspective on ‘Middle East - China-Jordan Joint Statement - Zhong Caiwen Commentary on Economic Policy Direction",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Jordanian King Abdullah II ibn Al Hussein",
+        "quote_or_paraphrase": "China all along advocates a comprehensive ceasefire and end of hostilities, and resolving disputes through political and diplomatic means. China believes that the sovereignty and security of Jordan and all other countries in the region should be respected.",
+        "topic": "Middle East diplomacy, regional stability",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with Jordanian King Abdullah II ibn Al Hussein",
+        "quote_or_paraphrase": "China stands ready to work with Jordan to implement the four global initiatives, strengthen coordination and collaboration in the U.N. and other multilateral institutions, jointly safeguard the U.N.-centered international system and international order underpinned by international law, and promote the building of a community with a shared future for humanity.",
+        "topic": "multilateral cooperation, international order",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with Jordanian King Abdullah II ibn Al Hussein",
+        "quote_or_paraphrase": "Recently, the situation in the Middle East has experienced ups and downs. China is willing to work with Jordan and other relevant parties to make unremitting efforts to cool tensions in the Middle East and achieve lasting peace and stability.",
+        "topic": "Middle East diplomacy, regional stability",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Huning",
+        "speaker_type": "individual",
+        "speaker_title": "Senior Party Official",
+        "speaker_importance": 4,
+        "context": "Meeting with US delegates at China-US Track 1.5 Dialogue in Beijing",
+        "quote_or_paraphrase": "In May this year, President Xi Jinping and visiting U.S. President Donald Trump had held in-depth communications on major issues bearing on China-U.S. relations as well as world peace and development. China is ready to work with the United States to fully and faithfully implement the important consensus reached by the two heads of state, foster correct mutual understanding, respect each other's core interests, strengthen practical cooperation across various fields, properly manage differences, and actively build a constructive China-U.S. relationship of strategic stability.",
+        "topic": "China-US relations, diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Kuwaiti Foreign Minister Sheikh Jarrah Jaber Al-Ahmad Al-Sabah",
+        "quote_or_paraphrase": "The current situation in the Middle East and the Gulf has once again arrived at a critical juncture; the old script of a cycle of conflict should not be repeatedly played out. China has always held that, no matter how great the differences, a way out should be found at the negotiating table, rather than deciding who prevails amid the sound of guns and cannons. Now that the steps toward a ceasefire and a cessation of war have already been taken, there should be no turning back onto the old road. The top priority is to promote the de-escalation of the situation.",
+        "topic": "Middle East diplomacy, regional peace",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Han Zheng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Premier",
+        "speaker_importance": 4,
+        "context": "Meeting with Kuwaiti Foreign Minister Sheikh Jarrah Jaber Al-Ahmad Al-Sabah in Beijing",
+        "quote_or_paraphrase": "Under the strategic guidance of two heads of state, China-Kuwait relations have maintained a good momentum of development. China is willing to work with Kuwait to promote bilateral relations to higher level. China stands ready to continue to make efforts for peace talks, and to make efforts in restoring peace and tranquility in the Middle East at an early date.",
+        "topic": "Middle East diplomacy, bilateral relations",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/zhong-caiwen-commentaries-defend",
+    "article_date": "2026-08-24",
+    "article_title": "Zhong Caiwen Commentaries Defend China’s H1 Economic Performance - How China has Kept ‘Rice Bowl of Energy’ in its Own Hands amid Hormuz Crisis",
+    "statements": [
+      {
+        "speaker": "State Council",
+        "speaker_type": "institution",
+        "speaker_title": "State organ",
+        "speaker_importance": 5,
+        "context": "State Council executive meeting readout",
+        "quote_or_paraphrase": "It is necessary to strengthen the protection of critical network infrastructure and data security, enhance emergency communications assurance capabilities, and ensure network and information security.",
+        "topic": "domestic infrastructure and security",
+        "framing": "defensive",
+        "tone": "neutral",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "People's Daily (Zhong Caiwen commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Opinion commentary in People's Daily",
+        "quote_or_paraphrase": "China's position as a hub in global production and supply chains continues to strengthen. China deploys its innovation chain around its industrial chain...China's exports of intermediate goods have grown relatively rapidly, supplying key components to global production and supply chains and effectively ensuring their stable operation.",
+        "topic": "global supply chains and trade",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily (Zhong Caiwen commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Opinion commentary in People's Daily",
+        "quote_or_paraphrase": "The American business community highly commended China's developmental advantages in emerging fields such as advanced manufacturing, artificial intelligence, clean energy, quantum computing, and life sciences, calling for expanded pragmatic cooperation while maintaining necessary competition.",
+        "topic": "US-China business relations",
+        "framing": "cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily (Sunday commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Opinion commentary in People's Daily",
+        "quote_or_paraphrase": "Against distortions and smears such as the 'China Shock 2.0' and the 'China squeeze' thesis, facts are the best rebuttal. Chinese manufacturing enhances the livelihood and wellbeing of people everywhere...The dividends of Chinese manufacturing benefit consumers and cooperation partners in every country.",
+        "topic": "economic competition and trade",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "People's Daily (Sunday commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Opinion commentary in People's Daily",
+        "quote_or_paraphrase": "While some countries have turned toward protectionism, China has consistently persisted in expanding opening up, providing broad market space for global goods and services through measures such as lowering import tariffs, hosting the China International Import Expo, and launching the 'Export to China' series of activities.",
+        "topic": "trade and protectionism",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily (Sunday commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Opinion commentary in People's Daily",
+        "quote_or_paraphrase": "The Wall Street Journal observed that China had supported the world economy by reducing its oil imports. France's Le Figaro took the view that China had rescued the world economy for the second time since the international financial crisis of 2008.",
+        "topic": "economic contribution and global stability",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily (Sunday commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Opinion commentary in People's Daily",
+        "quote_or_paraphrase": "Relying on technological innovation and full market competition, China has built the world's largest and most complete new-energy production and supply-chain system...China's advanced and applicable technologies in photovoltaics, wind power, energy storage and other fields, as well as high-quality products such as electric vehicles and electric motorcycles, have turned the energy-transition dreams of many developing countries into reality.",
+        "topic": "technology and economic development",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily (Sunday commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Opinion commentary in People's Daily",
+        "quote_or_paraphrase": "China is one of the sources of global scientific and technological innovation, injecting a powerful 'force toward the new' into world economic development...China's innovation strength has markedly increased. According to reports by the World Intellectual Property Organization, China's ranking in the Global Innovation Index rose from 34th in 2012 to 10th in 2025.",
+        "topic": "technological innovation and global competition",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily (Sunday commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Opinion commentary in People's Daily",
+        "quote_or_paraphrase": "Foreign media commentary has noted that the concept advocated by China of 'putting people first and orienting toward the upward and the good', together with the open-source character of Chinese AI technology, accords more closely with the currents of technological innovation and the needs of Global South countries, and helps to bridge the global intelligence divide and enable all parties to benefit equally.",
+        "topic": "technology and global cooperation",
+        "framing": "assertive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily (front page article)",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Front page article on energy security",
+        "quote_or_paraphrase": "Although a large proportion of China's oil and gas comes from international markets, the website of France's Le Monde nevertheless commented that 'China has demonstrated astonishing resilience in the face of this external shock.' Recently, international institutions including the International Monetary Fund, Morgan Stanley and Deutsche Bank have raised their forecasts for China's economic growth against the trend, with China's energy advantages being an important reason for their optimism about China.",
+        "topic": "energy security and economic resilience",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary",
+        "speaker_importance": 5,
+        "context": "Inspection visit to Shengli Oilfield, October 2021",
+        "quote_or_paraphrase": "The development of petroleum energy is of great significance to our country. As a major manufacturing country, China must develop the real economy; the rice bowl of energy must be held in our own hands.",
+        "topic": "energy security and manufacturing",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary",
+        "speaker_importance": 5,
+        "context": "Statements referenced in People's Daily article",
+        "quote_or_paraphrase": "I often speak of bottom-line thinking. On the energy question, this means maintaining at all times a sense of anxiety and foresight and a sense of crisis.",
+        "topic": "energy security and strategic thinking",
+        "framing": "cautious",
+        "tone": "cautious",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary",
+        "speaker_importance": 5,
+        "context": "Statements referenced in People's Daily article",
+        "quote_or_paraphrase": "Food and energy security are the most pressing challenges in the field of global development.",
+        "topic": "global development and security",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary",
+        "speaker_importance": 5,
+        "context": "Statements referenced in People's Daily article",
+        "quote_or_paraphrase": "In a century of transformation, one thing after another emerges—now a grey rhino, now a black swan. Toward an unpredictable situation one must have a bottom-line consciousness and a crisis consciousness.",
+        "topic": "strategic resilience and crisis management",
+        "framing": "cautious",
+        "tone": "cautious",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary",
+        "speaker_importance": 5,
+        "context": "Central Economic Work Conference, end of last year",
+        "quote_or_paraphrase": "We must respond to external challenges by diligently practising our internal skills.",
+        "topic": "external challenges and self-reliance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary",
+        "speaker_importance": 5,
+        "context": "Statements referenced in People's Daily article",
+        "quote_or_paraphrase": "Maintaining composure, strengthening confidence, and concentrating our efforts on managing our own affairs well are the key to our response to various risks and challenges.",
+        "topic": "self-reliance and risk management",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary",
+        "speaker_importance": 5,
+        "context": "Statements referenced in People's Daily article",
+        "quote_or_paraphrase": "We must hold our own rice bowl firmly, and make sure that the fundamentals, i.e., manufacturing, grain, energy, strategic material reserves and so on, are put on a rock-solid footing. This is where our confidence comes from. Strengthening the foundations is a prerequisite for running alongside and taking the lead; this is a matter of fundamental importance to the country.",
+        "topic": "strategic self-sufficiency and national security",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Politburo",
+        "speaker_type": "institution",
+        "speaker_title": "Party organ",
+        "speaker_importance": 5,
+        "context": "Politburo meeting, April 28, 2024",
+        "quote_or_paraphrase": "Respond systematically to external shocks and challenges, raise the level of energy and resource security assurance, and respond to uncertainties of every kind with the certainty of high-quality development.",
+        "topic": "external challenges and self-reliance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
   }
 ]
