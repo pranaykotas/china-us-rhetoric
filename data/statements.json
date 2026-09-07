@@ -96390,5 +96390,388 @@
         "tone_intensity": 4
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/discipline-davos-and-deep-dive-into",
+    "article_date": "2021-01-25",
+    "article_title": "Discipline, Davos & Deep Dive into PLA's 2027 Goals",
+    "statements": [
+      {
+        "speaker": "People's Liberation Army",
+        "speaker_type": "institution",
+        "speaker_title": "Military branch",
+        "speaker_importance": 4,
+        "context": "Theory page article in People's Daily, January 25, 2021",
+        "quote_or_paraphrase": "China will face more adverse external environment, national security uncertainty instability increased. To effectively deal with national security risks and challenges and maintain the important strategic opportunity period for China's development, there is an urgent need to build and use military forces with the goal of building the army for the centenary and speed up the strategic ability to defend national sovereignty, security and development interests.",
+        "topic": "military",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "People's Liberation Army",
+        "speaker_type": "institution",
+        "speaker_title": "Military branch",
+        "speaker_importance": 4,
+        "context": "Theory page article in People's Daily, January 25, 2021",
+        "quote_or_paraphrase": "Science and technology has become the core combat power, and the competition in the field of science and technology around subversion and counter-subversion, surprise attack and counter surprise attack, offset and counter offset is very intense. We should adhere to the strategic base of independent innovation, strengthen the strategic planning layout, strengthen the construction of the innovation system, strengthen policy system incentives, and launch the science and technology innovation engine at full speed.",
+        "topic": "technology",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/what-xi-achieved-in-kyrgyzstan-and",
+    "article_date": "2026-09-04",
+    "article_title": "What Xi Achieved in Kyrgyzstan & Egypt? - Wang Yi Highlights ‘Spousal Diplomacy’ - Europe Must Do Away with ‘Cognitive Deviation’ - Analysing Iran War’s Impact on Future of Global Energy Sector",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Summation of Xi Jinping's travels to Kyrgyzstan and Egypt, published in People's Daily",
+        "quote_or_paraphrase": "President Xi Jinping put forward the Global Governance Initiative at the Tianjin Summit, and the international community has responded positively. This year the SCO Plus meeting theme was 'Strengthening the Role of the United Nations and Building a Multipolar World', echoing the Global Governance Initiative. The direction advocated is the advancement of an equal and orderly multipolar world.",
+        "topic": "diplomacy, global governance",
+        "framing": "assertive, constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Summation of Xi Jinping's travels to Kyrgyzstan and Egypt, published in People's Daily",
+        "quote_or_paraphrase": "In his talks with President Sisi, President Xi Jinping put forward a four-point initiative on promoting common security in the Middle East, emphasizing that the international community and major powers outside the region should abandon double standards and respect the sovereignty and territorial integrity of the countries of the region.",
+        "topic": "Middle East security, international order",
+        "framing": "accusatory toward Western double standards",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Summation of Xi Jinping's travels to Kyrgyzstan and Egypt, published in People's Daily",
+        "quote_or_paraphrase": "Guided by Xi Jinping Thought on Diplomacy, China is continuously exploring ways of resolving hotspot issues with Chinese characteristics: China does not pursue selfish geopolitical interests and does not engage in bloc confrontation, but places the fundamental interests of the peoples of the region at the core.",
+        "topic": "diplomacy, geopolitics",
+        "framing": "constructive, differentiation from Western approach",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zheng Tao",
+        "speaker_type": "individual",
+        "speaker_title": "Commentator, People's Daily",
+        "speaker_importance": 2,
+        "context": "Article on China-EU ties, People's Daily",
+        "quote_or_paraphrase": "In recent years some European politicians have framed relations with China through a 'threefold positioning' (China as partner, economic competitor and systemic rival), tightened economic and trade ties under the banner of 'de-risking', and attempted to amplify cognitive anxiety by promoting the narrative of 'China shock 2.0.' These various distortions have continuously eroded the foundations of bilateral mutual trust.",
+        "topic": "EU-China relations, trade, systemic rivalry framing",
+        "framing": "accusatory toward European policy",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zheng Tao",
+        "speaker_type": "individual",
+        "speaker_title": "Commentator, People's Daily",
+        "speaker_importance": 2,
+        "context": "Article on China-EU ties, People's Daily",
+        "quote_or_paraphrase": "Some European politicians are attempting deliberately to generalize normal market competition in particular industries into a zero-sum contest at the level of systems, and seeking to use an ideological narrative to sever industrial bonds the two sides have sustained for more than half a century.",
+        "topic": "EU-China trade relations, ideology",
+        "framing": "defensive, accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zheng Tao",
+        "speaker_type": "individual",
+        "speaker_title": "Commentator, People's Daily",
+        "speaker_importance": 2,
+        "context": "Article on China-EU ties, People's Daily",
+        "quote_or_paraphrase": "To interpret one-sidedly a two-way interdependence originating in market rationality as so-called 'strategic vulnerability' is beyond doubt a major strategic misjudgement. The real risk has never been the mutual connection that cooperation brings, but the artificial 'decoupling and severing of chains' carried out under the banner of 'security'.",
+        "topic": "China-EU economic interdependence, de-risking",
+        "framing": "defensive, accusatory toward de-risking policies",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zheng Tao",
+        "speaker_type": "individual",
+        "speaker_title": "Commentator, People's Daily",
+        "speaker_importance": 2,
+        "context": "Article on China-EU ties, People's Daily",
+        "quote_or_paraphrase": "Europe's industrial anxieties should not make China a 'scapegoat' onto which contradictions are shifted. The difficulties of European manufacturing today are rooted in the chronic malady of industrial hollowing-out accumulated under the long-term dominance of financial capital, rather than in any external shock.",
+        "topic": "EU-China trade relations, European industrial decline",
+        "framing": "defensive, deflecting criticism",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhao Hongtu and Chen Wenlin",
+        "speaker_type": "individual",
+        "speaker_title": "Researchers from China Institute of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article on global energy landscape, Qiushi journal",
+        "quote_or_paraphrase": "The current US administration is forcefully pushing 'energy dominance' and the weaponization of energy, comprehensively binding policies in such areas as fossil energy, transportation routes, and energy finance with geopolitical strategy, vigorously promoting the 'de-Sinicization' of clean energy, and continuously strengthening energy sanctions against Russia and other oil-producing countries, seriously worsening the international energy-security environment.",
+        "topic": "US energy policy, weaponization of energy, technology competition",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhao Hongtu and Chen Wenlin",
+        "speaker_type": "individual",
+        "speaker_title": "Researchers from China Institute of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article on global energy landscape, Qiushi journal",
+        "quote_or_paraphrase": "In early 2026, the current US administration militarily intervened in Venezuela and joined Israel in taking military action against Iran, causing oil and gas prices to repeatedly fluctuate at high levels and becoming the 'source of turmoil' in the international energy market.",
+        "topic": "US military intervention, Middle East, geopolitical conflict",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhao Hongtu and Chen Wenlin",
+        "speaker_type": "individual",
+        "speaker_title": "Researchers from China Institute of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article on global energy landscape, Qiushi journal",
+        "quote_or_paraphrase": "The current US administration has once again withdrawn from the Paris Agreement and slowed the pace of the energy transition. By contrast, clean-energy strategies in the Asia-Pacific region continue to advance, and the green economy is growing rapidly.",
+        "topic": "climate, energy transition, US withdrawal from Paris Agreement",
+        "framing": "accusatory toward US, contrasting with Asia's progress",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhao Hongtu and Chen Wenlin",
+        "speaker_type": "individual",
+        "speaker_title": "Researchers from China Institute of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article on global energy landscape, Qiushi journal",
+        "quote_or_paraphrase": "The current US administration is clinging to a high-carbon development path, accelerating the development and export of fossil energy, and strengthening the use of coal, natural gas, nuclear energy and other sources to support the operation of the power grid. It is attempting to counter the paths of electrification and clean energy through a route of consolidating its fossil-energy advantages and expanding global energy hegemony.",
+        "topic": "US energy policy, clean energy competition, global dominance",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhao Hongtu and Chen Wenlin",
+        "speaker_type": "individual",
+        "speaker_title": "Researchers from China Institute of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article on global energy landscape, Qiushi journal",
+        "quote_or_paraphrase": "China, India and Brazil are becoming the main force of new energy development. The centre of gravity of global renewable energy development continues to incline towards Asia; in 2024, Asia's newly added renewable power generation accounted for more than 65 per cent of the global total.",
+        "topic": "clean energy development, technology competition",
+        "framing": "assertive positioning of China and Asia as leaders",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-outlines-four-point-agenda-for",
+    "article_date": "2026-09-03",
+    "article_title": "Xi Outlines Four-Point Agenda for New Security Architecture for Middle East",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "State visit to Egypt, official readout and joint statement",
+        "quote_or_paraphrase": "On regional security in the Middle East: 'Interference by external forces should be opposed' and 'major countries outside the region should reject double standards, respect sovereignty and territorial integrity of regional countries.' This framing opposes unilateral action by external powers (implicitly the US-led West) in Middle East affairs.",
+        "topic": "diplomacy, regional security, opposition to external interference",
+        "framing": "accusatory toward external interference; constructive toward regional autonomy",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "State visit to Egypt, official readout",
+        "quote_or_paraphrase": "The two countries should 'oppose unilateralism and bullying acts together, and promote a more just and equitable global governance system.'",
+        "topic": "diplomacy, global governance, opposition to Western unilateralism",
+        "framing": "accusatory toward unilateralism and bullying (implicit reference to US-led Western dominance)",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "China-Egypt Joint Statement",
+        "speaker_type": "institution",
+        "speaker_title": "Official government joint communiqué",
+        "speaker_importance": 5,
+        "context": "Published in People's Daily following Xi Jinping's state visit to Egypt",
+        "quote_or_paraphrase": "The Egyptian side 'emphasized its rejection of interference in China's internal affairs and its steadfast commitment to the One-China principle, recognizing Taiwan as an inalienable part of the territory of the People's Republic of China, supporting the Chinese position on issues pertinent to China's sovereignty and territorial integrity.'",
+        "topic": "Taiwan, China's sovereignty, resistance to external interference",
+        "framing": "accusatory toward interference in China's internal affairs; assertive on Taiwan as core interest",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "China-Egypt Joint Statement",
+        "speaker_type": "institution",
+        "speaker_title": "Official government joint communiqué",
+        "speaker_importance": 5,
+        "context": "Published in People's Daily following Xi Jinping's state visit to Egypt",
+        "quote_or_paraphrase": "Both sides rejected 'the application of double standards in counterterrorism' and rejected 'the harboring or supporting of terrorist forces under any pretext,' implicitly critiquing Western selective application of counterterrorism policies.",
+        "topic": "counterterrorism, opposition to double standards",
+        "framing": "accusatory toward Western double standards in counterterrorism",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-sco-summit-message-li-meets-uscbc",
+    "article_date": "2026-09-02",
+    "article_title": "Xi’s SCO Summit Message - Li Meets USCBC Delegation - Why the Bishkek Declaration Has Left Me Fuming!",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Speech at SCO+ Meeting in Bishkek",
+        "quote_or_paraphrase": "Sovereign equality and mutual respect are fundamental principles. Multipolarity, independent choice of development paths, and greater democracy in international relations are the right way forward. We should reject double standards, exceptionalism, foreign interference, bullying and the law of the jungle. The domination of international affairs by a few is an injustice left over from history, and global governance dictated by one, a few or a bloc of countries is not true multilateralism.",
+        "topic": "multilateralism, global governance, international order",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Speech at SCO+ Meeting in Bishkek",
+        "quote_or_paraphrase": "Protectionism, decoupling and supply-chain disruption will lead nowhere. We should focus on the development agenda, uphold openness and cooperation, and bridge the digital and AI divides.",
+        "topic": "trade, technology, economic competition",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Speech at SCO Council of Heads of State in Bishkek",
+        "quote_or_paraphrase": "We must prevent external forces from interfering in our internal affairs, endangering our political security, and undermining regional stability.",
+        "topic": "security, non-interference",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "SCO Member States (Shanghai Cooperation Organisation)",
+        "speaker_type": "institution",
+        "speaker_title": "Multilateral Organization",
+        "speaker_importance": 4,
+        "context": "Bishkek Declaration adopted at SCO summit",
+        "quote_or_paraphrase": "Member states hold that the practice of stigmatizing the state organs and institutions of SCO member states is unacceptable, and stressed that such acts violate international law and undermine the principles of the sovereign equality of states and non-interference in one another's internal affairs as provided for in the Charter of the United Nations.",
+        "topic": "sovereignty, non-interference, international law",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "SCO Member States (Shanghai Cooperation Organisation)",
+        "speaker_type": "institution",
+        "speaker_title": "Multilateral Organization",
+        "speaker_importance": 4,
+        "context": "Bishkek Declaration adopted at SCO summit",
+        "quote_or_paraphrase": "Member states strongly condemned terrorism in all its forms and manifestations, resolutely opposed double standards in counter-terrorism, and called on the international community to adhere strictly to the Charter of the United Nations and the principles of international law.",
+        "topic": "counter-terrorism, international law, double standards",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with U.S.-China Business Council delegation in Beijing",
+        "quote_or_paraphrase": "China will work to address the reasonable concerns of U.S. companies operating in China, and safeguard a level playing field in accordance with the law. The essence of China-U.S. economic and trade cooperation is mutual benefit and win-win cooperation. Strengthening cooperation is both an inherent need of both sides and the right choice.",
+        "topic": "trade, economic cooperation, business environment",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with U.S.-China Business Council delegation in Beijing",
+        "quote_or_paraphrase": "China calls on the U.S. side to work with China in the same direction, take concrete actions to address China's concerns, and jointly implement the outcomes of the bilateral economic and trade consultations. China is ready to work with the U.S. side to follow the strategic guidance of the two heads of state, and promote the building of a constructive China-U.S. relationship of strategic stability.",
+        "topic": "bilateral relations, economic cooperation, diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with U.S.-China Business Council delegation in Beijing",
+        "quote_or_paraphrase": "As long as the two sides respect and understand each other, and strengthen communication and consultation, solutions can always be found. China is probably the only high-potential market in the world that boasts both massive scale and vibrant novelty.",
+        "topic": "bilateral relations, trade, market access",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-meetings-in-bishkek-state-council",
+    "article_date": "2026-09-01",
+    "article_title": "Xi’s Meetings in Bishkek - State Council on Regulating Investment Attraction by Local Govt’s - New Center on Xi Jinping Thought on Party Building - Huai Jinpeng on China’s Basic Education Agenda",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with President Shavkat Mirziyoyev of Uzbekistan at SCO summit in Kyrgyzstan",
+        "quote_or_paraphrase": "No matter how the world changes, China will never waver in its position of deepening China-Uzbekistan friendship, and will always support Uzbekistan in following a development path suited to its national conditions.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with President Vladimir Putin at SCO summit",
+        "quote_or_paraphrase": "While uncertainties and unpredictable factors in the international landscape have significantly increased amid the accelerating global transformation unseen in a century, the aspiration of people around the world for peace, development, cooperation and mutual benefit remains unchanged. The SCO has the important mission of safeguarding regional stability and promoting regional development. China is ready to work with Russia and all other parties to jointly draw up the blueprint for the organization's development and boost the forces that steer global governance reform and advance an equal and orderly multipolar world.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with President Khurelsukh Ukhnaa of Mongolia at SCO summit",
+        "quote_or_paraphrase": "Owing to the influence of international geopolitics and geostrategy, the supply of fuel and combustibles has become unstable in the world market; even so, China will support the supply of petroleum products to Mongolia.",
+        "topic": "economy",
+        "framing": "assertive",
+        "tone": "neutral",
+        "tone_intensity": 2
+      }
+    ]
   }
 ]
