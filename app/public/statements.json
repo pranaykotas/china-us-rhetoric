@@ -96773,5 +96773,311 @@
         "tone_intensity": 2
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/state-council-reviews-economic-measures",
+    "article_date": "2022-06-09",
+    "article_title": "State Council Reviews Economic Measures Implementation - Interview with Pan Gongsheng - China-Central Asian FMs Meeting + Data Security Deal - Historical Confidence - Training China's Teachers",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Third China + Central Asia (C+C5) foreign ministers' meeting in Nur-Sultan",
+        "quote_or_paraphrase": "No matter how the international landscape may change, China will always firmly support the Central Asian countries in protecting their sovereignty and independence, pursuing development paths suited to their national conditions and building an autonomous Central Asia",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Third China + Central Asia (C+C5) foreign ministers' meeting in Nur-Sultan",
+        "quote_or_paraphrase": "Five-point proposal including safeguarding regional peace in both traditional and non-traditional areas, global governance cooperation including support for GDI and GSI, and supporting all countries in safeguarding their core interests",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "C+C5 Joint Declaration (Third Foreign Ministers Meeting)",
+        "speaker_type": "institution",
+        "speaker_title": "Multilateral diplomatic statement",
+        "speaker_importance": 3,
+        "context": "Third China + Central Asia (C+C5) foreign ministers' meeting in Nur-Sultan",
+        "quote_or_paraphrase": "All parties expressed that they should be vigilant against external forces interfering in regional affairs, and reiterated their determination to support the maintenance of security and stability of China and Central Asian countries",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "C+C5 Data Security Initiative",
+        "speaker_type": "institution",
+        "speaker_title": "Multilateral initiative document",
+        "speaker_importance": 3,
+        "context": "Third China + Central Asia (C+C5) foreign ministers' meeting in Nur-Sultan",
+        "quote_or_paraphrase": "Oppose the use of information technology to damage/destroy other countries' key information infrastructure or steal important data, and use it to engage in actions that endanger other countries' national security and public interest; prevent and stop the use of the Internet to infringe on personal information, oppose the misuse of information technology to engage in acts such as large-scale surveillance against other countries or illegally collecting personal information of citizens of other countries",
+        "topic": "technology",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/analysis-of-modi-xi-meeting-in-delhi",
+    "article_date": "2026-09-12",
+    "article_title": "Analysis of Modi-Xi Meeting in Delhi & BRICS Declaration",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Bilateral meeting with PM Modi at BRICS summit in Delhi; Chinese official readout",
+        "quote_or_paraphrase": "China and India should remove interference through political wisdom based on mutual respect and mutual understanding, be committed to bilateral relations and the boundary question advancing on twin tracks and mutually promoting each other, and safeguard peace and tranquility in the border areas.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Bilateral meeting with PM Modi at BRICS summit in Delhi; Chinese official readout",
+        "quote_or_paraphrase": "China and India are cooperative partners, not rivals, and are development opportunities for each other rather than threats. This is a strategic judgement made on the basis of the stage of development the two countries are at and the international environment.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-heads-to-delhi-for-brics-ding",
+    "article_date": "2026-09-11",
+    "article_title": "Xi Heads to Delhi for BRICS - Ding Outlines China’s APEC Energy Agenda - New Notice on SMEs’ Payment Woes",
+    "statements": [
+      {
+        "speaker": "People's Daily",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Article on BRICS summit and cooperation, front page of People's Daily",
+        "quote_or_paraphrase": "Certain countries have successively launched trade wars and tariff wars, seriously impacting the world economy and severely undermining international trade rules. BRICS countries must uphold multilateralism and defend the multilateral trading system.",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "People's Daily",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Article on BRICS summit and cooperation, front page of People's Daily",
+        "quote_or_paraphrase": "Hegemonism, unilateralism, and protectionism are running rampant. The world long for BRICS cooperation to inject certainty, stability, and positive energy into global affairs.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "People's Daily",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Article on BRICS summit and cooperation, front page of People's Daily",
+        "quote_or_paraphrase": "China has consistently opposed the use or threat of use of force in international relations and opposed imposing the will of one country on another, supporting the UN Security Council in convening an emergency meeting over US military strikes against Venezuela and calling on the US and Iran to restore dialogue.",
+        "topic": "military/diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Article on BRICS summit and cooperation, front page of People's Daily",
+        "quote_or_paraphrase": "What peoples of all countries hope for is not a 'new Cold War' nor 'small circles', but a world of lasting peace, universal security, and common prosperity. BRICS is fundamentally different from 'small cliques' and 'small circles' that cling to Cold War thinking and provoke bloc confrontation.",
+        "topic": "diplomacy",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Article on BRICS summit and cooperation, front page of People's Daily",
+        "quote_or_paraphrase": "BRICS countries resolutely resist acts that undermine the international order and trample on international rules, and promote the building of an equal and orderly world multipolarity and an inclusive and universally beneficial economic globalization.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "BRICS leaders' virtual summit, September 2025, as reported in People's Daily",
+        "quote_or_paraphrase": "Persist in multilateralism and defend international fairness and justice; persist in openness and win-win outcomes and safeguard the international economic and trade order; persist in unity and cooperation and pool a joint force for common development.",
+        "topic": "diplomacy/trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ding Xuexiang",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Premier / Senior State Councilor",
+        "speaker_importance": 4,
+        "context": "Opening ceremony of the 16th APEC Energy Ministerial Meeting in Beijing",
+        "quote_or_paraphrase": "China will always be a defender of the stability of world energy markets, a contributor to global green and low-carbon transition, and a practical doer in international energy cooperation. Practice true multilateralism, actively conduct dialogue and consultation, promote building a more secure, efficient and sustainable Asia-Pacific energy governance system.",
+        "topic": "energy/multilateralism",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-message-to-kim-ding-on-boosting",
+    "article_date": "2026-09-10",
+    "article_title": "Xi’s Message to Kim - Ding on Boosting Servies Trade - Notice on Auto Sector Payments - America’s Debt Problem - MOFCOM Pushback on Distillation Charges",
+    "statements": [
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official response to US CISA/NSA/FBI advisory on AI model distillation",
+        "quote_or_paraphrase": "The U.S. move politicizes distillation, which is a normal technical and commercial issue in the AI industry. U.S. announcements are another proof of the country's pursuit of technological hegemony and computing power monopoly in the AI field, as well as its suppression of competition. The U.S. repeatedly and unilaterally accused Chinese enterprises of engaging in 'industrial-scale' distillation, reflecting the anxiety and double standards of the United States. The U.S. frequently threatened sanctions on and suppression of Chinese companies' distillation practices, aiming to maintain the U.S. monopoly in computing power and data and prevent other countries from participating in the inclusive sharing of AI innovation achievements. If the U.S. side takes actions to suppress Chinese AI enterprises under the pretext of targeting distillation, China will surely take resolute countermeasures.",
+        "topic": "technology, AI competition, sanctions",
+        "framing": "accusatory, defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ministry of Commerce",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official response to US CISA/NSA/FBI advisory on AI model distillation",
+        "quote_or_paraphrase": "China and the United States should handle the challenges and risks in the AI field in a proactive and responsible manner. The two heads of state have agreed to hold an inter-governmental dialogue on AI. China is willing to engage in constructive and professional discussions with the United States based on the principles of equality, mutual benefit and win-win cooperation.",
+        "topic": "diplomacy, AI technology cooperation",
+        "framing": "constructive, cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-burnham-call-stat-councils-urban",
+    "article_date": "2026-09-09",
+    "article_title": "Xi-Burnham Call - Stat Council’s Urban Renewal Agenda - What Should China’s Textbooks Focus On? - Wang Yi Meets Qatar FM - Foreign Trade Surges",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Call with new British Prime Minister Andy Burnham",
+        "quote_or_paraphrase": "China and the UK are comprehensive strategic partners; although the two countries differ in social system and national conditions, their common interests outweigh their differences. The two sides should respect and trust each other, rise above differences, seek common ground while reserving differences. Both countries support multilateralism and open trade, uphold the central position of the UN, and should strengthen communication and coordination within the frameworks of the United Nations, the G20, the WTO and others, promoting an equal and orderly multipolarization of the world and universally beneficial and inclusive economic globalization.",
+        "topic": "diplomacy, multilateralism, trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Han Zheng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice President",
+        "speaker_importance": 4,
+        "context": "26th China International Fair for Investment and Trade in Xiamen",
+        "quote_or_paraphrase": "China has implemented zero-tariff policies for 63 countries, and restrictions on foreign investment access in the manufacturing sector have been completely removed. Services sectors including telecommunications and healthcare are being opened up in an orderly manner. China will continue to actively expand unilateral opening up and facilitate investment through more practical measures. Scientific and technological innovation and industrial progress are key driving forces of global economic development. China adheres to complementarity of strengths and equality and mutual benefit, strengthens international cooperation in science, technology and industrial innovation. Facing intensifying trade protectionism and geopolitical risks, China is willing to join hands with all parties to jointly push global industrial and supply chains to develop in a more stable, unimpeded and inclusive direction, jointly safeguard the multilateral trading system, and promote universally beneficial and inclusive economic globalization.",
+        "topic": "trade, investment, technology, economic policy",
+        "framing": "assertive, constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Qatar's Foreign Minister Sheikh Mohammed bin Abdulrahman Al Thani",
+        "quote_or_paraphrase": "China is the most reliable and most long-term cooperation partner in Qatar's development process. On the Middle East situation: the current situation in the Middle East and Gulf remains tense, gravely affecting regional security and continuously affecting stability of energy, shipping and supply chains. Applying pressure with guns and cannons is not a way out; dialogue and negotiation are the correct path. The sovereignty and security of regional countries should be fully respected, the legitimate concerns of all parties should be properly accommodated, and the basic principles of international law and norms governing international relations should all the more be earnestly observed. China is willing to strengthen communication and coordination with Qatar and other parties in the region and supports regional countries in holding their own future and destiny firmly in their hands.",
+        "topic": "diplomacy, Middle East, multilateralism",
+        "framing": "constructive, assertive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/dings-russia-visit-propaganda-dept",
+    "article_date": "2026-09-07",
+    "article_title": "Ding’s Russia Visit - Propaganda Dept. Wants ‘Persuasive & Appealing’ Theory Articles - New Bonds to Boost Capital of Financial Institutions - New Commentary Backs Mecca Pact",
+    "statements": [
+      {
+        "speaker": "Ding Xuexiang",
+        "speaker_type": "individual",
+        "speaker_title": "Senior Chinese Official (Politburo Member)",
+        "speaker_importance": 4,
+        "context": "Meeting with Russian President Putin in Vladivostok",
+        "quote_or_paraphrase": "China-Russia relations remain unshakeable amid international turbulence and turmoil due to strategic guidance of both heads of state; China ready to work with Russia to deepen integration of interests and strengthen cooperation in investment and energy",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily Commentary",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Commentary on Middle East security architecture",
+        "quote_or_paraphrase": "China is willing to work with all countries of the region to safeguard security of international waterways and advance development cooperation",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "People's Daily Commentary",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Commentary on Middle East security architecture",
+        "quote_or_paraphrase": "Unilateral sanctions and 'long-arm jurisdiction' without UN authorization cannot achieve intended objectives; the path of hegemony and bullying leads nowhere. International community should not create new confrontation and division",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "People's Daily Commentary",
+        "speaker_type": "institution",
+        "speaker_title": "State media",
+        "speaker_importance": 4,
+        "context": "Commentary on Middle East security architecture",
+        "quote_or_paraphrase": "China does not pursue geopolitical self-interest or engage in bloc confrontation; China will always stand firmly on the side of peace, dialogue, and the right side of history, and work with Middle Eastern countries and international community to build new security architecture",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
   }
 ]
