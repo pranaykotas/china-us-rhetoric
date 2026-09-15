@@ -27,6 +27,8 @@ const EVENTS = [
   { month: '2025-04', label: 'US tariff escalation' },
   { month: '2025-07', label: 'Trade truce' },
   { month: '2026-01', label: 'Xi-Trump call' },
+  { month: '2026-05', label: 'Trump-Xi Beijing summit' },
+  { month: '2026-09', label: 'Trump-Xi Washington summit (planned)' },
 ];
 
 function findEventLabel(eventMonth: string, displayData: MonthlyBucket[]): string | null {
