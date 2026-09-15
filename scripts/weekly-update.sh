@@ -50,6 +50,17 @@ if git diff --staged --quiet; then
   exit 0
 fi
 git commit -m "chore: weekly data update $(date +%Y-%m-%d)"
+
+# Pin gh/git GitHub credential to pranaykotas — gh may have switched active
+# account to TakshashilaInst (used for other work), which lacks push access
+# to this repo and causes silent 403 push failures.
+gh auth switch --user pranaykotas
+ACTIVE_ACCOUNT=$(gh auth status 2>&1 | grep -B1 "Active account: true" | head -1 | awk '{print $NF}')
+if [ "$ACTIVE_ACCOUNT" != "pranaykotas" ]; then
+  echo "ERROR: gh active account is '$ACTIVE_ACCOUNT', not pranaykotas — push would fail"
+  exit 1
+fi
+
 git push
 
 echo "===== Done ====="
