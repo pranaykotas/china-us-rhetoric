@@ -97079,5 +97079,278 @@
         "tone_intensity": 3
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/science-tech-system-reform-plan-partys",
+    "article_date": "2021-11-25",
+    "article_title": "Science-Tech System Reform Plan - Party's Control over Education - Elderly Care Guideline - State Council on Local Gov't Bonds - 6th Plenum Propaganda - Li Hongzhong: It's all about Xi as the Core",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Iranian Foreign Minister Hossein Amir Abdollahian",
+        "quote_or_paraphrase": "The so-called Summit for Democracy proposed by the US is, in essence, to instigate division in the world under the banner of democracy, encourage camp confrontation with ideological lines and carry out American-style transformation of other sovereign countries to serve the strategic needs of the U.S. itself. This practice goes against the trend of the times and is doomed to have no future.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "confrontational",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-on-basic-research-agenda-xiangshan",
+    "article_date": "2026-09-16",
+    "article_title": "Xi on Basic Research Agenda - Xiangshan Forum Messaging - NBS August Data - Zhong Sheng: China Open to ‘Constructive & Professional Discussions’ with US on AI",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Article published in Qiushi, drawn from speech at symposium on strengthening basic research in Shanghai in April 2026",
+        "quote_or_paraphrase": "Basic research is the source of the entire scientific system, the master switch for all technological problems, and the frontline position in global scientific and technological competition. A new round of scientific and technological revolution and industrial transformation is achieving breakthroughs at an accelerating pace, global scientific and technological competition is becoming more focused on basic and frontier fields. For us, this is both a historic opportunity and a new challenge. Compared with the world's science and technology powers, our basic research still lags behind.",
+        "topic": "technology competition",
+        "framing": "competitive/defensive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Article published in Qiushi, drawn from speech at symposium on strengthening basic research in Shanghai in April 2026",
+        "quote_or_paraphrase": "Basic research funding accounts for more than 7% of China's total R&D spending across society, but this still falls well short of the 15% to 20% share in the world's science and technology powers. We must gradually raise the share of basic research funding.",
+        "topic": "technology competition",
+        "framing": "competitive/defensive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Han Zheng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Chairman of CPPCC",
+        "speaker_importance": 4,
+        "context": "Address at Xiangshan Forum",
+        "quote_or_paraphrase": "At present, the profound changes unseen in a century are accelerating, and the international situation is becoming increasingly intertwined with turbulence and transformation. The trend of the times toward peace, development, cooperation, and win-win outcomes is unstoppable; the general trend toward a multipolar world and economic globalization is irreversible.",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Han Zheng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Chairman of CPPCC",
+        "speaker_importance": 4,
+        "context": "Address at Xiangshan Forum",
+        "quote_or_paraphrase": "Adhere to upholding the purposes and principles of the UN Charter, adhere to sovereign equality, oppose interference in internal affairs, oppose the use of force or the threat of force at every turn, and prevent the world from sliding back into the law of the jungle, where the weak are prey to the strong.",
+        "topic": "diplomacy",
+        "framing": "assertive/accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Han Zheng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Chairman of CPPCC",
+        "speaker_importance": 4,
+        "context": "Address at Xiangshan Forum",
+        "quote_or_paraphrase": "China, as a responsible major country and the largest developing country, has always placed its own development within the coordinate system of human development, and makes its due contribution to world peace and stability and to development and prosperity through Chinese-style modernization. China has always been a force for peace, a force for justice, and a force for progress. It actively explores the right way for major countries to get along in the new era.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Han Zheng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Chairman of CPPCC",
+        "speaker_importance": 4,
+        "context": "Address at Xiangshan Forum",
+        "quote_or_paraphrase": "China resolutely defends the fruits of victory in the Second World War and the post-war international order, opposes all schemes and acts to revive militarism and endanger regional security and stability.",
+        "topic": "diplomacy",
+        "framing": "assertive/accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Dong Jun",
+        "speaker_type": "individual",
+        "speaker_title": "Defense Minister",
+        "speaker_importance": 4,
+        "context": "Opening speech at Xiangshan Forum",
+        "quote_or_paraphrase": "We must bear in mind the lessons of history and remain highly vigilant against all latent manifestations of hegemony, militarism and historical revisionism. We must not turn a blind eye or condone such behaviour. By rallying broad-based forces of justice, we must suppress the resurgence of historical dregs and prevent them from exploiting the situation to cause harm.",
+        "topic": "military/diplomacy",
+        "framing": "assertive/accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Dong Jun",
+        "speaker_type": "individual",
+        "speaker_title": "Defense Minister",
+        "speaker_importance": 4,
+        "context": "Opening speech at Xiangshan Forum",
+        "quote_or_paraphrase": "We must show no leniency towards provocative acts that seek to hijack the overall interests of countries in the region for the sake of personal gain or the interests of particular cliques, and we must work together to rein them in.",
+        "topic": "military/diplomacy",
+        "framing": "assertive/accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Dong Jun",
+        "speaker_type": "individual",
+        "speaker_title": "Defense Minister",
+        "speaker_importance": 4,
+        "context": "Opening speech at Xiangshan Forum",
+        "quote_or_paraphrase": "We must work towards a peaceful, multipolar world marked by partnership rather than alliance, win-win rather than zero sum.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on Sino-US artificial intelligence relations",
+        "quote_or_paraphrase": "The US NSA, CISA, and FBI jointly issued an advisory accusing Chinese AI enterprises of carrying out 'industrial-scale' distillation against the United States. This US accusation is baseless in fact and groundless in law. In essence, it politicizes and instrumentalizes distillation, a normal technical and commercial matter in the industry, and applies double standards. It exposes the consistent US logic of pursuing technological hegemony, practising computing-power monopoly, and suppressing competition in the field of artificial intelligence. China firmly opposes this.",
+        "topic": "technology competition/AI",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on Sino-US artificial intelligence relations",
+        "quote_or_paraphrase": "By the US logic, when American enterprises use distillation it is 'common industry practice', but when Chinese enterprises use it, it is an 'attack'. This is a naked double standard.",
+        "topic": "technology competition/AI",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on Sino-US artificial intelligence relations",
+        "quote_or_paraphrase": "For a long time, certain US artificial intelligence enterprises have abused their dominant competitive position by inserting overlord clauses into their user agreements, in an attempt to exclude competitors from China and other countries from the global technology ecosystem and to monopolize the dividends of artificial intelligence development. The US is seeking to bind the interests of individual enterprises and capital to national security and deploy the coercive organs of state power to interfere in normal commercial activity.",
+        "topic": "technology competition/AI",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on Sino-US artificial intelligence relations",
+        "quote_or_paraphrase": "The US executive and legislative branches have repeatedly issued threats of sanctions and suppression against Chinese enterprises, with restrictive measures extending step by step from chip controls and compute-power blockades to fields such as model access. The United States does not hesitate to mobilize state power to maintain its technological hegemony and compute-power monopoly. The root cause lies in its deep-seated anxiety about its technological hegemony slipping from its grasp. What it still pursues is the hegemonic logic that 'only America may win alone; humanity may not win together'.",
+        "topic": "technology competition/sanctions",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 5
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on Sino-US artificial intelligence relations",
+        "quote_or_paraphrase": "As major countries in artificial intelligence, China and the United States should handle the challenges and risks facing this field with a positive and responsible attitude. The two heads of state have already agreed to conduct an intergovernmental dialogue on artificial intelligence. On the principles of equality and mutual benefit and of win-win cooperation, China is willing to hold constructive and professional discussions with the US side through dialogue, and to jointly promote the open, inclusive, universally beneficial, and good-oriented development of artificial intelligence.",
+        "topic": "technology competition/AI diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng (People's Daily commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media commentary",
+        "speaker_importance": 4,
+        "context": "People's Daily commentary on Sino-US artificial intelligence relations",
+        "quote_or_paraphrase": "China hopes the US side will move in the same direction as China, manage risks through dialogue and communication, jointly foster an open, equal, fair, and non-discriminatory environment for artificial intelligence development. However, if the US side, in the name of cracking down on distillation, takes actions to contain and suppress Chinese artificial intelligence enterprises and harms China's legitimate and lawful rights and interests, China will certainly take resolute countermeasures in response.",
+        "topic": "technology competition/AI",
+        "framing": "conditional threat/assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-brics-proposals-wang-yi-on-india",
+    "article_date": "2026-09-14",
+    "article_title": "Xi’s BRICS Proposals - Wang Yi on India Visit - China Mineral Resources 2026 Report - New Rules Tighten Political Loyalty Requirements for Leaders of Public Institutions",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Session I speech at BRICS forum in Delhi",
+        "quote_or_paraphrase": "Unilateralism and power politics are surging against the tide, lashing at multilateralism and the international order. BRICS should oppose the Cold War mentality and bloc confrontation, and oppose violation of other countries' sovereignty or interference in other countries' internal affairs. Facts will prove that decoupling and cutting off supply chains will not hold back our development process, and espousing 'small yard, high fences' will only box oneself in and divide the world.",
+        "topic": "diplomacy, trade, Western bloc confrontation",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Session I speech at BRICS forum in Delhi",
+        "quote_or_paraphrase": "The postwar international order is being undermined, and the purposes and principles of the U.N. Charter are not effectively observed. We should oppose the Cold War mentality and bloc confrontation. We should support the multilateral trading system with the World Trade Organization at its core, advance WTO reform, oppose abuse of tariffs, and reject all forms of protectionist measures.",
+        "topic": "trade, international order, diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Session II speech at BRICS forum",
+        "quote_or_paraphrase": "The logic of 'might makes right' does not hold, and should have been discarded long ago. Global South countries should jointly defend the rule of law in international affairs, safeguard the basic norms of international relations including sovereign equality, noninterference in internal affairs, and the peaceful settlement of disputes. All countries, regardless of their size, strength or wealth, are equal members of the international community. We should support the multilateral trading system with the World Trade Organization at its core, uphold such principles as the most-favored-nation treatment.",
+        "topic": "international order, trade, diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Session II speech at BRICS forum",
+        "quote_or_paraphrase": "China will be a pioneer in establishing a BRICS AI open source community. China, as a major AI country, does not seek digital hegemony and does not engage in technological blockades, but is willing to convert advanced technology into public goods and to create opportunities for developing countries on the frontier track that will decide the future.",
+        "topic": "technology, AI, trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Interview summary on outcomes of Xi's visit to India",
+        "quote_or_paraphrase": "International opinion holds that China, as a major AI country, does not seek digital hegemony and does not engage in technological blockades, but is willing to convert advanced technology into public goods and to create opportunities for developing countries on the frontier track that will decide the future, embodying China's distinctive broad-mindedness and concern for all under Heaven.",
+        "topic": "technology, AI, trade",
+        "framing": "constructive",
+        "tone": "neutral",
+        "tone_intensity": 2
+      }
+    ]
   }
 ]
