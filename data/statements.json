@@ -97352,5 +97352,235 @@
         "tone_intensity": 2
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/15th-fyp-for-veterans-services-feature",
+    "article_date": "2026-09-15",
+    "article_title": "15th FYP for Veterans Services - Feature on Xi’s Delhi Visit & Diplomacy - Wang Yi’s Calls with French & Latvian FMs",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Phone call with French Foreign Minister Jean-Noel Barrot, reported by Xinhua",
+        "quote_or_paraphrase": "The one-China principle is the political foundation of the China-France comprehensive strategic partnership. China hopes France will uphold the one-China principle through concrete actions, refrain from any form of official engagement with China's Taiwan, and send no wrong signal to 'Taiwan independence' forces.",
+        "topic": "Taiwan",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Phone call with French Foreign Minister Jean-Noel Barrot, reported by Xinhua",
+        "quote_or_paraphrase": "China and the EU should remain committed to their partnership, pursue mutually beneficial cooperation and win-win, maintain mutual openness, and properly resolve current economic and trade frictions through constructive dialogue, and avoid escalating confrontation. Protectionism will not enhance Europe's competitiveness but will instead deprive consumers of high-quality and affordable products, drive up inflation and hamper green transition.",
+        "topic": "trade",
+        "framing": "cautious but critical of Western protectionism",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Phone call with French Foreign Minister Jean-Noel Barrot, reported by Xinhua",
+        "quote_or_paraphrase": "China is one of the world's largest markets and China's development presents an opportunity rather than a challenge for the EU. Wang expressed hope that France, as a major country with strategic vision, will take a pragmatic and rational approach in encouraging the EU to work with China in the same direction, view China's development more accurately, and play a positive role in promoting stability of China-EU relations.",
+        "topic": "China-EU relations",
+        "framing": "constructive, seeking to reframe Western perceptions of China as opportunity not threat",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Bilateral meeting with Indian Prime Minister Modi at BRICS summit in New Delhi, reported in People's Daily feature article",
+        "quote_or_paraphrase": "China and India must 'calibrate the direction with an objective and rational strategic cognition,' 'bring about each other's success with the concept of win-win cooperation', 'eliminate interference with the political wisdom of mutual respect and mutual understanding,' and 'benefit all under Heaven with open and inclusive multilateral collaboration.'",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Bilateral meeting with Indian Prime Minister Modi at BRICS summit in New Delhi, reported in People's Daily feature article",
+        "quote_or_paraphrase": "The two sides should hold the future of humanity in their hearts and keep the well-being of the people in mind, join hands to advance the high-quality development of 'Greater BRICS cooperation', and provide more positive energy for promoting world peace, stability, development and prosperity.",
+        "topic": "multilateral cooperation and global governance",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/fifth-plenum-date-and-agenda-verdict",
+    "article_date": "2026-09-22",
+    "article_title": "Fifth Plenum Date & Agenda - Verdict in Zhang Youxia & Liu Zhenli Cases - Guo Jinping Article Sets Agenda for Xi-Trump Summit - Wang to Wadephul: ‘Create Necessary Conditions for High-level Exchanges’",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Reply to students from 10 US universities who wrote to him after attending youth exchanges in China, reported by Xinhua",
+        "quote_or_paraphrase": "Xi expressed pleasure at students' appreciation for Chinese civilization and hope for friendly China-US cooperation. He expressed hope that young people from both countries would work to carry forward China-US friendly cooperation, foster mutual understanding between the two peoples, and ensure steady, long-term development of bilateral relations.",
+        "topic": "diplomacy, people-to-people exchanges",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "The two heads of state making reciprocal state visits within half a year is of historic and milestone significance. In May, Xi Jinping and Trump held a historic meeting in Beijing, jointly establishing a new positioning for bilateral relations: building a China-US relationship of constructive strategic stability. The two countries would work toward cooperation as the mainstay, competition within bounds, differences controllable, and peace expected.",
+        "topic": "diplomacy, China-US relations",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "The new positioning is an organic unity of 'four stabilities': positive stability with cooperation as mainstay (abandoning opposition logic, placing cooperation in prominent position); benign stability with competition kept within bounds (acknowledging competition but adhering to boundaries and rules, preventing generalization into all-round confrontation); normalised stability with differences controllable (managing risks through dialogue, preventing escalation); enduring stability with peace anticipated (holding the fundamental bottom line of peace, pursuing long-term peaceful coexistence).",
+        "topic": "diplomacy, China-US relations strategy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "Over the past 10 years, China-US relations have experienced ups and downs, adapting amid friction, adjusting through dialogue, and accumulating consensus amid strategic contestation. The ways the two sides deal with each other have grown increasingly rational and mature. This proves that zero-sum game leads nowhere, confrontation and conflict have no winners, and dialogue and cooperation are the only correct choice for China and the US.",
+        "topic": "diplomacy, China-US relations",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "Building a China-US relationship of constructive strategic stability requires establishing correct strategic perceptions. For a long time, some people on the American side have clung to a Cold War mentality, regarded China as a strategic rival, and trumpeted strategic competition, causing China-US relations to fall into serious difficulties. Recently, the American side has introduced restrictive measures that run counter to the momentum of China-US relations stabilising and improving, exposing a perceptual disconnect.",
+        "topic": "diplomacy, China-US relations, US policy criticism",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "Taking strategic competition as the overall keynote of China policy is both a misreading of China's development path and a misjudgment of the essence of the bilateral relationship; it both violates the expectations of the two peoples and deviates from the trend of the times. The new positioning explicitly rejects the erroneous logic of defining China-US relations through strategic competition.",
+        "topic": "diplomacy, US policy criticism",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "The Taiwan question is the most important question in China-US relations; pull one strand of hair and the whole body moves. If handled properly, relations can maintain overall stability. If not handled properly, the two countries could collide and conflict, pushing the entire China-US relationship into an extremely dangerous situation. The one-China principle is the political foundation of China-US relations. Taiwan independence is the common enemy of China and the US. The American side must handle the Taiwan question with the utmost prudence.",
+        "topic": "Taiwan, red lines",
+        "framing": "defensive, assertive",
+        "tone": "assertive",
+        "tone_intensity": 5
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "Taiwan question, democracy and human rights, path and system, and the right to development are China's four red lines, which brook no challenge. These are the guardrails and safety net of China-US relations. The American side must use concrete actions to safeguard the stable development of China-US relations and peace and stability across the Taiwan Strait.",
+        "topic": "red lines, Taiwan, values",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 5
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "Realising the great rejuvenation of the Chinese nation and making America great again can entirely proceed in parallel without contradiction, achieve mutual success, and benefit the world. Win-win cooperation is the trend of the times and the underlying colour that China-US relations ought to preserve.",
+        "topic": "diplomacy, cooperation",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "Building a China-US relationship of constructive strategic stability is in itself the provision to the world of an exceedingly precious public good. It will profoundly influence the evolution of the global balance of power and shape the future direction of the international order, with a powerful positive radiating effect.",
+        "topic": "diplomacy, global governance",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Guo Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "Author (People's Daily)",
+        "speaker_importance": 3,
+        "context": "Long article in People's Daily on China-US relations",
+        "quote_or_paraphrase": "As two globally leading major powers in AI, China and the US, by strengthening communication and dialogue and building consensus, can promote AI toward positive and beneficial ends and bring benefits to humanity. The two sides should make good use of the intergovernmental dialogue mechanism on artificial intelligence and make AI a new frontier of China-US cooperation.",
+        "topic": "technology, artificial intelligence, cooperation",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "He Lifeng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Premier, China's economic and trade lead negotiator",
+        "speaker_importance": 4,
+        "context": "China-US economic and trade talks in New York on September 20",
+        "quote_or_paraphrase": "With the important consensus of the two heads of state as guidance, and upholding the principles of mutual respect, peaceful coexistence and win-win cooperation, the two sides conducted candid, in-depth and constructive exchanges on important economic and trade issues of common concern, such as implementing the consensus of previous rounds and promoting bilateral trade and investment, and held a dialogue on issues related to artificial intelligence.",
+        "topic": "trade, economic and trade relations",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Phone call with German Foreign Minister Johann Wadephul",
+        "quote_or_paraphrase": "The one-China principle is the political foundation of China-Germany relations. China hopes that the German side will strictly abide by the one-China principle, use concrete actions to safeguard China-Germany relations and peace and stability across the Taiwan Strait, and create necessary conditions for high-level exchanges. China and Europe should not fight a trade war. The Chinese side advocates moving towards each other and finding ways to resolve each other's concerns through dialogue and consultation.",
+        "topic": "Taiwan, one-China principle, trade, diplomacy",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
   }
 ]
