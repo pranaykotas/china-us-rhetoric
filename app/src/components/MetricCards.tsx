@@ -48,6 +48,34 @@ function rollingConvergenceSeries(monthlyData: MonthlyBucket[]): number[] {
   });
 }
 
+// Trailing 3-month volume-weighted average of any per-month rate/score,
+// one value per month. Used so a tile's headline number and its modal's
+// "Current" figure are always the same quantity, computed the same way.
+function rollingWeightedSeries(
+  monthlyData: MonthlyBucket[],
+  accessor: (m: MonthlyBucket) => number,
+  decimals: number
+): number[] {
+  const mult = 10 ** decimals;
+  return monthlyData.map((_, i) => {
+    const window = monthlyData.slice(Math.max(0, i - 2), i + 1);
+    const totalW = window.reduce((s, m) => s + m.total, 0);
+    if (totalW === 0) return 0;
+    const v = window.reduce((s, m) => s + accessor(m) * m.total, 0) / totalW;
+    return Math.round(v * mult) / mult;
+  });
+}
+
+// Cumulative statement count, one value per month — so the volume tile's
+// all-time total and the modal's "Current" are the same running total.
+function cumulativeVolumeSeries(monthlyData: MonthlyBucket[]): number[] {
+  let running = 0;
+  return monthlyData.map((m) => {
+    running += m.total;
+    return running;
+  });
+}
+
 function DetailModal({
   metric,
   onClose,
@@ -221,33 +249,7 @@ function DetailModal({
 export function MetricCards({ monthlyData }: MetricCardsProps) {
   const [expandedMetric, setExpandedMetric] = useState<MetricKey | null>(null);
 
-  const last12 = monthlyData.slice(-12);
-
   const totalStatements = monthlyData.reduce((s, m) => s + m.total, 0);
-  const avgHostilityRate =
-    totalStatements > 0
-      ? Math.round(
-          (monthlyData.reduce((s, m) => s + m.hostilityRate * m.total, 0) /
-            totalStatements) *
-            10
-        ) / 10
-      : 0;
-  const avgCooperationRate =
-    totalStatements > 0
-      ? Math.round(
-          (monthlyData.reduce((s, m) => s + m.cooperationRate * m.total, 0) /
-            totalStatements) *
-            10
-        ) / 10
-      : 0;
-  const avgIntensity =
-    totalStatements > 0
-      ? Math.round(
-          (monthlyData.reduce((s, m) => s + m.avgIntensity * m.total, 0) /
-            totalStatements) *
-            100
-        ) / 100
-      : 0;
 
   const last3 = monthlyData.slice(-3);
   const prev3 = monthlyData.slice(-6, -3);
@@ -276,6 +278,29 @@ export function MetricCards({ monthlyData }: MetricCardsProps) {
     .map((v, i) => ({ label: monthlyData[i].label, v }))
     .slice(-12);
 
+  const hostilitySeries = rollingWeightedSeries(monthlyData, (m) => m.hostilityRate, 1);
+  const hostilityDetail = hostilitySeries
+    .map((v, i) => ({ label: monthlyData[i].label, v }))
+    .slice(-12);
+  const avgHostilityRate = hostilitySeries[hostilitySeries.length - 1] ?? 0;
+
+  const cooperationSeries = rollingWeightedSeries(monthlyData, (m) => m.cooperationRate, 1);
+  const cooperationDetail = cooperationSeries
+    .map((v, i) => ({ label: monthlyData[i].label, v }))
+    .slice(-12);
+  const avgCooperationRate = cooperationSeries[cooperationSeries.length - 1] ?? 0;
+
+  const intensitySeries = rollingWeightedSeries(monthlyData, (m) => m.avgIntensity, 2);
+  const intensityDetail = intensitySeries
+    .map((v, i) => ({ label: monthlyData[i].label, v }))
+    .slice(-12);
+  const avgIntensity = intensitySeries[intensitySeries.length - 1] ?? 0;
+
+  const volumeSeries = cumulativeVolumeSeries(monthlyData);
+  const volumeDetail = volumeSeries
+    .map((v, i) => ({ label: monthlyData[i].label, v }))
+    .slice(-12);
+
   const metrics: MetricDef[] = [
     {
       key: 'convergence',
@@ -292,48 +317,39 @@ export function MetricCards({ monthlyData }: MetricCardsProps) {
     },
     {
       key: 'hostility',
-      title: 'Hostility Rate',
+      title: 'Hostility Rate (3m)',
       value: `${avgHostilityRate}`,
       suffix: '%',
       color: '#ef4444',
-      sparkData: monthlyData.map((m) => ({ v: m.hostilityRate })),
-      detailData: last12.map((m) => ({
-        label: m.label,
-        v: Math.round(m.hostilityRate * 10) / 10,
-      })),
+      sparkData: hostilitySeries.map((v) => ({ v })),
+      detailData: hostilityDetail,
       description:
-        'Share of statements classified as confrontational or assertive. Weighted average across the selected period.',
+        'Share of statements classified as confrontational or assertive. 3-month rolling weighted average.',
       format: fmtPct,
       deltaDirection: 'decrease',
     },
     {
       key: 'cooperation',
-      title: 'Cooperation Rate',
+      title: 'Cooperation Rate (3m)',
       value: `${avgCooperationRate}`,
       suffix: '%',
       color: '#620d3c',
-      sparkData: monthlyData.map((m) => ({ v: m.cooperationRate })),
-      detailData: last12.map((m) => ({
-        label: m.label,
-        v: Math.round(m.cooperationRate * 10) / 10,
-      })),
+      sparkData: cooperationSeries.map((v) => ({ v })),
+      detailData: cooperationDetail,
       description:
-        'Share of statements classified as cooperative or conciliatory. Weighted average across the selected period.',
+        'Share of statements classified as cooperative or conciliatory. 3-month rolling weighted average.',
       format: fmtPct,
       deltaDirection: 'increase',
     },
     {
       key: 'intensity',
-      title: 'Avg Intensity',
+      title: 'Avg Intensity (3m)',
       value: `${avgIntensity}`,
       color: '#f1a222',
-      sparkData: monthlyData.map((m) => ({ v: m.avgIntensity })),
-      detailData: last12.map((m) => ({
-        label: m.label,
-        v: Math.round(m.avgIntensity * 100) / 100,
-      })),
+      sparkData: intensitySeries.map((v) => ({ v })),
+      detailData: intensityDetail,
       description:
-        'Average tone intensity across all statements (1–5 scale). Higher values indicate stronger rhetorical force regardless of direction.',
+        'Average tone intensity across all statements (1–5 scale). 3-month rolling weighted average; higher values indicate stronger rhetorical force regardless of direction.',
       format: fmtNum,
       deltaDirection: 'neutral',
     },
@@ -342,13 +358,10 @@ export function MetricCards({ monthlyData }: MetricCardsProps) {
       title: 'Statement Volume',
       value: `${totalStatements}`,
       color: '#620d3c',
-      sparkData: monthlyData.map((m) => ({ v: m.total })),
-      detailData: last12.map((m) => ({
-        label: m.label,
-        v: m.total,
-      })),
+      sparkData: volumeSeries.map((v) => ({ v })),
+      detailData: volumeDetail,
       description:
-        'Total statements extracted per month. Spikes often correspond to major bilateral events or policy announcements.',
+        'Cumulative statements extracted to date. "Change" is net new statements added since the previous month.',
       format: fmtNum,
       deltaDirection: 'neutral',
     },
