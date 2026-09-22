@@ -26,12 +26,26 @@ interface MetricDef {
   detailData: { label: string; v: number }[];
   description: string;
   format: (v: number) => string;
+  // How to color a positive change. 'increase' = up is more cooperative (green up, red down),
+  // 'decrease' = up is more hostile (red up, green down), 'neutral' = no value judgement.
+  deltaDirection: 'increase' | 'decrease' | 'neutral';
 }
 
 function weightedSentiment(buckets: MonthlyBucket[]): number | null {
   const totalW = buckets.reduce((s, m) => s + m.total, 0);
   if (totalW === 0) return null;
   return buckets.reduce((s, m) => s + m.sentimentIndex * m.total, 0) / totalW;
+}
+
+// Trailing 3-month volume-weighted convergence %, one value per month —
+// matches the definition used for the headline tile, so the modal's
+// "Current" always agrees with what's shown on the card.
+function rollingConvergenceSeries(monthlyData: MonthlyBucket[]): number[] {
+  return monthlyData.map((_, i) => {
+    const window = monthlyData.slice(Math.max(0, i - 2), i + 1);
+    const w = weightedSentiment(window);
+    return w !== null ? Math.round(((w + 2) / 4) * 100) : 0;
+  });
 }
 
 function DetailModal({
@@ -121,7 +135,15 @@ function DetailModal({
               <div className="tk-meta-muted mb-1">Change</div>
               <div
                 className={`text-2xl font-mono tracking-[-0.02em] ${
-                  delta > 0 ? 'text-red-600' : delta < 0 ? 'text-green-700' : 'text-[var(--tk-ink-50)]'
+                  metric.deltaDirection === 'neutral' || delta === 0
+                    ? 'text-[var(--tk-ink-50)]'
+                    : metric.deltaDirection === 'increase'
+                      ? delta > 0
+                        ? 'text-green-700'
+                        : 'text-red-600'
+                      : delta > 0
+                        ? 'text-red-600'
+                        : 'text-green-700'
                 }`}
                 style={{ fontVariantNumeric: 'tabular-nums' }}
               >
@@ -249,6 +271,11 @@ export function MetricCards({ monthlyData }: MetricCardsProps) {
   const fmtPct = (v: number) => `${v}%`;
   const fmtNum = (v: number) => `${v}`;
 
+  const convergenceSeries = rollingConvergenceSeries(monthlyData);
+  const convergenceDetail = convergenceSeries
+    .map((v, i) => ({ label: monthlyData[i].label, v }))
+    .slice(-12);
+
   const metrics: MetricDef[] = [
     {
       key: 'convergence',
@@ -256,16 +283,12 @@ export function MetricCards({ monthlyData }: MetricCardsProps) {
       value: `${convergencePct}${trend}`,
       suffix: '%',
       color: '#620d3c',
-      sparkData: monthlyData.map((m) => ({
-        v: Math.round(((m.sentimentIndex + 2) / 4) * 100),
-      })),
-      detailData: last12.map((m) => ({
-        label: m.label,
-        v: Math.round(((m.sentimentIndex + 2) / 4) * 100),
-      })),
+      sparkData: convergenceSeries.map((v) => ({ v })),
+      detailData: convergenceDetail,
       description:
         'Maps the 3-month rolling sentiment index to 0–100%. Higher values indicate more cooperative rhetoric; lower values indicate more confrontational.',
       format: fmtPct,
+      deltaDirection: 'increase',
     },
     {
       key: 'hostility',
@@ -281,6 +304,7 @@ export function MetricCards({ monthlyData }: MetricCardsProps) {
       description:
         'Share of statements classified as confrontational or assertive. Weighted average across the selected period.',
       format: fmtPct,
+      deltaDirection: 'decrease',
     },
     {
       key: 'cooperation',
@@ -296,6 +320,7 @@ export function MetricCards({ monthlyData }: MetricCardsProps) {
       description:
         'Share of statements classified as cooperative or conciliatory. Weighted average across the selected period.',
       format: fmtPct,
+      deltaDirection: 'increase',
     },
     {
       key: 'intensity',
@@ -310,6 +335,7 @@ export function MetricCards({ monthlyData }: MetricCardsProps) {
       description:
         'Average tone intensity across all statements (1–5 scale). Higher values indicate stronger rhetorical force regardless of direction.',
       format: fmtNum,
+      deltaDirection: 'neutral',
     },
     {
       key: 'volume',
@@ -324,6 +350,7 @@ export function MetricCards({ monthlyData }: MetricCardsProps) {
       description:
         'Total statements extracted per month. Spikes often correspond to major bilateral events or policy announcements.',
       format: fmtNum,
+      deltaDirection: 'neutral',
     },
   ];
 
