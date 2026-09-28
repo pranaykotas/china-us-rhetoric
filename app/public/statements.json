@@ -97582,5 +97582,364 @@
         "tone_intensity": 4
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-chats-with-old-friend-merkel-financial",
+    "article_date": "2021-10-14",
+    "article_title": "Xi Chats with 'Old Friend' Merkel - Financial Institutions Inspections - Briefing on Energy Supply Situation - Foreign Trade up 22.7% - Guo Shengkun wants Loyal Lawyers -Fu Ying on China's Image",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with outgoing German Chancellor Angela Merkel, reported in People's Daily and Xinhua",
+        "quote_or_paraphrase": "States can avoid the zero-sum game and achieve mutually beneficial results on a win-win basis. The EU should view China-EU relations from a broader perspective, understand each other objectively and comprehensively, and handle differences rationally, peacefully and constructively. It is hoped that the EU can insist on independence, truly safeguard its own interests and the unity of the international community, and work together with China and other countries to resolve the issues of peace and development.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Fu Ying",
+        "speaker_type": "individual",
+        "speaker_title": "Senior Diplomat",
+        "speaker_importance": 3,
+        "context": "Opinion piece in People's Daily on China's international image",
+        "quote_or_paraphrase": "China is facing new situations and tasks regarding its international image. People expect China to play a greater role in international affairs, but there are also some negative views and even distorted opinions about China's image. China should further strengthen and improve international communication, strive to build a credible, loveable and respectable image of China, create a favourable external public opinion environment for China's reform, development and stability. We need to inject real information and stories into the international information ecosystem so that the outside world can understand what we want them to know and let the right voices speak louder.",
+        "topic": "diplomacy",
+        "framing": "defensive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/whats-changed-in-indias-approach",
+    "article_date": "2026-07-07",
+    "article_title": "What's Changed in India's Approach to Chinese Investment & What's Not",
+    "statements": [
+      {
+        "speaker": "Chamber of Chinese Enterprises in India",
+        "speaker_type": "institution",
+        "speaker_title": "Chinese business organization",
+        "speaker_importance": 2,
+        "context": "Statement to Global Times",
+        "quote_or_paraphrase": "The adjustment in India's investment policy toward China is a 'partial optimization' rather than a 'comprehensive liberalization'. Concerns among Chinese companies have not been fully addressed. If India truly wants to attract Chinese capital, the country ought to remove all the restrictions imposed on Chinese investment.",
+        "topic": "trade/investment",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-wraps-up-north-korea-visit-wang",
+    "article_date": "2026-06-10",
+    "article_title": "Xi Wraps up North Korea Visit - Wang Huning's Xinjiang Visit - Zhong Sheng Warning on Japan's Intelligence Reform",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Visit to China-DPRK Friendship Tower in North Korea; remarks during tour with Kim Jong Un",
+        "quote_or_paraphrase": "The two sides should jointly safeguard the memorial facilities dedicated to the martyrs of the Chinese People's Volunteer Army, and carry forward the great spirit demonstrated in the War to Resist U.S. Aggression and Aid Korea, and ensure that the traditional friendship between China and the DPRK will be passed on from generation to generation.",
+        "topic": "history, US-China-DPRK relations",
+        "framing": "commemorative and assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily (Zhong Sheng commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media editorial",
+        "speaker_importance": 4,
+        "context": "Commentary on page 15 regarding Japan's intelligence system reforms",
+        "quote_or_paraphrase": "Japan's intelligence system is veering in the direction of external expansion and is drifting further and further from the path of pacifist development, continuously arousing concerns among various circles within Japan and in the international community... Japan should immediately stop all dangerous actions that undermine regional peace and stability and truly return to the correct path of peaceful development.",
+        "topic": "regional security, Japan militarization",
+        "framing": "accusatory and cautionary",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/what-happened-when-xi-met-trump-in-8ef",
+    "article_date": "2026-09-25",
+    "article_title": "What Happened When Xi Met Trump in DC? - China’s 2025 Outward FDI @ $213.58 billion - Zhao Leji Demands Law-based & Orderly Local Elections",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Readout from state visit to the US; bilateral meeting with President Trump",
+        "quote_or_paraphrase": "The heads of state of China and the US exchanging visits in less than half a year is unprecedented in the history of China-US relations. We have jointly decided to build a China-US relationship of constructive strategic stability. The two sides should strive for cooperation as the mainstay, competition kept within proper limits, differences managed, and peace expected. China and the United States should achieve mutual benefit and win-win results in practical cooperation, contribute to each other's success through healthy competition, properly manage differences, and build peace through greater mutual trust.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Readout from state visit to the US; bilateral meeting with President Trump",
+        "quote_or_paraphrase": "The economic and trade teams of the two sides held a new round of consultations and reached a new joint arrangement. Cooperation is a two-way street; the stability of China-US economic and trade relations requires both lengthening the list of cooperation and shortening the list of problems. As long as both sides uphold the spirit of equality, mutual respect, and mutual benefit, we can find a way out to resolve problems.",
+        "topic": "trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Readout from state visit to the US; bilateral meeting with President Trump",
+        "quote_or_paraphrase": "China and the US are both major AI powers; they may have competition, but they may cooperate even more. The right thing to do is to draw on each other's strengths, not guard against each other. The two sides can continue to conduct AI dialogue, exchange views on its risks and benefits, and jointly guard against the misuse and malicious use of AI.",
+        "topic": "technology",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Readout from state visit to the US; bilateral meeting with President Trump",
+        "quote_or_paraphrase": "China's position on safeguarding national unification and territorial integrity is clear-cut. It is hoped that the U.S. side will adhere to the correct position of opposing 'Taiwan independence', and handle the Taiwan question with caution, so as to lay a solid foundation for China-US strategic cooperation and the development of bilateral relations.",
+        "topic": "Taiwan",
+        "framing": "assertive",
+        "tone": "cautious",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "White House welcome ceremony remarks during state visit",
+        "quote_or_paraphrase": "China and the United States are different in national conditions, but through candid, in-depth and continued dialogue, our two countries can understand each other better, seek common ground while shelving differences, and build up mutual trust. China keeps its door wide open, welcomes American companies wanting to invest and do business there. We hope Chinese companies are treated fairly here in the United States.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "White House welcome ceremony remarks during state visit",
+        "quote_or_paraphrase": "Both China and the United States are leading nations in artificial intelligence. We have both the capability and responsibility to develop and manage AI for good, and ensure that the development of AI is always under human control and serves the well-being of the people. On counternarcotics and law enforcement, the Chinese side is willing to strengthen cooperation with the United States.",
+        "topic": "technology",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "White House welcome ceremony remarks during state visit",
+        "quote_or_paraphrase": "China and the United States, as two major countries, stand to gain from cooperation and will both lose in confrontation. We do not need to avoid mentioning competition, but our competition should be a healthy one and should be kept within bounds. It should be a race of catching up with one another, not a wrestle in which one either wins or loses. China and the United States must hold the line of no conflict and no confrontation between us. Our two militaries should maintain regular dialogue, and improve mechanisms for crisis communication and prevention. The Thucydides Trap can be overcome.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "State dinner remarks during US visit",
+        "quote_or_paraphrase": "Today I held candid and in-depth exchanges with President Trump and reached many new consensus, enriching the substance of the constructive China-US relationship of strategic stability and providing new strategic guidance for China-US relations.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "State dinner remarks during US visit; historical reflection on China-US relations",
+        "quote_or_paraphrase": "Today, China-US relations once again stand at a new historical starting point. President Trump has put forward Make America Great Again and led the American people to achieve important development accomplishments. China is committed to realizing the great rejuvenation of the Chinese nation. Both of these goals are grand, and can fully help each other succeed. We should demonstrate the responsibility of major countries, follow the people's expectations and the overall trend of the times, and explore a new path for major countries to co-exist.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/zhong-sheng-xie-feng-and-friendly",
+    "article_date": "2026-09-23",
+    "article_title": "Zhong Sheng, Xie Feng, & Friendly Rhetoric as Xi Travels to US - Li Qiang on Advanced Manufacturing - New Party Chiefs for Tibet, Gansu & Qinghai - Cai Qi’s Speech at Long March Exhibition",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Welcome dinner speech in San Francisco (2023, referenced in People's Daily article dated September 23, 2026)",
+        "quote_or_paraphrase": "Proposed that China would invite 50,000 American youth to China over five years for exchange and study",
+        "topic": "people-to-people exchange",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with US President Trump in Beijing (May 2026, referenced in article)",
+        "quote_or_paraphrase": "Jointly determined the new positioning of a China-US relationship of constructive strategic stability, providing strategic guidance for China-US relations over the next three years and longer",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentary",
+        "speaker_importance": 4,
+        "context": "Commentary in People's Daily ahead of Xi's state visit to the US",
+        "quote_or_paraphrase": "The fundamental crux of difficulties in China-US relations is that the US side holds erroneous perceptions of China and cannot let go of its obsession with so-called 'strategic competition'. The US must cherish the hard-won momentum, maintain the right direction and eliminate interference. The American side needs to maintain the continuity and stability of its policies and keep faith with its commitments.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentary",
+        "speaker_importance": 4,
+        "context": "Commentary in People's Daily",
+        "quote_or_paraphrase": "Constructive strategic stability should be positive stability with cooperation as the mainstay, benign stability with competition kept within bounds, normalised stability with differences kept controllable, and enduring stability with peace to be anticipated.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentary",
+        "speaker_importance": 4,
+        "context": "Commentary in People's Daily",
+        "quote_or_paraphrase": "China and the US have extensive common interests. The essence of China-US relations is mutual benefit and win-win cooperation. By upholding mutual respect, peaceful coexistence, and win-win cooperation, China and the US can fully enable each other to succeed and prosper together.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentary",
+        "speaker_importance": 4,
+        "context": "Commentary in People's Daily",
+        "quote_or_paraphrase": "Building a China-US relationship of constructive strategic stability is a need of world peace and development and is where the responsibility of major countries lies. China and the US are permanent members of the UN Security Council and the world's two largest economies, bearing special responsibility for the peace, stability and development of the world.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xie Feng",
+        "speaker_type": "individual",
+        "speaker_title": "Ambassador (Chinese Embassy in the US, implied from context)",
+        "speaker_importance": 3,
+        "context": "Article in People's Daily",
+        "quote_or_paraphrase": "Over the past 11 years, China-US relations have weathered winds and rains and undergone ups and downs, fully demonstrating that 'decoupling and breaking chains' cannot be accomplished, adopting a condescending posture does not work, and conflict and confrontation must not be pursued.",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xie Feng",
+        "speaker_type": "individual",
+        "speaker_title": "Ambassador",
+        "speaker_importance": 3,
+        "context": "Article in People's Daily",
+        "quote_or_paraphrase": "The most important political consensus reached by Xi Jinping and Trump in May 2026 was the determination of the new positioning of a China-US relationship of constructive strategic stability. This provides strategic guidance for China-US relations for the next three years and longer, forges a new paradigm for major-country relations and opens bright prospects for world peace and prosperity.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xie Feng",
+        "speaker_type": "individual",
+        "speaker_title": "Ambassador",
+        "speaker_importance": 3,
+        "context": "Article in People's Daily",
+        "quote_or_paraphrase": "The common interests of China and the US far outweigh their differences; win-win cooperation is the mainstream and the general trend. The two sides should expand exchanges in all fields including the two militaries, law enforcement, health, agriculture, tourism, science and technology, and people-to-people and cultural affairs, continuously lengthen the cooperation list and shrink the list of problems.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xie Feng",
+        "speaker_type": "individual",
+        "speaker_title": "Ambassador",
+        "speaker_importance": 3,
+        "context": "Article in People's Daily",
+        "quote_or_paraphrase": "China and the US should compete on how better to drive innovative development, ensure safety and controllability of AI, promote mutual learning among civilisations, and improve global governance. There must be no erecting of a 'silicon curtain', still less the pursuit of an artificial-intelligence version of 'Star Wars'.",
+        "topic": "technology",
+        "framing": "constructive",
+        "tone": "cautious",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xie Feng",
+        "speaker_type": "individual",
+        "speaker_title": "Ambassador",
+        "speaker_importance": 3,
+        "context": "Article in People's Daily",
+        "quote_or_paraphrase": "Managing differences rests above all on good faith. Once something has been agreed, it must be put into action, and one must not say one thing and do another. The American side should stop fabricating pretexts such as so-called 'national security', 'economic imbalance' and 'forced labour' to wantonly impose containment and suppression on China.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xie Feng",
+        "speaker_type": "individual",
+        "speaker_title": "Ambassador",
+        "speaker_importance": 3,
+        "context": "Article in People's Daily",
+        "quote_or_paraphrase": "China's sovereignty, security and development interests brook no infringement, and the four red lines—the Taiwan question, democracy and human rights, path and system, and the right to development—brook no challenge. China adheres to the path of peaceful development, and hopes the American side will move towards it.",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Xie Feng",
+        "speaker_type": "individual",
+        "speaker_title": "Ambassador",
+        "speaker_importance": 3,
+        "context": "Article in People's Daily",
+        "quote_or_paraphrase": "The initiative proposed by President Xi Jinping to 'invite 50,000 American young people to China for exchange and study over five years' achieved its expected target two and a half years ahead of schedule. Multiple American polls show that American public opinion on China is warming and recovering. The sincere friendship of Chinese and American young people across the Pacific has injected new momentum into the cause of friendship between the two countries.",
+        "topic": "people-to-people exchange",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
   }
 ]
