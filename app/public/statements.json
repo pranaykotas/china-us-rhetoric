@@ -98111,5 +98111,103 @@
         "tone_intensity": 4
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/new-party-wide-study-campaign-on",
+    "article_date": "2026-02-24",
+    "article_title": "New Party-wide Study Campaign on Correct View of Political Achievement",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Speech during high-level segment of 61st session of UN Human Rights Council",
+        "quote_or_paraphrase": "All countries should jointly safeguard the 'golden rule' of non-interference in others' internal affairs, and firmly say no to words and deeds that manipulate double standards in the name of human rights.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/hu-shisheng-on-china-india-ties-and",
+    "article_date": "2026-10-05",
+    "article_title": "Hu Shisheng on China-India Ties & the Four Pioneering Forces (四个先锋) of BRICS Under China’s Leadership",
+    "statements": [
+      {
+        "speaker": "Hu Shisheng",
+        "speaker_type": "individual",
+        "speaker_title": "Director, Institute of South and Southeast Asian and Oceanian Studies, China Institutes of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article in People's Daily on China-India relations following Xi Jinping's meeting with PM Modi at BRICS summit in New Delhi",
+        "quote_or_paraphrase": "Only by eliminating interference with political wisdom can China-India relations proceed steadily and go far. This critique implicitly refers to India's relationship with the US as an obstacle to bilateral progress.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "cautious",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Hu Shisheng",
+        "speaker_type": "individual",
+        "speaker_title": "Director, Institute of South and Southeast Asian and Oceanian Studies, China Institutes of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article in People's Daily on BRICS cooperation and the Four Pioneering Forces",
+        "quote_or_paraphrase": "BRICS countries oppose the Cold War mentality and bloc confrontation, oppose infringing on other countries' sovereignty and interfering in other countries' internal affairs. This statement reflects criticism of Western/US-led practices.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Hu Shisheng",
+        "speaker_type": "individual",
+        "speaker_title": "Director, Institute of South and Southeast Asian and Oceanian Studies, China Institutes of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article in People's Daily on BRICS cooperation and global governance",
+        "quote_or_paraphrase": "Support the multilateral trading system with the WTO at its core, and oppose the abuse of tariffs and resist protectionism. This implicitly criticizes US trade policies and tariff actions.",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Hu Shisheng",
+        "speaker_type": "individual",
+        "speaker_title": "Director, Institute of South and Southeast Asian and Oceanian Studies, China Institutes of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article in People's Daily on BRICS cooperation and global governance",
+        "quote_or_paraphrase": "Firmly safeguard the authority of the United Nations, and oppose withdrawing from groups and tearing up agreements and setting up separate stoves/agreements. This implicitly criticizes US behavior in international institutions.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Hu Shisheng",
+        "speaker_type": "individual",
+        "speaker_title": "Director, Institute of South and Southeast Asian and Oceanian Studies, China Institutes of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article in People's Daily on BRICS and global governance reform",
+        "quote_or_paraphrase": "To be a pioneer in promoting innovative development requires that the Global South unite and jointly grasp the initiative in development. This reflects concern about Western/US technological dominance and advocacy for South-South cooperation.",
+        "topic": "technology",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Hu Shisheng",
+        "speaker_type": "individual",
+        "speaker_title": "Director, Institute of South and Southeast Asian and Oceanian Studies, China Institutes of Contemporary International Relations (CICIR)",
+        "speaker_importance": 2,
+        "context": "Article in People's Daily on BRICS cooperation",
+        "quote_or_paraphrase": "Respond to changes with solidarity rather than confrontation, deal with imbalances with reform rather than subversion, and heal rifts with cooperation rather than decoupling. This implicitly critiques US confrontation and decoupling strategies.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
   }
 ]
