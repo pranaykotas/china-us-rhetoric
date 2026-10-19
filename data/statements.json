@@ -98209,5 +98209,376 @@
         "tone_intensity": 3
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-qiushi-piece-signals-tougher",
+    "article_date": "2026-10-16",
+    "article_title": "Xi’s Qiushi Piece Signals Tougher Anti-Corruption Line - China-Togo Joint Statement - What’s the Agenda for Long March of New Era - Wang Yi’s Mideast Agenda in Baku",
+    "statements": [
+      {
+        "speaker": "He Lifeng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Premier/Senior Economic Official",
+        "speaker_importance": 4,
+        "context": "Meeting with Ray Dalio, founder of Bridgewater Associates, in Beijing on Wednesday",
+        "quote_or_paraphrase": "Under the strategic consensus of the two heads of state, China-U.S. economic and trade consultations have produced a series of mutually beneficial, balanced and positive outcomes, which are conducive to the stability and development of both countries and the global economy.",
+        "topic": "trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "CICA summit in Baku; four-point proposal speech",
+        "quote_or_paraphrase": "China encourages the United States and Iran to return to the political and diplomatic track to resolve their disputes.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Israeli President Herzog in Baku",
+        "quote_or_paraphrase": "Wang Yi said that promoting peace and reconciliation in the region is the cornerstone of China's Middle East policy. China has always held that the Palestinian question is the greatest historical injustice of this century, and that the 'two-State solution' is the right way to resolve it... The most urgent task is to fully open access into Gaza. Two million civilians must not be left struggling on the brink of survival, and the humanitarian catastrophe must not be allowed to keep spreading. At the same time, Israel should stop and reverse its forced establishment of settlements in the West Bank.",
+        "topic": "Middle East, Palestine-Israel",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Israeli President Herzog in Baku",
+        "quote_or_paraphrase": "Wang Yi stressed that this year President Xi Jinping has put forward a series of initiatives and proposals for promoting peace and security in the Middle East, which are public goods that China provides to the Middle East and the world. China is willing to work with the international community to uphold and practise a vision of common, comprehensive, cooperative and sustainable security, and to urge all parties to return to the track of dialogue and consultation as soon as possible and seek a political settlement of the conflict.",
+        "topic": "Middle East diplomacy, security",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Turkish Foreign Minister Hakan Fidan in Baku",
+        "quote_or_paraphrase": "Wang Yi said that China appreciates Türkiye's repeated emphasis on taking China's security concerns seriously and its efforts to curb terrorist acts that endanger China's national security. China hopes Türkiye will continue to understand and support China's position on issues concerning China's core interests.",
+        "topic": "security, counterterrorism",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/lis-market-connectivity-pitch-at",
+    "article_date": "2026-10-15",
+    "article_title": "Li’s Market Connectivity Pitch at Canton Fair - Tianjin Legislators Forum Declaration - Wang Yi in Baku - New Long March Documentary - New Rule of law Inspections",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Letter to the Canton Fair on its 70th anniversary",
+        "quote_or_paraphrase": "China is willing to join hands with countries around the world to safeguard the multilateral trading system, ensure the stability and smooth operation of global industrial and supply chains, expand the space for mutually beneficial international economic and trade cooperation, and promote a universally beneficial and inclusive economic globalization",
+        "topic": "trade and multilateralism",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Speech at Canton Fair",
+        "quote_or_paraphrase": "Market connectivity is not a tool for strategic competition, but an effective measure for creating incremental gains. China is committed to continuously integrating and jointly developing its domestic and international markets, and building an open world economy",
+        "topic": "trade and economic relations",
+        "framing": "defensive/clarificatory",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Speech at Canton Fair",
+        "quote_or_paraphrase": "China is willing to import more high-quality products, especially high-value-added products, and hopes that more countries will move towards China, remove restrictions and actively promote the optimised and balanced development of trade",
+        "topic": "trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Speech at Canton Fair",
+        "quote_or_paraphrase": "Always stand on the right side of history, firmly uphold multilateralism and free trade, support the reform and development of the WTO, work with all parties to explore and formulate future-oriented international economic and trade rules, and advance an economic globalisation that is universally beneficial and inclusive",
+        "topic": "multilateralism and trade",
+        "framing": "assertive/constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Symposium with overseas buyers and exhibitors at Canton Fair",
+        "quote_or_paraphrase": "Upgrading from trade partners to innovation partners makes it possible to better share the dividends of technological progress. China will continue to deeply cultivate an open innovation ecosystem, strengthen the protection of foreign-related intellectual property rights, and actively resolve enterprises' concerns",
+        "topic": "technology and innovation",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Zhao Leji",
+        "speaker_type": "individual",
+        "speaker_title": "Chairman of the National People's Congress",
+        "speaker_importance": 5,
+        "context": "Meeting with participants of 2026 Legislators Forum for Friendly Exchanges",
+        "quote_or_paraphrase": "China's NPC is willing to work with the parliaments of all countries to jointly implement the four global initiatives and practise true multilateralism. It wants to make exchanges and interactions at all levels and across multiple fields closer, provide legal guarantees for practical cooperation, and promote mutual understanding and closeness between peoples",
+        "topic": "multilateralism and diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Tianjin Declaration of the 2026 Legislators Forum",
+        "speaker_type": "institution",
+        "speaker_title": "International parliamentary forum",
+        "speaker_importance": 3,
+        "context": "Declaration adopted at the 2026 Legislators Forum for Friendly Exchanges",
+        "quote_or_paraphrase": "The participants call for jointly practicing true multilateralism, opposing hegemonism and power politics, and working together toward a community with a shared future for humanity",
+        "topic": "multilateralism and global governance",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Tianjin Declaration of the 2026 Legislators Forum",
+        "speaker_type": "institution",
+        "speaker_title": "International parliamentary forum",
+        "speaker_importance": 3,
+        "context": "Declaration adopted at the 2026 Legislators Forum for Friendly Exchanges",
+        "quote_or_paraphrase": "The participants believe the authority of U.N. General Assembly Resolution 2758 must be upheld. There is but one China in the world, Taiwan is an inalienable part of China's territory, and the Government of the People's Republic of China is the sole legal government representing the whole of China",
+        "topic": "Taiwan",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Meeting with Azerbaijani President Ilham Aliyev",
+        "quote_or_paraphrase": "China's development represents the strengthening of the Global South and the growth of developing countries' strength. China is willing to continue close coordination and cooperation with Azerbaijan to safeguard the common interests of Global South countries",
+        "topic": "global governance and developing countries",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Minister of Foreign Affairs",
+        "speaker_importance": 4,
+        "context": "Meeting with Russian Foreign Minister Sergei Lavrov",
+        "quote_or_paraphrase": "The Eurasian continent is vast in territory and diverse in civilisations, and the countries of the region look forward to maintaining peace and stability and deepening multilateral cooperation. China is willing to work closely with CICA member states, including Russia, to practise true multilateralism and contribute to improving global governance",
+        "topic": "multilateralism and global governance",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Pan Xianzhang",
+        "speaker_type": "individual",
+        "speaker_title": "Deputy Director of the Taiwan Work Office of the CPC Central Committee and Taiwan Affairs Office of the State Council",
+        "speaker_importance": 3,
+        "context": "Seminar commemorating 55th anniversary of UN General Assembly Resolution 2758",
+        "quote_or_paraphrase": "The authority of UN General Assembly Resolution 2758 brooks no challenge and no distortion, and Taiwan being part of China is beyond doubt and cannot be changed. It is necessary to continue to firmly implement General Secretary Xi Jinping's important expositions on work related to Taiwan and the Party's overall policy for resolving the Taiwan question in the new era. We must firmly hold the leading role and the initiative in cross-Strait relations, deepen cross-Strait exchanges and cooperation, resolutely strike at 'Taiwan independence' separatist forces, oppose interference by external forces",
+        "topic": "Taiwan",
+        "framing": "assertive/accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-outlines-healthy-china-vision",
+    "article_date": "2026-10-14",
+    "article_title": "Xi Outlines Healthy China Vision - Breakdown of China-Botswana Joint Statement - Xi Meets Togo President - Wang Yi Meets UAE President’s Special Envoy",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with President Duma Gideon Boko of Botswana",
+        "quote_or_paraphrase": "Africa's resources should not be used for geopolitical rivalry. China would be glad to see other parties providing genuine support for Africa's development, and stands ready to work with Africa to create more enabling conditions for business investment and operation.",
+        "topic": "geopolitics",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Meeting with President Duma Gideon Boko of Botswana",
+        "quote_or_paraphrase": "China stands ready to share its experience and help African countries formulate mining development plans consistent with their national conditions; China will continue to encourage Chinese companies to enhance their operational capacity, transfer green technologies suited to Africa's conditions, and promote South-South cooperation in mining development.",
+        "topic": "economy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Special Envoy of UAE President Khaldoon Khalifa Al Mubarak",
+        "quote_or_paraphrase": "The Middle East is undergoing profound changes, with conflicts dragging on at multiple levels, and their spillover effects continuously impacting regional security and development. The desire for peace rather than war, dialogue rather than confrontation, and fairness rather than hegemony is increasingly becoming the common pursuit and shared aspiration of the people of all countries in the region.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cautious",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Special Envoy of UAE President Khaldoon Khalifa Al Mubarak",
+        "quote_or_paraphrase": "China has always been a builder of peace, a promoter of stability and a contributor to development in the Middle East. We will uphold the series of initiatives and propositions for peace and stability put forward by President Xi Jinping, and continue to make China's contributions and play China's constructive role in achieving a comprehensive ceasefire in the Middle East, advancing a political settlement, restarting negotiations at an early date and bringing about lasting peace.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/emphasis-on-healthcare-china-vietnam",
+    "article_date": "2026-10-13",
+    "article_title": "Emphasis on Healthcare - China-Vietnam Talks on Legislation & Oversight - Wang Huning on Agenda for Overseas Chinese Work - Wang Yi Meets Patrushev - He Lifeng Meets Tim Cook",
+    "statements": [
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier of the State Council",
+        "speaker_importance": 5,
+        "context": "Phone call with New Zealand Prime Minister Christopher Luxon, reported by Xinhua",
+        "quote_or_paraphrase": "The international situation remains complex and evolving, with unilateralism and protectionism continuing to weigh on the global economy. As supporters and practitioners of multilateralism and free trade, China and New Zealand should strengthen communication and coordination.",
+        "topic": "trade, multilateralism",
+        "framing": "defensive, constructive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "He Lifeng",
+        "speaker_type": "individual",
+        "speaker_title": "Vice Premier/Senior Economic Official",
+        "speaker_importance": 4,
+        "context": "Meeting with Apple CEO Tim Cook, reported by Xinhua",
+        "quote_or_paraphrase": "Implementing the common understandings between the two heads of state and building a constructive relationship of strategic stability on the basis of respect, fairness and reciprocity are conducive to the stability and development of the economies of both countries and the world. China welcomes science and technology companies from all countries, including Apple, to continue deepening mutually beneficial and win-win cooperation with China and to share the opportunities of Chinese modernization.",
+        "topic": "US-China relations, trade, technology, diplomacy",
+        "framing": "constructive, cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Nikolai Patrushev in Beijing, reported by Xinhua",
+        "quote_or_paraphrase": "The world today is undergoing profound changes unseen in a century. China and Russia are both permanent members of the UN Security Council and major maritime countries. Both shoulder important responsibilities in international maritime affairs. China's building of the 'Polar Silk Road' and Russia's development of the Arctic shipping routes coincide with each other. Maritime cooperation is becoming ever more important within the China–Russia comprehensive strategic coordination.",
+        "topic": "diplomacy, multilateralism, international order",
+        "framing": "assertive, constructive",
+        "tone": "assertive",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/liu-zhenzhong-3-must-nots-and-1-strict",
+    "article_date": "2026-10-12",
+    "article_title": "Liu Zhenzhong: ‘3 Must-nots & 1 Strict Prohibition’ (三个不能, 一个严禁) to Develop New-Quality Productive Forces - Ren Ping Article on ‘New Long March’ - Zhong Sheng on China-EU Trade Talks",
+    "statements": [
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentator (State media)",
+        "speaker_importance": 4,
+        "context": "Commentary article in People's Daily, Page 3",
+        "quote_or_paraphrase": "Europe has introduced trade defence measures and industrial policies; politicising economic issues and subjecting them to broad national security conceptions erects unreasonable barriers to trade and investment, runs counter to WTO principles, and disrupts global supply chains. China notes the spillover effects of these EU measures.",
+        "topic": "trade, Western policy criticism",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentator (State media)",
+        "speaker_importance": 4,
+        "context": "Commentary article in People's Daily, Page 3",
+        "quote_or_paraphrase": "The real challenge facing China-EU economic and trade cooperation lies in invoking 'de-risking' as a pretext for practising 'de-cooperation'. Mutual dependence is not a risk, the intertwining of interests is not a threat, and open cooperation is the proper path to achieving common development.",
+        "topic": "diplomacy, trade, China-EU relations",
+        "framing": "defensive, constructive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentator (State media)",
+        "speaker_importance": 4,
+        "context": "Commentary article in People's Daily, Page 3",
+        "quote_or_paraphrase": "China is always a partner for Europe in responding to development challenges, not the source of its problems. China's enormous market, rapidly iterating innovative applications, and comprehensive industrial supporting system are indispensable pillars for Europe's green transition and stimulation of scientific and technological innovation.",
+        "topic": "China-EU cooperation, economy",
+        "framing": "cooperative, constructive",
+        "tone": "conciliatory",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentator (State media)",
+        "speaker_importance": 4,
+        "context": "Commentary article in People's Daily, Page 3",
+        "quote_or_paraphrase": "As staunch supporters of and active contributors to the multilateral trading system, both China and the EU emphasise the value of a rules-based multilateral trading system, support WTO reform, and stress the importance of complying with WTO rules. This position helps safeguard the global trading order and promote world economic development towards greater openness and win-win outcomes.",
+        "topic": "trade, multilateralism, WTO",
+        "framing": "cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Zhong Sheng",
+        "speaker_type": "institution",
+        "speaker_title": "People's Daily commentator (State media)",
+        "speaker_importance": 4,
+        "context": "Commentary article in People's Daily, Page 3",
+        "quote_or_paraphrase": "China is willing to work with the EU on the basis of complying with WTO rules and taking each other's core interests into account, to continue resolving frictions and differences through dialogue and consultation, and jointly contribute to promoting global economic growth and safeguarding global industrial and supply chain security and stability.",
+        "topic": "China-EU relations, trade, diplomacy",
+        "framing": "cooperative, constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      }
+    ]
   }
 ]
