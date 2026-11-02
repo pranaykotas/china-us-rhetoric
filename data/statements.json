@@ -98580,5 +98580,285 @@
         "tone_intensity": 2
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/the-zhaojin-spirit-8th-round-of-central",
+    "article_date": "2026-10-27",
+    "article_title": "The Zhaojin Spirit - 8th Round of Central Inspections - New Regulations on Party Control Over Public Institutions - Enhancing Industrial Foundation Capabilities - GGI Vision Paper",
+    "statements": [
+      {
+        "speaker": "Global Governance Forum",
+        "speaker_type": "institution",
+        "speaker_title": "International forum (China-affiliated)",
+        "speaker_importance": 3,
+        "context": "2026 Global Governance Forum vision paper",
+        "quote_or_paraphrase": "All countries should commit to safeguarding the authority and effectiveness of the multilateral trading system centered on the WTO; in the face of rising trade protectionism, the Global South should strengthen coordination and enhance the voice of developing countries in economic and trade rules",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Global Governance Forum",
+        "speaker_type": "institution",
+        "speaker_title": "International forum (China-affiliated)",
+        "speaker_importance": 3,
+        "context": "2026 Global Governance Forum vision paper",
+        "quote_or_paraphrase": "Upholding multilateralism is the only viable path for effectively addressing global governance deficits; the central position of the United Nations must be safeguarded and the Global South should participate more deeply in the formulation of international rules and decision-making processes",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Global Governance Forum",
+        "speaker_type": "institution",
+        "speaker_title": "International forum (China-affiliated)",
+        "speaker_importance": 3,
+        "context": "2026 Global Governance Forum vision paper",
+        "quote_or_paraphrase": "The international financial architecture is inadequately representative and cannot fully reflect the actual structure of the world economy; Global South countries should take proactive action to promote transformation of the international monetary system towards dynamic equilibrium",
+        "topic": "economy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Global Governance Forum",
+        "speaker_type": "institution",
+        "speaker_title": "International forum (China-affiliated)",
+        "speaker_importance": 3,
+        "context": "2026 Global Governance Forum vision paper",
+        "quote_or_paraphrase": "Cyberspace governance by 'small circles' cannot replace global governance on a broad scale; global cyberspace governance should bridge the digital divide and avoid allowing the Global South to 'fall behind' again",
+        "topic": "technology",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/fifth-plenum-preview-articles-provincial",
+    "article_date": "2026-10-26",
+    "article_title": "Fifth Plenum Preview Articles - Provincial Leadership Changes - Wang Yi Outlines 8 ‘Practical Actions’ Under GGI",
+    "statements": [
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Speech at 2026 Global Governance Forum in Xiong'an",
+        "quote_or_paraphrase": "Regarding the future of the global governance system, the world faces two stark choices: one exalts strength, favors self-interest, monopolizes power, and practices double standards (implicitly the US-led system), while the other champions multilateralism and upholds sovereign equality, mutual respect and international law (China's approach)",
+        "topic": "global governance, multilateralism, international order",
+        "framing": "accusatory, contrasting China's approach favorably with an unnamed Western-led alternative",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Speech at 2026 Global Governance Forum in Xiong'an",
+        "quote_or_paraphrase": "Various polls indicate that international public perception of China has risen significantly over the past year. The rise is partly driven by a strong recognition of China as a force for stability and progress, and a high regard for the GGI that China has launched and acted on.",
+        "topic": "China's international image, global governance",
+        "framing": "constructive, highlighting China's positive global role",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "State Councilor and Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Speech at 2026 Global Governance Forum in Xiong'an",
+        "quote_or_paraphrase": "The imbalances brought by economic globalization can only be resolved through development; protectionism will only make matters worse, while openness and cooperation lead to a better future. International trade is a key engine of global growth; the WTO-centered multilateral trading system must be firmly safeguarded, and a fairer and more open economic and trade order must be fostered.",
+        "topic": "trade, economic policy, protectionism",
+        "framing": "defensive against protectionism (implicitly US trade policies)",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "People's Daily (editorial/commentary)",
+        "speaker_type": "institution",
+        "speaker_title": "State media organ",
+        "speaker_importance": 4,
+        "context": "Commentary section, Fifth Plenum coverage",
+        "quote_or_paraphrase": "'China's governance' is releasing an increasingly powerful 'magnetic attraction', forming a sharp contrast with 'Western chaos'.",
+        "topic": "China's governance system, comparison with the West",
+        "framing": "accusatory, contrasting China's system favorably with Western dysfunction",
+        "tone": "assertive",
+        "tone_intensity": 4
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/guidelines-on-integrating-tech-and",
+    "article_date": "2026-10-22",
+    "article_title": "Guidelines on Integrating Tech & Industrial Innovation - Long March Editorial - China-Russia Deals - China & Djibouti on Peace & Stability of Shipping Routes in Red Sea & Gulf of Aden",
+    "statements": [
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier of the State Council",
+        "speaker_importance": 5,
+        "context": "Meeting with Vladimir Putin in Russia",
+        "quote_or_paraphrase": "Against the backdrop of a continuously evolving and complex international situation, China and Russia have maintained close coordination, serving as a valuable force for stability in a world marked by turbulence and transformation. In today's world, unilateralism and hegemonism are rampant. China is willing to strengthen communication and coordination with Russia on major issues, work closely together on multilateral platforms such as the Shanghai Cooperation Organisation and BRICS, unite more forces from the Global South, defend their common interests, and safeguard fairness and justice.",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier of the State Council",
+        "speaker_importance": 5,
+        "context": "Meeting with Vladimir Putin in Russia",
+        "quote_or_paraphrase": "China and Russia have maintained close coordination serving as a force for stability. China is willing to work with Russia to make better use of complementary economic advantages and strengthen practical cooperation in energy, trade, investment, and transportation.",
+        "topic": "trade",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "China and Russia (Joint Communique)",
+        "speaker_type": "institution",
+        "speaker_title": "State Council/Government",
+        "speaker_importance": 5,
+        "context": "31st regular meeting between Chinese and Russian heads of government, joint communique",
+        "quote_or_paraphrase": "The two sides firmly defend the international system with the United Nations at its core, the international order based on international law, and are committed to promoting an equal and orderly multipolar world. The two sides oppose dividing the world into mutually confrontational regions and camps. Destructive external interference is the main cause currently undermining the stability of the Eurasian continent. The two sides resolutely condemn any acts of external coercion by force.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "China and Russia (Joint Communique)",
+        "speaker_type": "institution",
+        "speaker_title": "State Council/Government",
+        "speaker_importance": 5,
+        "context": "31st regular meeting between Chinese and Russian heads of government, joint communique",
+        "quote_or_paraphrase": "The two sides reaffirm that unilateral coercive measures taken by any country, group of countries, or organization without the authorization of the UN Security Council all violate the norms of international law. Illegal restrictions and other trade restrictions that violate WTO rules will hinder the development of free trade and have negative impacts on global supply chains. Extraterritorial sanctions mechanisms are illegal, and the two sides oppose imposing coercive principles that are essentially neo-colonialist and force other countries to comply with the illegal restrictions of another country.",
+        "topic": "trade",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Ding Xuexiang",
+        "speaker_type": "individual",
+        "speaker_title": "Member of Politburo Standing Committee, Vice Premier",
+        "speaker_importance": 5,
+        "context": "Meeting with foreign representatives at 2026 International Science Council Midterm Members' Meeting and Beijing Science Dialogue",
+        "quote_or_paraphrase": "Science and technology are the common wealth of humanity, and open cooperation is an inevitable choice for scientific and technological innovation. China is willing to work together with all parties to remain true to the original aspirations of science, promote the scientific spirit, facilitate international academic exchanges through openness and inclusiveness, solve difficult problems in frontier science and technology through collaborative research, and promote the inclusive sharing of achievements for the benefit of all through mutually beneficial cooperation.",
+        "topic": "technology",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Abdoulkader Houssein Omar, Minister of Foreign Affairs and International Cooperation of Djibouti",
+        "quote_or_paraphrase": "China has proposed four principles on the constructive participation of relevant parties in the resolution of African hotspot issues, and proposed a series of initiatives on promoting peace and security in the Middle East. These efforts demonstrate China's role as a responsible major country and align with people's aspirations for peace in the region. China is willing to work with Djibouti and other countries to enhance communication and cooperation, strive to ease tensions, and earnestly maintain peace and stability in the region.",
+        "topic": "diplomacy",
+        "framing": "constructive",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "China and Djibouti (Joint Press Release)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry of Foreign Affairs/Government",
+        "speaker_importance": 4,
+        "context": "Joint press release on maintaining peace and stability in the Horn of Africa and safeguarding shipping routes in the Red Sea and Gulf of Aden",
+        "quote_or_paraphrase": "The international community, especially extra-regional major powers, should abandon double standards, respect the sovereignty and territorial integrity of the countries of the region, and avoid resorting at every turn to force and unilateral sanctions. Humanitarian issues should not be instrumentalized.",
+        "topic": "diplomacy",
+        "framing": "accusatory",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "China and Djibouti (Joint Press Release)",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry of Foreign Affairs/Government",
+        "speaker_importance": 4,
+        "context": "Joint press release on maintaining peace and stability in the Horn of Africa",
+        "quote_or_paraphrase": "The Horn of Africa must never be made an arena of geopolitical contest, and the flames of war in the Middle East must not be allowed to burn into the Horn of Africa.",
+        "topic": "diplomacy",
+        "framing": "cautious",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xis-message-to-central-institute",
+    "article_date": "2026-10-21",
+    "article_title": "Xi’s Message to Central Institute of Socialism - China’s Economy ‘Global Anchor of Stability’ - New National Data Group Established - Xinhua Commentary on Long March Spirit",
+    "statements": [
+      {
+        "speaker": "Jin Sheping",
+        "speaker_type": "individual",
+        "speaker_title": "People's Daily commentator/columnist",
+        "speaker_importance": 2,
+        "context": "People's Daily article on Q3 economic data",
+        "quote_or_paraphrase": "China's contribution rate to global economic growth has remained at around 30%, exceeding the combined total of the Western G7 countries; it is the 'No. 1 engine'. China has ensured stable operation amid global turbulence, with goods trade exports growing 16.4% year-on-year in the first three quarters, effectively playing the role of 'anchor of stability' for global industrial and supply chains.",
+        "topic": "economy, trade, global competition",
+        "framing": "assertive, comparative advantage",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Jin Sheping",
+        "speaker_type": "individual",
+        "speaker_title": "People's Daily commentator/columnist",
+        "speaker_importance": 2,
+        "context": "People's Daily article on Q3 economic data",
+        "quote_or_paraphrase": "China has become the world's first major economy to achieve full-coverage zero-tariff treatment for all African countries with which it has diplomatic relations and all least developed countries with which it has diplomatic relations, positioning itself as the 'biggest standard-bearer for promoting the liberalization and facilitation of trade and investment,' providing the world with broader market and investment opportunities.",
+        "topic": "trade policy, liberalization, development",
+        "framing": "constructive, leadership",
+        "tone": "assertive",
+        "tone_intensity": 2
+      },
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary/President",
+        "speaker_importance": 5,
+        "context": "Quoted in Jin Sheping's People's Daily article on Q3 economic data",
+        "quote_or_paraphrase": "Under the new circumstances, China is willing to join hands with all countries of the world to jointly safeguard the multilateral trading system, ensure the stable and smooth flow of global industrial and supply chains, expand the space for mutually beneficial international economic and trade cooperation, advance universally beneficial and inclusive economic globalization, and continuously inject new impetus into world development and prosperity.",
+        "topic": "trade, multilateralism, economic cooperation",
+        "framing": "constructive, cooperative",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Jin Sheping",
+        "speaker_type": "individual",
+        "speaker_title": "People's Daily commentator/columnist",
+        "speaker_importance": 2,
+        "context": "People's Daily article on Q3 economic data",
+        "quote_or_paraphrase": "Compared with some major economies deeply mired in huge debts, with growth sluggish and inflation high, China's economy has performed brilliantly. Compared with the short-term policy adjustments of some countries, which repeatedly reverse direction like 'flipping a pancake', China's macroeconomic regulation and control places greater emphasis on organic coordination with five-year plans and medium- and long-term development strategies.",
+        "topic": "economic competitiveness, macroeconomic policy comparison",
+        "framing": "comparative, accusatory toward Western countries",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Qiang",
+        "speaker_type": "individual",
+        "speaker_title": "Premier",
+        "speaker_importance": 5,
+        "context": "Speech at the 25th Meeting of the Council of Heads of Government of SCO Member States in Dushanbe",
+        "quote_or_paraphrase": "At present, different schools of thought are interacting and competing on the international stage, but multipolarity and economic globalization remain the prevailing trends. The SCO should continue to uphold the Shanghai Spirit and demonstrate perseverance in pursuing long-term goals. China stands ready to work with all member states to enhance cooperation and play a leading role in advancing the SCO's high-quality development and building a community with a shared future for humanity.",
+        "topic": "multipolarity, international order, regional cooperation",
+        "framing": "assertive, leadership",
+        "tone": "assertive",
+        "tone_intensity": 2
+      }
+    ]
   }
 ]
