@@ -98860,5 +98860,177 @@
         "tone_intensity": 2
       }
     ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-in-tibet-chinas-diplomacy-in-afghanistan",
+    "article_date": "2025-08-21",
+    "article_title": "Xi in Tibet - China's Diplomacy in Afghanistan & Pakistan - Wang Yi: Afghanistan an 'Indispensable link in Neighbourhood Diplomacy'",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Work report meeting in Tibet Autonomous Region",
+        "quote_or_paraphrase": "Tibet must fully implement the Party's governance strategy for Tibet in the new era, adhere to the general principle of seeking progress while maintaining stability, fully and accurately implement the new development concept, firmly promote high-quality development, and continuously address the four major issues of stability, development, ecological environment, and strengthening the border areas.",
+        "topic": "domestic governance",
+        "framing": "neutral",
+        "tone": "neutral",
+        "tone_intensity": 1
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Meeting with Afghan Prime Minister Mullah Mohammad Hassan Akhund",
+        "quote_or_paraphrase": "Throughout history, imperialists, colonists, and hegemonists have all attempted to invade Afghanistan, but all have failed, and such schemes will not succeed in the future. China has consistently advocated for the equality of all countries, big and small, and opposes the strong bullying the weak or the big oppressing the small. All countries should treat each other equally and cooperate for mutual benefit. The world should not see the rich getting richer while the poor get poorer; every country, including Afghanistan, has the right to achieve development and revitalisation.",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Speech at Chinese Embassy in Afghanistan",
+        "quote_or_paraphrase": "Currently, the profound changes unseen in a century are accelerating in their evolution, and the international situation is interwoven with turbulence and disorder. Neighbourhood diplomacy holds major significance for planning the overall situation of diplomacy, serving the great cause of building a strong country and national rejuvenation.",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister",
+        "speaker_importance": 4,
+        "context": "Sixth China-Afghanistan-Pakistan trilateral foreign ministers' dialogue",
+        "quote_or_paraphrase": "The world is currently entering a new period of turbulence and disorder. President Xi Jinping has proposed the important concept of building a community with a shared future for mankind and the Global Development Initiative, Global Security Initiative, and Global Civilisation Initiative. China willing to deepen good-neighbourly mutual trust with Afghanistan and Pakistan, provide mutual understanding and mutual support on issues involving each other's core interests, resolutely oppose any external forces meddling and interfering in this region.",
+        "topic": "diplomacy",
+        "framing": "assertive",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/xi-draws-on-chen-yuns-legacy-state",
+    "article_date": "2025-06-14",
+    "article_title": "Xi Draws on Chen Yun's Legacy - State Council Executive Meeting - Sun Weidong's India Visit ",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "President",
+        "speaker_importance": 5,
+        "context": "Speech at event marking 120th birth anniversary of Chen Yun",
+        "quote_or_paraphrase": "In the new era and on the new journey, we must adapt to the new situation and tasks, strengthen the Party's leadership over economic work, deepen our understanding of the laws of socialist economic construction, fully and accurately implement the new development concept, adhere to the combination of an effective market and a capable government, accelerate the construction of a new development pattern, and solidly promote high-quality development. We must steadily promote further comprehensive and in-depth reform, unswervingly expand high-level opening up.",
+        "topic": "economy, development policy",
+        "framing": "domestic policy framing with opening-up emphasis",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Ministry of Foreign Affairs",
+        "speaker_type": "institution",
+        "speaker_title": "Ministry",
+        "speaker_importance": 4,
+        "context": "Official statement on Israeli strikes on Iran",
+        "quote_or_paraphrase": "China was deeply concerned about the serious consequences that the Israeli strikes can bring. China opposes violating Iran's sovereignty, security and territorial integrity, and opposes intensifying contradictions and expanding conflicts. The sudden escalation of regional tensions again is not in the interests of any party. China calls on all parties concerned to do more to promote regional peace and stability and avoid further escalation of tensions.",
+        "topic": "regional diplomacy, Middle East",
+        "framing": "neutral/concerned observer",
+        "tone": "cautious",
+        "tone_intensity": 2
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/li-xi-on-the-domestic-and-global",
+    "article_date": "2026-11-05",
+    "article_title": "Li Xi on the Domestic & Global Significance of the ‘Path of Anti-corruption with Chinese Characteristics’",
+    "statements": [
+      {
+        "speaker": "Li Xi",
+        "speaker_type": "individual",
+        "speaker_title": "Member of Politburo Standing Committee; Secretary of Central Commission for Discipline Inspection",
+        "speaker_importance": 5,
+        "context": "Article on Fifth Plenum Decision published in People's Daily",
+        "quote_or_paraphrase": "This path [of anti-corruption with Chinese characteristics] has dispelled the myth that preventing the corruption of power can only rely on the Western system of multiple political parties taking turns in power and the 'separation of the three powers'. It has provided the international community with a brand-new way of thinking for resolving the difficult problem of addressing corruption, and has made an important contribution to promoting the construction of a new international order for combating corruption.",
+        "topic": "governance model; international order",
+        "framing": "assertive critique of Western political systems; comparative claim of Chinese superiority",
+        "tone": "assertive",
+        "tone_intensity": 4
+      },
+      {
+        "speaker": "Li Xi",
+        "speaker_type": "individual",
+        "speaker_title": "Member of Politburo Standing Committee; Secretary of Central Commission for Discipline Inspection",
+        "speaker_importance": 5,
+        "context": "Article on Fifth Plenum Decision published in People's Daily",
+        "quote_or_paraphrase": "This path is an important guarantee for the Party to preserve its advanced nature and purity in perpetuity, and to accomplish its mission and tasks... It is oriented towards providing a strong guarantee for accomplishing the Party's central task in the New Era and on the New Journey; it points out, in keeping with the times, the forward direction for governing corruption; and it is of great significance for preserving the Party's advanced nature and purity, creating a political ecosystem characterised by clean and upright conduct and a favourable environment for development, and better advancing the great undertaking of building a strong country and national rejuvenation.",
+        "topic": "party governance; national strength",
+        "framing": "developmental; framing anti-corruption as essential to national rejuvenation and great power status",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Li Xi",
+        "speaker_type": "individual",
+        "speaker_title": "Member of Politburo Standing Committee; Secretary of Central Commission for Discipline Inspection",
+        "speaker_importance": 5,
+        "context": "Article on Fifth Plenum Decision published in People's Daily",
+        "quote_or_paraphrase": "Corruption is a common enemy of humankind, and fighting corruption is a common difficult problem facing all countries. The path of anti-corruption with Chinese characteristics is the organic unity of the theoretical innovation, practical innovation and institutional innovation of the CPC in leading the fight against corruption.",
+        "topic": "international anti-corruption cooperation",
+        "framing": "framing China's anti-corruption model as a global solution and alternative to Western approaches",
+        "tone": "assertive",
+        "tone_intensity": 3
+      }
+    ]
+  },
+  {
+    "article_url": "https://trackingpeoplesdaily.substack.com/p/how-the-fifth-plenum-decision-came",
+    "article_date": "2026-11-03",
+    "article_title": "How the Fifth Plenum Decision Came to Be - Xi Meets Oman’s Sultan - Wang Yi Meets Iranian & Saudi Security Officials",
+    "statements": [
+      {
+        "speaker": "Xi Jinping",
+        "speaker_type": "individual",
+        "speaker_title": "General Secretary of the CPC Central Committee; President",
+        "speaker_importance": 5,
+        "context": "Meeting with Sultan Haitham Bin Tarik Al Said of Oman; remarks published in People's Daily",
+        "quote_or_paraphrase": "The Middle East and Gulf region should not become an arena for major power rivalry or geopolitical conflicts. China has been actively committed to ending hostilities and promoting peace, aiming to contribute its wisdom and solutions to resolving regional security predicaments. China will continue to advocate resolving disputes through political and diplomatic means and will strengthen communication and coordination with Arab states and GCC countries to work together for early restoration of regional peace and tranquility.",
+        "topic": "Middle East diplomacy, regional security, geopolitical competition",
+        "framing": "constructive, preventive of great power competition",
+        "tone": "assertive",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister (State Councilor)",
+        "speaker_importance": 4,
+        "context": "Meeting with Ali Bagheri Kani, deputy secretary of Iran's Supreme National Security Council, in Beijing",
+        "quote_or_paraphrase": "China will follow the initiatives and propositions put forward by President Xi Jinping on easing the situation in the Middle East and work together with all parties to restore regional peace. Dialogue and negotiation hold the key to settlement; all parties should meet each other halfway and work for a political solution with rationality and pragmatism rather than returning to conflict. China-Iran relations serve the fundamental interests of the two peoples and aligns with the aspiration of Global South countries for solidarity and cooperation. China supports Iran in safeguarding its sovereignty and security.",
+        "topic": "Middle East diplomacy, Iran relations, regional peace",
+        "framing": "constructive, supportive of Iran",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      },
+      {
+        "speaker": "Wang Yi",
+        "speaker_type": "individual",
+        "speaker_title": "Foreign Minister (State Councilor)",
+        "speaker_importance": 4,
+        "context": "Meeting with Musaad bin Mohammed Al-Aiban, Saudi Arabia's Minister of State and National Security Advisor, in Beijing",
+        "quote_or_paraphrase": "China views its relations with Saudi Arabia as a priority in its Middle East diplomacy. Under the strategic guidance of the two countries' top leaders, China-Saudi Arabia relations have maintained sound momentum of growth and become a stabilizing force in the region. The current regional situation has arrived at a critical crossroads between war and peace. China believes that regional countries should enhance mutual understanding, rebuild mutual trust, improve relations and live together in harmony, and promote through consultation the establishment of a new regional security architecture. China is willing to uphold the series of initiatives and propositions put forward by President Xi Jinping concerning safeguarding regional peace and stability, maintain communication and coordination with all parties including Saudi Arabia, and play China's constructive role in helping the region achieve lasting peace and stability.",
+        "topic": "Saudi Arabia relations, Middle East diplomacy, regional security, geopolitical architecture",
+        "framing": "constructive, assertive of China's regional role",
+        "tone": "cooperative",
+        "tone_intensity": 3
+      }
+    ]
   }
 ]
